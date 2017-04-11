@@ -1,0 +1,162 @@
+.home .row1{
+	background-color: #f1f1f1;
+}
+.home .row1 .flex1{
+	height: 60px;
+}
+.home .row1 .flex1col1 h5.color1{
+	color: #00639d;
+	padding-right: 5px;
+}
+.home .row1 .flex1col1 h5.color2{
+	color: #fa8f03;
+	font-weight: normal;
+}
+.home .row1 .flex1col2 i.bg1{
+	background-image: url('../../images/desktop/home-2.png');
+	background-repeat: no-repeat;
+	background-position: -36px -5px;
+    width: 20px;
+    height: 19px;
+    margin-right: 5px;
+}
+.home .row1 .flex1col2 input{
+	outline: none;
+	border:1px solid #505050;
+	height: 30px;
+	padding-left: 10px;
+	margin-left: 10px;
+	color: #969595;
+	width: 200px;
+}
+.home .row1 .flex1col2 button{
+	outline: none;
+	box-shadow: none;
+	height: 30px;
+	background-color: #505050;
+	color: #fff;
+	width: 55px;
+	border:none;
+	cursor: pointer;
+}
+/**/
+.home .row2{
+	margin-top: 20px;
+}
+.home .row2 .title1 h2.color1{
+	color:#3a7fac;
+	font-size: 24px;
+	margin-right: 5px;
+}
+.home .row2 .title1 h2.color2{
+	color:#505050;
+	font-size: 14px;
+	vertical-align: bottom;
+	padding-top: 8px;
+}
+.home .row2 .title1 h5{
+	color: #858585;
+}
+.home .row2 .middle{
+	margin-top: 15px;
+}
+.home .row2 .flex2col1{
+	width: 250px;
+	background-color: #f1f1f1;
+	color: #0078af;
+	padding:8px;
+}
+.home .row2 .flex2col2{
+	width: 460px;
+}
+.global1{
+	border-bottom: 1px solid #f1f1f1;
+	padding-bottom: 5px;
+}
+.global1 .bg1{
+	background-image: url('../../images/desktop/home-2.png');
+	background-position: 0px 0px;
+	width: 10px;
+	height: 28px;
+	margin-right: 5px;
+}
+.global1 h3{
+	color: #0078af;
+	font-weight: normal;
+	font-size: 14px;
+}
+.global1 h4{
+	color: #9d9d9d;
+	font-size: 14px;
+	font-weight: normal;
+}
+.global1 h5 a{
+	background-color: #f1f1f1;
+	color: red;
+	border-radius: 10px;
+	text-align: center;
+	display: inline-block;
+	font-size: 11px;
+	padding:2px 5px;
+}
+.home .row2 .flex2col2 .posts h2{
+	font-weight: normal;
+	font-size: 14px;
+	margin-top: 5px;
+	color: #373737;
+} 
+.home .row2 .flex2col2 .posts p{
+	margin-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px dashed #f1f1f1;
+	color: #373737;
+}
+.home .row2 .flex2col2 .posts p a{
+	color: red;
+}
+.home .row2 .flex2col2 .posts ul{
+	list-style: none;
+	padding-left: 10px;
+}
+.home .row2 .flex2col2 .posts ul li{
+	padding:8px 0px;
+	border-bottom: 1px dashed #f1f1f1;
+}
+.home .row2 .flex2col2 .posts ul li i.bg2{
+	display: inline-block;
+	width: 8px;height: 7px;
+	background-image: url('../../images/desktop/home-2.png');
+	background-position: 0px -44px;
+	background-repeat: no-repeat;
+	margin-right: 5px;
+}
+.home .row2 .flex2col2 .posts ul li h5{
+	font-weight: normal;
+}
+.home .row2 .flex2col3{
+	width: 250px;
+}
+.flex2col3 >div:nth-child(2){
+	margin-top: 5px;
+}
+.flex2col3 >div:nth-child(2) >div{
+	width: 33.33%;
+	border:1px solid #aeaeae;
+	height: 83px;
+}
+.flex2col3 >div:nth-child(2) >div:nth-child(3n+2){
+	border-left: none;
+	border-right: none;
+}
+.flex2col3 >div:nth-child(2) >div:nth-child(n+4){
+	border-top: none;
+}
+.flex2col3 >div:nth-child(2) >div i{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-image: url('../../images/desktop/home-3.png');
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+}
+/**/

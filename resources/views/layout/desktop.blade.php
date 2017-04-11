@@ -25,9 +25,9 @@
 	<script type="text/javascript" src="{{ asset('public/js/global/slick/slick.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/toastr8/dist/js/toastr8.min.js') }}"></script>
 	@yield('js')
-	<script type="text/javascript" src="{{ asset('public/js/desktop/desktop.js') }}"></script>
+	<!-- <script type="text/javascript" src="{{ asset('public/js/desktop/desktop.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/desktop/right.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('public/js/desktop/swt.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('public/js/desktop/swt.js') }}"></script> -->
 </head>
 <body>
     <header>
@@ -163,24 +163,24 @@
 					</div>
 				</div>
 				<div class="flex1col1 flex align-items-center justify-content-center">
-					<div><h3><a href="{{ url('/') }}" class="text-container-center hvr-underline-reveal">Trang chủ</a></h3></div>
+					<div><h3><a href="{{ url('/') }}" class="text-container-center hvr-fade">Trang chủ</a></h3></div>
 				</div>
 				<div class="flex1col1 flex align-items-center justify-content-center">
-					<div><h3><a href="{{ MyAPI::getUrlTermID(32) }}" class="text-container-center hvr-underline-reveal" >Kỹ thuật<br>điều trị</a></h3></div>
+					<div><h3><a href="{{ MyAPI::getUrlTermID(32) }}" class="text-container-center hvr-fade" >Kỹ thuật<br>điều trị</a></h3></div>
 				</div>
 				<div class="flex1col1 flex align-items-center justify-content-center">
-					<div><h3><a href="{{ MyAPI::getUrlTermID(33) }}" class="text-container-center hvr-underline-reveal">Thiết bị<br>tiên tiến</a></h3></div>
+					<div><h3><a href="{{ MyAPI::getUrlTermID(33) }}" class="text-container-center hvr-fade">Thiết bị<br>tiên tiến</a></h3></div>
 				</div>
 				<div class="flex1col1 flex align-items-center justify-content-center">
-					<div><h3><a href="{{ MyAPI::getUrlTermID(34) }}" class="text-container-center hvr-underline-reveal">Bệnh án<br>điển hình</a></h3></div>
+					<div><h3><a href="{{ MyAPI::getUrlTermID(34) }}" class="text-container-center hvr-fade">Bệnh án<br>điển hình</a></h3></div>
 				</div>
 				<div class="flex1col1 flex align-items-center justify-content-center">
-					<div><h3><a href="{{ url('/dia-chi-phong-kham') }}" class="text-container-center hvr-underline-reveal">Địa chỉ <br>phòng khám</a></h3></div>
+					<div><h3><a href="{{ url('/dia-chi-phong-kham') }}" class="text-container-center hvr-fade">Địa chỉ <br>phòng khám</a></h3></div>
 				</div>
 				<div class="flex1col1 flex align-items-center justify-content-center">
 					<div>
 						<h3>
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-container-center hvr-underline-reveal">Đặt hẹn <br>trực tuyến</a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-container-center hvr-fade">Đặt hẹn <br>trực tuyến</a>
 						</h3>
 					</div>
 				</div>
@@ -190,24 +190,7 @@
 	@yield('content')
 	<footer>
 		<div class="container">
-			<div class="flex flex1 justify-content-between">
-				<div class="flex1col1">
-					<h3><a href="{{ url('/') }}"><img alt="" src="{{ asset('public/images/desktop/logo-footer.png') }}" class="center-block"></a></h3>
-					<h3 class="text-center text-uppercase"><a href="">Phòng khám chuyên khoa Nam Khang</a></h3>
-					<p><a href="{{ url('/dia-chi-phong-kham') }}"><address>Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội</address></a></p>
-				</div>
-				<div class="flex1col2">
-					<p>Thời gian làm việc của phòng khám</p>
-					<p>( 8:00 -20:00) bao gồm cả ngày lễ tết </p>
-					<p>Điện thoại liên hệ :</p>
-					<p><a href="tel:1800 - 6181">1800 - 6181</a></p>
-					<p><a href="tel:043-9656999">043-9656999</a></p>
-				</div>
-				<div class="flex1col3">
-					<h4 class="text-center text-uppercase">Phòng khám của nam giới</h4>
-					<h4 class="text-center text-uppercase">Nam Khang - Hà Nội - Việt Nam</h4>
-				</div>
-			</div>
+			
 		</div>
 		<div class="footer-status">
 			
