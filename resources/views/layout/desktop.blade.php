@@ -189,11 +189,148 @@
 	</menu>
 	@yield('content')
 	<footer>
-		<div class="container">
-			
+		<div class="row1">
+			<div class="container">
+				<div class="flex flex1">
+					<div class="flex1col1">
+						<h2>
+							<a href="">
+								<img src="{{ asset('public/images/desktop/logo-header.png') }}" class="center-block">
+							</a>
+						</h2>
+						<h3 class="text-center text-uppercase">
+							<a href="">Phòng khám<br>chuyên khoa Nam Khang</a>
+						</h3>
+						<h4 class="text-center text-uppercase"><a href="">1800 - 6181</a></h4>
+						<h4 class="text-center text-uppercase"><a href="">043 - 9656999</a></h4>
+					</div>
+					<div class="flex1col2">
+						<h3 class="icon text-center"><a href="#"><i></i></a></h3>
+						<div class="bg1 flex align-items-center justify-content-center">
+							<h5 class="text-center">
+								<a href="">Rối loạn chức năng sinh dục</a>
+							</h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Liệt dương</a></h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Yếu sinh lý</a></h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Xuất tinh sớm</a></h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Rối loạn cương dương</a></h5>
+						</div>
+					</div>
+					<div class="flex1col2">
+						<h3 class="icon text-center"><a href="#"><i></i></a></h3>
+						<div class="bg1 flex align-items-center justify-content-center">
+							<h5 class="text-center">
+								<a href="">Bệnh tuyến<br>tiền liệt </a>
+							</h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Viêm tuyến tiền liệt</a></h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Phì đại tuyến tiền liệt</a></h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">U nang tuyến tiền liệt</a></h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Tăng sinh tuyến tiền liệt</a></h5>
+						</div>
+					</div>
+					<div class="flex1col2">
+						<h3 class="icon text-center"><a href="#"><i></i></a></h3>
+						<div class="bg1 flex align-items-center justify-content-center">
+							<h5 class="text-center">
+								<a href="">Viêm đường<br>tiết niệu</a>
+							</h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Viêm quy đầu</a></h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Viêm niệu đạo</a></h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Viêm tinh hoàn</a></h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Viêm bàng quang</a></h5>
+						</div>
+					</div>
+					<div class="flex1col2">
+						<h3 class="icon text-center"><a href="#"><i></i></a></h3>
+						<div class="bg1 flex align-items-center justify-content-center">
+							<h5 class="text-center">
+								<a href="">Bệnh xã hội</a>
+							</h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Bệnh lậu</a></h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Giang mai</a></h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Sùi mào gà</a></h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Mụn rộp sinh dục</a></h5>
+						</div>
+					</div>
+					<div class="flex1col2">
+						<h3 class="icon text-center"><a href="#"><i></i></a></h3>
+						<div class="bg1 flex align-items-center justify-content-center">
+							<h5 class="text-center">
+								<a href=""> Chỉnh hình cơ<br>quan sinh dục</a>
+							</h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Dài bao quy đầu</a></h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Hẹp bao quy đầu</a></h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Kéo dài dương vật</a></h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Tăng kích thước<br>dương vật</a></h5>
+						</div>
+					</div>
+					<div class="flex1col2">
+						<h3 class="icon text-center"><a href="#"><i></i></a></h3>
+						<div class="bg1 flex align-items-center justify-content-center">
+							<h5 class="text-center">
+								<a href="">Vô sinh nam</a>
+							</h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Vô tinh</a></h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Tinh trùng ít</a></h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Tin trùng yếu</a></h5>
+						</div>
+						<div class="item">
+							<h5 class="text-center"><a href="">Xuất tinh ra máu</a></h5>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="footer-status">
-			
+		<div class="row2">
+			<div class="footer-status container flex align-items-center justify-content-center">
+				<h5 class="text-center"><a href="">Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội</a></h5>
+			</div>
 		</div>
 	</footer>
 	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
