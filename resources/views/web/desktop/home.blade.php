@@ -96,7 +96,7 @@
 			</div>
 			<div class="container middle">
 				<div class="flex flex2 justify-content-between">
-					<div class="flex2col1">
+					<div class="flex2col1 flex justify-content-center align-items-center">
 						<p class="text-justify">
 							Phòng khám Nam Khang Hà Nội là cơ sở y tế chuyên điều trị nam khoa hiếm có ở khu vực Hà Nội, phòng khám đạt tiêu chuẩn y tế JCI quốc tế, hội tụ đội ngũ chuyên gia cao cấp trong và ngoài nước, dịch vụ chất lượng cao, môi trường khám chữa bệnh ấm cúng đạt chất lượng 5 sao, vượt qua mô hình truyền thống của ngành y tế Hà Nội, mở ra thời đại mới về khám điều trị bệnh nam khoa đỉnh cao tại Hà Nội, kết hợp với dịch vụ đặc biệt chuyên khoa, chuyên bệnh, chuyên trị, xây dựng thương hiệu chuyên nghiệp về nam khoa trên toàn quốc.
 						</p>
@@ -132,7 +132,7 @@
 									<li>
 										<div class="flex justify-content-between">
 											<div>
-												<h5><i class="bg2"></i><a href="">Chế độ ăn uống tốt cho người viêm tuyến tiền liệt</a></h5>
+												<h5><i class="bg2"></i><a href="">Chế độ ăn uống tốt cho người viêm tuyến tiền liệt Chế độ ăn uống tốt cho người viêm tuyến tiền liệt</a></h5>
 											</div>
 											<div>
 												<h6>17/04/2017</h6>
@@ -202,62 +202,491 @@
 						<div class="flex flex-wrap-wrap">
 							<div class="flex justify-content-center align-items-center">
 								<div>
-									<h5 class="text-center"><i class="bg1"></i></h5>
+									<h5 class="text-center"><a href=""><i class="bg1"></i></a></h5>
 									<h5 class="text-center"><a href="">Dài bao quy đầu</a></h5>
 								</div>
 							</div>
 							<div class="flex justify-content-center align-items-center">
 								<div>
-									<h5 class="text-center"><i class="bg1"></i></h5>
-									<h5 class="text-center"><a href="">Dài bao quy đầu</a></h5>
+									<h5 class="text-center"><a href=""><i class="bg2"></i></a></h5>
+									<h5 class="text-center"><a href="">Tinh dịch<br>vàng</a></h5>
 								</div>
 							</div>
 							<div class="flex justify-content-center align-items-center">
 								<div>
-									<h5 class="text-center"><i class="bg1"></i></h5>
-									<h5 class="text-center"><a href="">Dài bao quy đầu</a></h5>
+									<h5 class="text-center"><a href=""><i class="bg3"></i></a></h5>
+									<h5 class="text-center"><a href="">Không cương cứng</a></h5>
 								</div>
 							</div>
 							<div class="flex justify-content-center align-items-center">
 								<div>
-									<h5 class="text-center"><i class="bg1"></i></h5>
-									<h5 class="text-center"><a href="">Dài bao quy đầu</a></h5>
+									<h5 class="text-center"><a href=""><i class="bg4"></i></a></h5>
+									<h5 class="text-center"><a href="">Nhu cầu sinh dục giảm</a></h5>
 								</div>
 							</div>
 							<div class="flex justify-content-center align-items-center">
 								<div>
-									<h5 class="text-center"><i class="bg1"></i></h5>
-									<h5 class="text-center"><a href="">Dài bao quy đầu</a></h5>
+									<h5 class="text-center"><a href=""><i class="bg5"></i></a></h5>
+									<h5 class="text-center"><a href="">Đi tiểu khó</a></h5>
 								</div>
 							</div>
 							<div class="flex justify-content-center align-items-center">
 								<div>
-									<h5 class="text-center"><i class="bg1"></i></h5>
-									<h5 class="text-center"><a href="">Dài bao quy đầu</a></h5>
+									<h5 class="text-center"><a href=""><i class="bg6"></i></a></h5>
+									<h5 class="text-center"><a href="">Rối loạn<br>xuất tinh</a></h5>
 								</div>
 							</div>
 							<div class="flex justify-content-center align-items-center">
 								<div>
-									<h5 class="text-center"><i class="bg1"></i></h5>
-									<h5 class="text-center"><a href="">Dài bao quy đầu</a></h5>
+									<h5 class="text-center"><a href=""><i class="bg7"></i></a></h5>
+									<h5 class="text-center"><a href="">Quy đầu<br>bất thường</a></h5>
 								</div>
 							</div>
 							<div class="flex justify-content-center align-items-center">
 								<div>
-									<h5 class="text-center"><i class="bg1"></i></h5>
-									<h5 class="text-center"><a href="">Dài bao quy đầu</a></h5>
+									<h5 class="text-center"><a href=""><i class="bg8"></i></a></h5>
+									<h5 class="text-center"><a href="">Lỗ niệu đạo<br>ra mủ</a></h5>
 								</div>
 							</div>
 							<div class="flex justify-content-center align-items-center">
 								<div>
-									<h5 class="text-center"><i class="bg1"></i></h5>
-									<h5 class="text-center"><a href="">Dài bao quy đầu</a></h5>
+									<h5 class="text-center"><a href=""><i class="bg9"></i></a></h5>
+									<h5 class="text-center"><a href="">Kéo dài<br>dương vật</a></h5>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="row3">
+			<div class="container">
+				<div class="global2">
+					<div class="flex">
+						<div class="col1"><i class="bg1"></i></div>
+						<div class="col2">N</div>
+						<div class="col3 flex justify-content-center align-items-center">
+							<div>
+								<h2 class="text-uppercase">Đội ngũ y bác sỹ</h2>
+								<h3>anjian doctor</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="flex flex2 justify-content-between">
+					<div class="flex2col1">
+						<h3 class="text-center">Đội ngũ bác sỹ khám chữa bệnh trĩ<br>chuyên nghiệp tại Hà Nội</h3>
+						<p class="text-justify">
+							Phòng khám hội tụ đội ngũ y bác sỹ chuyên nghiệp, tích lũy từ 20 đến 30 năm kinh nghiệm thăm khám lâm sàng, trong đó có những bác sỹ nước ngoài, vô cùng chuyên nghiệp trong lĩnh vực điều trị phụ khoa.
+						</p>
+					</div>
+					<div class="flex2col1">
+						<h3 class="text-center">Có kinh nghiệm phong phú trong điều trị<br>các bệnh trực tràng hậu môn</h3>
+						<p class="text-justify">
+							Dựa vào đội ngũ y bác sỹ nhiều năm kinh nghiệm lâm sàng, đã điều trị thành công cho rất nhiều ca bệnh phức tạp. Hợp tác với nhiều bác sỹ chuyên khoa, đã cứu chữa khỏi cho rất nhiều bệnh nhân mắc bệnh nguy hiểm.
+						</p>
+					</div>
+				</div>
+				<div class="img1">
+					<img src="{{ asset('public/images/desktop/home-4.png') }}" class="center-block">
+				</div>
+			</div>
+		</div>
+		<div class="row4">
+			<div class="container">
+				<div class="global2">
+					<div class="flex">
+						<div class="col1"><i class="bg1"></i></div>
+						<div class="col2">A</div>
+						<div class="col3 flex justify-content-center align-items-center">
+							<div>
+								<h2 class="text-uppercase">Kỹ thuật nam khoa</h2>
+								<h3>ndrology technology</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="flex flex2 justify-content-between">
+					<div class="flex2col1">
+						<div class="">
+							<div class="img1">
+								<h3><a href="javascript:;"><img src="{{ asset('public/images/desktop/home-5.png') }}" class="center-block"></a></h3>
+							</div>
+							<div class="img2">
+								<h3><a href="javascript:;"><img src="{{ asset('public/images/desktop/home-9.png') }}" class="center-block"></a></h3>
+							</div>
+						</div>
+					</div>
+					<div class="flex2col1">
+						<div class="">
+							<div class="img1">
+								<h3><a href="javascript:;"><img src="{{ asset('public/images/desktop/home-6.png') }}" class="center-block"></a></h3>
+							</div>
+							<div class="img2">
+								<h3><a href="javascript:;"><img src="{{ asset('public/images/desktop/home-10.png') }}" class="center-block"></a></h3>
+							</div>
+						</div>
+					</div>
+					<div class="flex2col1">
+						<div class="">
+							<div class="img1">
+								<h3><a href="javascript:;"><img src="{{ asset('public/images/desktop/home-7.png') }}" class="center-block"></a></h3>
+							</div>
+							<div class="img2">
+								<h3><a href="javascript:;"><img src="{{ asset('public/images/desktop/home-11.png') }}" class="center-block"></a></h3>
+							</div>
+						</div>
+					</div>
+					<div class="flex2col1">
+						<div class="">
+							<div class="img1">
+								<h3><a href="javascript:;"><img src="{{ asset('public/images/desktop/home-8.png') }}" class="center-block"></a></h3>
+							</div>
+							<div class="img2">
+								<h3><a href="javascript:;"><img src="{{ asset('public/images/desktop/home-12.png') }}" class="center-block"></a></h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<script type="text/javascript">
+					$(document).ready(function() {
+						$('div.row4 div.img1').hover(function() {
+					  		$(this).fadeOut('', function() {
+					  			
+					  		});
+					  		$(this).siblings('div').fadeIn('', function() {
+					  			
+					  		});
+						}, function() {
+
+						});
+						$('div.row4 div.img2').hover(function() {
+						}, function() {
+					  		$(this).fadeOut('', function() {
+					  			
+					  		});
+					  		$(this).siblings('div').fadeIn('', function() {
+					  			
+					  		});
+						});
+					});
+				</script>
+				<div class="flex flex3 justify-content-between">
+					<div class="flex3col1 flex align-items-center justify-content-center">
+						<div class="">
+							<h3 class="text-uppercase text-center">Nhiều kỹ thuật hơn</h3>
+							<h4 class="text-uppercase text-center">MORE TECHNOLOGY</h4>
+						</div>
+					</div>
+					<div class="flex3col2">
+						<div>
+							<div class="panel-heading flex justify-content-center align-items-center">
+								<h4 class="text-center">Thủ thuật chỉnh hình cơ quan sinh dục</h4>
+							</div>
+							<div class="panel-body flex">
+								<div class="flex justify-content-center align-items-center">
+									<div>
+										<h5><i class="bg1"></i><a href="">Thủ thuật kéo dài dương vật định vị CF</a><i class="fa fa-play-circle"></i></h5>
+										<h5><i class="bg1"></i><a href="">Thủ thuật cắt bao quy đầu Hàn Quốc</a><i class="fa fa-play-circle"></i></h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="flex3col2">
+						<div>
+							<div class="panel-heading flex justify-content-center align-items-center">
+								<h4 class="text-center">Điều trị bệnh lý tuyến tiền liệt</h4>
+							</div>
+							<div class="panel-body flex">
+								<div class="flex justify-content-center align-items-center">
+									<div>
+										<h5><i class="bg1"></i><a href="">Kỹ thuật can thiệp cắt bỏ tuyến tiền liệt</a><i class="fa fa-play-circle"></i></h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="flex3col2">
+						<div class="flex flex4">
+							<div class="flex4col1 flex justify-content-start align-items-center">
+								<h4>Điều trị vô sinh nam giới</h4>
+							</div>
+							<div class="flex4col2 flex justify-content-start align-items-center">
+								<h5><i class="bg1"></i><a href="">Liệu pháp lập thể 4 hạng mục</a><i class="fa fa-play-circle"></i></h5>
+							</div>
+						</div>
+						<div class="flex flex4">
+							<div class="flex4col1 flex justify-content-start align-items-center">
+								<h4>Điều trị bệnh lậu</h4>
+							</div>
+							<div class="flex4col2 flex justify-content-start align-items-center">
+								<h5><i class="bg1"></i><a href="">Liệu pháp DHA</a><i class="fa fa-play-circle"></i></h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row5">
+			<div class="container">
+				<div class="global2">
+					<div class="flex">
+						<div class="col1"><i class="bg1"></i></div>
+						<div class="col2">S</div>
+						<div class="col3 flex justify-content-center align-items-center">
+							<div>
+								<h2 class="text-uppercase">Trung tâm phục hồi chức năng sinh lý</h2>
+								<h3>exual function rehabilitation center</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="flex flex2 justify-content-between">
+					<div class="flex2col1">
+						<div>
+							<h4><a href=""><img src="{{ asset('public/images/desktop/home-13.gif') }}" class="center-block" style="width: 100%;"></a></h4>
+						</div>
+						<div class="flex flex3 flex-wrap-wrap justify-content-between align-content-between">
+							<div class="flex3col1 flex align-items-center">
+								<div class="flex">
+									<div class="flex justify-content-center align-items-center">
+										<h5><i></i></h5>
+									</div>
+									<div class="flex justify-content-center align-items-center">
+										<h5 class="text-center"><a href="">Hỏi nguyên nhân gây bệnh</a></h5>
+									</div>
+								</div>
+							</div>
+							<div class="flex3col1 flex align-items-center">
+								<div class="flex">
+									<div class="flex justify-content-center align-items-center">
+										<h5><i></i></h5>
+									</div>
+									<div class="flex justify-content-center align-items-center">
+										<h5 class="text-center"><a href="">Hỏi triệu chứng</a></h5>
+									</div>
+								</div>
+							</div>
+							<div class="flex3col1 flex align-items-center">
+								<div class="flex">
+									<div class="flex justify-content-center align-items-center">
+										<h5><i></i></h5>
+									</div>
+									<div class="flex justify-content-center align-items-center">
+										<h5 class="text-center"><a href="">Hỏi chi phí</a></h5>
+									</div>
+								</div>
+							</div>
+							<div class="flex3col1 flex align-items-center">
+								<div class="flex">
+									<div class="flex justify-content-center align-items-center">
+										<h5><i></i></h5>
+									</div>
+									<div class="flex justify-content-center align-items-center">
+										<h5 class="text-center"><a href="">Hỏi nguy hại</a></h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="flex2col2">
+						<div class="flex flex4 justify-content-between">
+							<div class="flex4col1">
+								<div><h4 class="text-center"><a href="" class="active flex align-items-center justify-content-center">Liệt dương</a></h4></div>
+							</div>
+							<div class="flex4col1">
+								<div><h4 class="text-center"><a href="" class="flex align-items-center justify-content-center">Xuất tinh sớm</a></h4></div>
+							</div>
+							<div class="flex4col1">
+								<div><h4 class="text-center"><a href="" class="flex align-items-center justify-content-center">Suy giảm khả năng cương cứng</a></h4></div>
+							</div>
+							<div class="flex4col1">
+								<div><h4 class="text-center"><a href="" class="flex align-items-center justify-content-center">Yếu sinh lý</a></h4></div>
+							</div>
+						</div>
+						<div class="tab-contents-1">
+							<div class="active">
+								<div class="flex flex5 justify-content-between">
+									<div class="flex5col1">
+										<h2 class="text-uppercase text-center"><a href="">Liệt dương là gì</a></h2>
+										<p class="text-justify">
+											Liệt dương hay rối loạn cương dương hay yếu sinh lý là một rối loạn chức năng tình dục ở nam giới có biểu hiện dương vật không đủ hay không giữ được độ cứng làm mất khả năng đi vào ... <a href="">chi tiết</a>
+										</p>
+										<ul>
+											<li><h5><i></i><a href="">Nguyên nhân gây bệnh liệt dương</a></h5></li>
+											<li><h5><i></i><a href="">Những triệu chứng ban đầu của bệnh liệt dương</a></h5></li>
+											<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+											<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+											<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+										</ul>
+										<div class="flex flex6">
+											<div class="flex6col1 flex align-items-center justify-content-center">
+												<h5 class="text-center"><a href="">Cương cứng kém</a></h5>
+											</div>
+											<div class="flex6col1 flex align-items-center justify-content-center">
+												<h5 class="text-center"><a href="">Không thể cương cứng</a></h5>
+											</div>
+											<div class="flex6col1 flex align-items-center justify-content-center">
+												<h5 class="text-center"><a href="">Cương cứng khó khăn</a></h5>
+											</div>
+											<div class="flex6col1 flex align-items-center justify-content-center">
+												<h5 class="text-center"><a href="">Quy đầu không cương cứng</a></h5>
+											</div>
+										</div>
+									</div>
+									<div class="flex5col2">
+										<div><h5 class="text-center"><i></i>Bài viết được quan tâm</h5></div>
+										<ul>
+											<li><h5><i></i><a href="">Nguyên nhân gây bệnh liệt dương</a></h5></li>
+											<li><h5><i></i><a href="">Những triệu chứng ban đầu của bệnh liệt dương</a></h5></li>
+											<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+											<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+											<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+											<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+											<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="flex flex5 justify-content-between">
+								<div class="flex5col1">
+									<h2 class="text-uppercase text-center"><a href="">Xuất tinh sớm là gì</a></h2>
+									<p class="text-justify">
+										Liệt dương hay rối loạn cương dương hay yếu sinh lý là một rối loạn chức năng tình dục ở nam giới có biểu hiện dương vật không đủ hay không giữ được độ cứng làm mất khả năng đi vào ... <a href="">chi tiết</a>
+									</p>
+									<ul>
+										<li><h5><i></i><a href="">Nguyên nhân gây bệnh liệt dương</a></h5></li>
+										<li><h5><i></i><a href="">Những triệu chứng ban đầu của bệnh liệt dương</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+									</ul>
+									<div class="flex flex6">
+										<div class="flex6col1 flex align-items-center justify-content-center">
+											<h5 class="text-center"><a href="">Cương cứng kém</a></h5>
+										</div>
+										<div class="flex6col1 flex align-items-center justify-content-center">
+											<h5 class="text-center"><a href="">Không thể cương cứng</a></h5>
+										</div>
+										<div class="flex6col1 flex align-items-center justify-content-center">
+											<h5 class="text-center"><a href="">Cương cứng khó khăn</a></h5>
+										</div>
+										<div class="flex6col1 flex align-items-center justify-content-center">
+											<h5 class="text-center"><a href="">Quy đầu không cương cứng</a></h5>
+										</div>
+									</div>
+								</div>
+								<div class="flex5col2">
+									<div><h5 class="text-center"><i></i>Bài viết được quan tâm</h5></div>
+									<ul>
+										<li><h5><i></i><a href="">Nguyên nhân gây bệnh liệt dương</a></h5></li>
+										<li><h5><i></i><a href="">Những triệu chứng ban đầu của bệnh liệt dương</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+									</ul>
+								</div>
+								</div>
+							</div>
+							<div>
+								<div class="flex flex5 justify-content-between">
+								<div class="flex5col1">
+									<h2 class="text-uppercase text-center"><a href="">Xuất tinh sớm là gì</a></h2>
+									<p class="text-justify">
+										Liệt dương hay rối loạn cương dương hay yếu sinh lý là một rối loạn chức năng tình dục ở nam giới có biểu hiện dương vật không đủ hay không giữ được độ cứng làm mất khả năng đi vào ... <a href="">chi tiết</a>
+									</p>
+									<ul>
+										<li><h5><i></i><a href="">Nguyên nhân gây bệnh liệt dương</a></h5></li>
+										<li><h5><i></i><a href="">Những triệu chứng ban đầu của bệnh liệt dương</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+									</ul>
+									<div class="flex flex6">
+										<div class="flex6col1 flex align-items-center justify-content-center">
+											<h5 class="text-center"><a href="">Cương cứng kém</a></h5>
+										</div>
+										<div class="flex6col1 flex align-items-center justify-content-center">
+											<h5 class="text-center"><a href="">Không thể cương cứng</a></h5>
+										</div>
+										<div class="flex6col1 flex align-items-center justify-content-center">
+											<h5 class="text-center"><a href="">Cương cứng khó khăn</a></h5>
+										</div>
+										<div class="flex6col1 flex align-items-center justify-content-center">
+											<h5 class="text-center"><a href="">Quy đầu không cương cứng</a></h5>
+										</div>
+									</div>
+								</div>
+								<div class="flex5col2">
+									<div><h5 class="text-center"><i></i>Bài viết được quan tâm</h5></div>
+									<ul>
+										<li><h5><i></i><a href="">Nguyên nhân gây bệnh liệt dương</a></h5></li>
+										<li><h5><i></i><a href="">Những triệu chứng ban đầu của bệnh liệt dương</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+									</ul>
+								</div>
+								</div>
+							</div>
+							<div>
+								<div class="flex flex5 justify-content-between">
+								<div class="flex5col1">
+									<h2 class="text-uppercase text-center"><a href="">Suy giảm khả năng cương là gì</a></h2>
+									<p class="text-justify">
+										Liệt dương hay rối loạn cương dương hay yếu sinh lý là một rối loạn chức năng tình dục ở nam giới có biểu hiện dương vật không đủ hay không giữ được độ cứng làm mất khả năng đi vào ... <a href="">chi tiết</a>
+									</p>
+									<ul>
+										<li><h5><i></i><a href="">Nguyên nhân gây bệnh liệt dương</a></h5></li>
+										<li><h5><i></i><a href="">Những triệu chứng ban đầu của bệnh liệt dương</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+									</ul>
+									<div class="flex flex6">
+										<div class="flex6col1 flex align-items-center justify-content-center">
+											<h5 class="text-center"><a href="">Cương cứng kém</a></h5>
+										</div>
+										<div class="flex6col1 flex align-items-center justify-content-center">
+											<h5 class="text-center"><a href="">Không thể cương cứng</a></h5>
+										</div>
+										<div class="flex6col1 flex align-items-center justify-content-center">
+											<h5 class="text-center"><a href="">Cương cứng khó khăn</a></h5>
+										</div>
+										<div class="flex6col1 flex align-items-center justify-content-center">
+											<h5 class="text-center"><a href="">Quy đầu không cương cứng</a></h5>
+										</div>
+									</div>
+								</div>
+								<div class="flex5col2">
+									<div><h5 class="text-center"><i></i>Bài viết được quan tâm</h5></div>
+									<ul>
+										<li><h5><i></i><a href="">Nguyên nhân gây bệnh liệt dương</a></h5></li>
+										<li><h5><i></i><a href="">Những triệu chứng ban đầu của bệnh liệt dương</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+										<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+									</ul>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="img1">
+				<h2><a href=""><img src="{{ asset('public/images/desktop/home-15.png') }}" class="center-block"></a></h2>
+			</div>
+		</div>
+		<div class="row6">
 		</div>
 	</main>
 @endsection('content')
