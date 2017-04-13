@@ -87,100 +87,24 @@
 			</div>
 		</div>
 		<div class="row2">
-			<div class="title1 container">
-				<div class="flex flex1">
-					<div><h2 class="text-uppercase color1">về chúng tôi</h2></div>
-					<div><h2 class="text-uppercase color2">about us</h2></div>
-				</div>
-				<h5>Sức khỏe của bạn là món quà tuyệt với nhất đối với chúng tôi</h5>
-			</div>
 			<div class="container middle">
 				<div class="flex flex2 justify-content-between">
 					<div class="flex2col1 flex justify-content-center align-items-center">
+						<h2><a href="#"><img src="{{ asset('public/images/desktop/test.png') }}" style="width: 234px;height: 304px;"></a></h2>
+					</div>
+					<div class="flex2col2">
+						<div class="title1 container">
+							<div class="flex flex1">
+								<div><h2 class="text-uppercase color1">về chúng tôi</h2></div>
+								<div><h2 class="text-uppercase color2">about us</h2></div>
+							</div>
+							<h5>Sức khỏe của bạn là món quà tuyệt với nhất đối với chúng tôi</h5>
+						</div>
 						<p class="text-justify">
 							Phòng khám Nam Khang Hà Nội là cơ sở y tế chuyên điều trị nam khoa hiếm có ở khu vực Hà Nội, phòng khám đạt tiêu chuẩn y tế JCI quốc tế, hội tụ đội ngũ chuyên gia cao cấp trong và ngoài nước, dịch vụ chất lượng cao, môi trường khám chữa bệnh ấm cúng đạt chất lượng 5 sao, vượt qua mô hình truyền thống của ngành y tế Hà Nội, mở ra thời đại mới về khám điều trị bệnh nam khoa đỉnh cao tại Hà Nội, kết hợp với dịch vụ đặc biệt chuyên khoa, chuyên bệnh, chuyên trị, xây dựng thương hiệu chuyên nghiệp về nam khoa trên toàn quốc.
 						</p>
-					</div>
-					<div class="flex2col2">
-						<div class="flex3 flex justify-content-between global1">
-							<div class="col1 flex align-items-center justify-content-center">
-								<div class="flex">
-									<div class="flex justify-content-center align-items-center">
-										<div><i class="bg1 dis-inline-block"></i></div>
-									</div>
-									<div class="flex justify-content-center align-items-center">
-										<div>
-											<h3>TIN MỚI</h3>
-											<h4>News and information</h4>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col2 flex align-items-center justify-content-center">
-								<div>
-									<h5 class="text-center"><a href="">xem thêm</a></h5>
-								</div>
-							</div>
-						</div>
-						<div class="posts">
-							<h2 class="text-uppercase text-center post-name"><a href="">NGUYÊN NHÂN VIÊM TUYẾN TIỀN LIỆT Ở NAM GIỚI</a></h2>
-							<p class="post-description">
-								Viêm tuyến tiền liệt là một trong những bệnh phổ biến của nam giới ở các lứa tuổi với tần số là từ 5 - 8%. Trong đó, 35 - 40% trường hợp là đàn ông ở độ tuổi 20 - 40. Các bác sỹ ... <a href="">chi tiết</a>
-							</p>
-							<div>
-								<ul>
-									<li>
-										<div class="flex justify-content-between">
-											<div>
-												<h5><i class="bg2"></i><a href="">Chế độ ăn uống tốt cho người viêm tuyến tiền liệt Chế độ ăn uống tốt cho người viêm tuyến tiền liệt</a></h5>
-											</div>
-											<div>
-												<h6>17/04/2017</h6>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="flex justify-content-between">
-											<div>
-												<h5><i class="bg2"></i><a href="">Chế độ ăn uống tốt cho người viêm tuyến tiền liệt</a></h5>
-											</div>
-											<div>
-												<h6>17/04/2017</h6>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="flex justify-content-between">
-											<div>
-												<h5><i class="bg2"></i><a href="">Chế độ ăn uống tốt cho người viêm tuyến tiền liệt</a></h5>
-											</div>
-											<div>
-												<h6>17/04/2017</h6>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="flex justify-content-between">
-											<div>
-												<h5><i class="bg2"></i><a href="">Chế độ ăn uống tốt cho người viêm tuyến tiền liệt</a></h5>
-											</div>
-											<div>
-												<h6>17/04/2017</h6>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="flex justify-content-between">
-											<div>
-												<h5><i class="bg2"></i><a href="">Chế độ ăn uống tốt cho người viêm tuyến tiền liệt</a></h5>
-											</div>
-											<div>
-												<h6>17/04/2017</h6>
-											</div>
-										</div>
-									</li>
-								</ul>
-							</div>
+						<div class="text-center">
+							<a href="" class="hvr-float-shadow">Xem chi tiết</a>
 						</div>
 					</div>
 					<div class="flex2col3">
