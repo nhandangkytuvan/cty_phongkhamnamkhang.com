@@ -205,7 +205,7 @@
 						<h4 class="text-center text-uppercase"><a href="">043 - 9656999</a></h4>
 					</div>
 					<div class="flex1col2">
-						<h3 class="icon text-center"><a href="#"><i></i></a></h3>
+						<h3 class="icon text-center"><a href="#"><i class="hvr-glow"></i></a></h3>
 						<div class="bg1 flex align-items-center justify-content-center">
 							<h5 class="text-center">
 								<a href="">Rối loạn chức năng sinh dục</a>
@@ -225,7 +225,7 @@
 						</div>
 					</div>
 					<div class="flex1col2">
-						<h3 class="icon text-center"><a href="#"><i></i></a></h3>
+						<h3 class="icon text-center"><a href="#"><i class="hvr-glow"></i></a></h3>
 						<div class="bg1 flex align-items-center justify-content-center">
 							<h5 class="text-center">
 								<a href="">Bệnh tuyến<br>tiền liệt </a>
@@ -245,7 +245,7 @@
 						</div>
 					</div>
 					<div class="flex1col2">
-						<h3 class="icon text-center"><a href="#"><i></i></a></h3>
+						<h3 class="icon text-center"><a href="#"><i class="hvr-glow"></i></a></h3>
 						<div class="bg1 flex align-items-center justify-content-center">
 							<h5 class="text-center">
 								<a href="">Viêm đường<br>tiết niệu</a>
@@ -265,7 +265,7 @@
 						</div>
 					</div>
 					<div class="flex1col2">
-						<h3 class="icon text-center"><a href="#"><i></i></a></h3>
+						<h3 class="icon text-center"><a href="#"><i class="hvr-glow"></i></a></h3>
 						<div class="bg1 flex align-items-center justify-content-center">
 							<h5 class="text-center">
 								<a href="">Bệnh xã hội</a>
@@ -285,7 +285,7 @@
 						</div>
 					</div>
 					<div class="flex1col2">
-						<h3 class="icon text-center"><a href="#"><i></i></a></h3>
+						<h3 class="icon text-center"><a href="#"><i class="hvr-glow"></i></a></h3>
 						<div class="bg1 flex align-items-center justify-content-center">
 							<h5 class="text-center">
 								<a href=""> Chỉnh hình cơ<br>quan sinh dục</a>
@@ -305,7 +305,7 @@
 						</div>
 					</div>
 					<div class="flex1col2">
-						<h3 class="icon text-center"><a href="#"><i></i></a></h3>
+						<h3 class="icon text-center"><a href="#"><i class="hvr-glow"></i></a></h3>
 						<div class="bg1 flex align-items-center justify-content-center">
 							<h5 class="text-center">
 								<a href="">Vô sinh nam</a>

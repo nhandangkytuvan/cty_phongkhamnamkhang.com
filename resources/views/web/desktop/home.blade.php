@@ -676,7 +676,7 @@
 					</div>
 				</div>
 				<div class="img1">
-					<h2><a href=""><img src="{{ asset('public/images/desktop/home-15.png') }}" class="center-block"></a></h2>
+					<h2><a href="" class="hvr-shadow"><img src="{{ asset('public/images/desktop/home-15.png') }}" class="center-block"></a></h2>
 				</div>
 				<div class="global2">
 					<div class="flex">
@@ -1070,21 +1070,21 @@
 				<div class="flex flex1 justify-content-between">
 					<div class="flex1col1">
 						<h3>
-							<a href="">
+							<a href="" class="hvr-glow">
 								<img src="{{ asset('public/images/desktop/home-19.png') }}" class="center-block">
 							</a>
 						</h3>
 					</div>
 					<div class="flex1col2">
 						<h3>
-							<a href="">
+							<a href="" class="hvr-glow">
 								<img src="{{ asset('public/images/desktop/home-20.png') }}" class="center-block">
 							</a>
 						</h3>
 					</div>
 					<div class="flex1col3">
 						<h3>
-							<a href="">
+							<a href="" class="hvr-glow">
 								<img src="{{ asset('public/images/desktop/home-21.png') }}" class="center-block">
 							</a>
 						</h3>

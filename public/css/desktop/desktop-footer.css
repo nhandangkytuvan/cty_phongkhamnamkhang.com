@@ -73,3 +73,6 @@ footer .row2 >div{
 	color: #fefefe;
 	font-size: 14px;
 }
+footer a:hover{
+	text-decoration: underline;
+}
