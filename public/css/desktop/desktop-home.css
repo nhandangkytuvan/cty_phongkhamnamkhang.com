@@ -684,3 +684,6 @@ div.row7 .flex1{
 .slick-home2 .slick-arrow{
 	display: none!important;
 }
+.slick-home2 img{
+	border:1px solid #9ec0f8;
+}
