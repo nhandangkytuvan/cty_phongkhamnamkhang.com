@@ -42,8 +42,6 @@
             <td>ID</td>
             <td>Ảnh</td>
             <td>Tên</td>
-            <!-- <td>Des</td> -->
-            <!-- <td>Meta</td> -->
             <td>Số bài</td>
             <td>L.xem</td>
             <td>#</td>
@@ -58,8 +56,6 @@
                 @endif
             </td>
             <td><a href="{{ MyAPI::getUrlTermObj($term) }}">{{ $term->term_name }}</a></td>
-            <!-- <td>{{ $term->term_description }}</td> -->
-            <!-- <td>{{ $term->term_meta }}</td> -->
             <td></td>
             <td></td>
             <td>
@@ -85,6 +81,11 @@
                                         <span class="glyphicon glyphicon-trash"></span> Xóa term
                                     </a> 
                                 </li>
+                                <li>
+                                    <a href="{{ url('user/term/remove-post/'.$term->id) }}">
+                                        <span class="glyphicon glyphicon-check"></span> Xóa bài viết trong term
+                                    </a> 
+                                </li>
                             </ul>  
                         </div>
                     </div>
@@ -101,8 +102,6 @@
                 @endif
             </td>
             <td><a href="{{ MyAPI::getUrlTermObj($term_child) }}">{{ $term_child->term_name }}</a></td>
-            <!-- <td>{{ $term->term_description }}</td> -->
-            <!-- <td>{{ $term->term_meta }}</td> -->
             <td>{{ $term_child->post()->count() }}</td>
             <td>{{ $term_child->visit->visit_sum }}</td>
             <td>
@@ -128,6 +127,10 @@
                                         <span class="glyphicon glyphicon-trash"></span> Xóa term
                                     </a> 
                                 </li>
+                                <li>
+                                        <span class="glyphicon glyphicon-check"></span> Xóa bài viết trong term
+                                    </a> 
+                                </li>
                             </ul>  
                         </div>
                     </div>
@@ -151,8 +154,6 @@
                 @endif
             </td>
             <td><a href="{{ MyAPI::getUrlTermObj($term) }}">{{ $term->term_name }}</a></td>
-            <!-- <td>{{ $term->term_description }}</td> -->
-            <!-- <td>{{ $term->term_meta }}</td> -->
             <td>{{ $term->post()->count() }}</td>
             <td>{{ $term->visit->visit_sum }}</td>
             <td>
@@ -176,6 +177,11 @@
                                 <li>
                                     <a href="{{ url('user/term/delete/'.$term->id) }}">
                                         <span class="glyphicon glyphicon-trash"></span> Xóa term
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a href="{{ url('user/term/remove-post/'.$term->id) }}">
+                                        <span class="glyphicon glyphicon-check"></span> Xóa bài viết trong term
                                     </a> 
                                 </li>
                             </ul>  

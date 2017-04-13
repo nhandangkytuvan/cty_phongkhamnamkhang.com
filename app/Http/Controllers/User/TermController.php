@@ -133,4 +133,19 @@ class TermController extends Controller{
             return view('user.term.delete',['data'=>$data]); 
         }
     }
+    public function removePost($term_id,Request $request){
+        $term = Term::find($term_id);
+        if($request->isMethod('post')){
+            $post_avatars = $term->post()->pluck('post_avatar')->toArray();
+            foreach ($post_avatars as $key => $post_avatar) {
+                $post_avatars[$key] = public_path().'\img\\'.$post_avatar;
+            }
+            $term->post()->delete();
+            File::delete($post_avatars);
+            return redirect('user/term/index');
+        }else{
+            $data['term'] = $term;
+            return view('user.term.removePost',['data'=>$data]); 
+        }
+    }
 }
