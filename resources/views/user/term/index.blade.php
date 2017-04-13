@@ -128,6 +128,7 @@
                                     </a> 
                                 </li>
                                 <li>
+                                    <a href="{{ url('user/term/remove-post/'.$term_child->id) }}">
                                         <span class="glyphicon glyphicon-check"></span> Xóa bài viết trong term
                                     </a> 
                                 </li>
