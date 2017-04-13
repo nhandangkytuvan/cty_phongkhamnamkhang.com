@@ -63,9 +63,8 @@
 }
 .home .row2 .flex2col1{
 	width: 230px;
-	background-color: #f1f1f1;
 	color: #0078af;
-	padding:8px;
+	padding:0px;
 }
 /**/
 .home .row2 .flex2col2 h1 span:first-child{
@@ -590,6 +589,22 @@ div.row6 .flex3col2{
 	background-image: url('../../images/desktop/home-17.png');
 	background-repeat: no-repeat;
 }
+div.row6 .flex3col2 >div{
+	padding-top: 15px;
+	padding-left: 30px;
+}
+div.row6 .flex3col2 span.number{
+	display: inline-block;
+	background-color: #e7000e;
+	color: #fff;
+	font-size: 18px;
+	padding:2px 5px;
+}
+div.row6 .flex3col2 span:last-child{
+	font-size: 11px;
+	vertical-align: -6px;
+	color: #353535;
+}
 div.row6 .flex2col2 >div.order2{
 	margin-top: 15px;
 	background-color: #ebebeb;
@@ -640,4 +655,32 @@ div.row7 .flex1{
 /*hover*/
 .home a:hover{
 	text-decoration: underline;
+}
+/*slick dot*/
+.slick-home2 ul.slick-dots{
+	list-style: none;
+	position: absolute;
+	bottom:0px;
+	right: 0px;
+}
+.slick-home2 ul.slick-dots li{
+	display: inline-block;
+	margin-right: 3px;
+}
+.slick-home2 ul.slick-dots li:last-child{
+	margin-right: 0px;
+}
+.slick-home2 ul.slick-dots button{
+	outline: none;
+	background-color: #fba100;
+	color: #fff;
+	border:none;
+	padding:2px 5px;
+	cursor: pointer;
+}
+.slick-home2 ul.slick-dots li.slick-active button{
+	background-color: #007283;
+}
+.slick-home2 .slick-arrow{
+	display: none!important;
 }

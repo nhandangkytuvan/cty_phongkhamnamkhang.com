@@ -90,7 +90,45 @@
 			<div class="container middle">
 				<div class="flex flex2 justify-content-between">
 					<div class="flex2col1">
-						<h2><a href="#"><img src="{{ asset('public/images/desktop/test.png') }}" class="center-block" style="width: 100%;height:283px;"></a></h2>
+						<div class="slick-home2">
+							<div>
+								<h2>
+									<a href="#">
+										<img src="{{ asset('public/images/desktop/slide-1.png') }}" class="center-block" style="width: 100%;">
+									</a>
+								</h2>
+							</div>
+							<div>
+								<h2>
+									<a href="#">
+										<img src="{{ asset('public/images/desktop/slide-2.png') }}" class="center-block" style="width: 100%;">
+									</a>
+								</h2>
+							</div>
+							<div>
+								<h2>
+									<a href="#">
+										<img src="{{ asset('public/images/desktop/slide-3.png') }}" class="center-block" style="width: 100%;">
+									</a>
+								</h2>
+							</div>
+							<div>
+								<h2>
+									<a href="#">
+										<img src="{{ asset('public/images/desktop/slide-4.png') }}" class="center-block" style="width: 100%;">
+									</a>
+								</h2>
+							</div>
+						</div>
+						<script>
+							$('.slick-home2').slick({
+							  	slidesToShow: 1,
+							  	slidesToScroll: 1,
+							  	autoplay: true,
+							  	autoplaySpeed: 2000,
+							  	dots: true,
+							});	
+						</script>
 					</div>
 					<div class="flex2col2">
 						<div class="title1 container">
@@ -960,7 +998,13 @@
 								</div>
 							</div>
 							<div class="flex3col2">
-
+								<div>
+									<span class="number">5</span>
+									<span class="number">6</span>
+									<span class="number">2</span>
+									<span class="number">1</span>
+									<span>nam giới đã phục hồi</span>
+								</div>
 							</div>
 						</div>
 						<div class="order2">
