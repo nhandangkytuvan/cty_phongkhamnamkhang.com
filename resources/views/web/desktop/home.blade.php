@@ -89,8 +89,8 @@
 		<div class="row2">
 			<div class="container middle">
 				<div class="flex flex2 justify-content-between">
-					<div class="flex2col1 flex justify-content-center align-items-center">
-						<h2><a href="#"><img src="{{ asset('public/images/desktop/test.png') }}" style="width: 234px;height: 304px;"></a></h2>
+					<div class="flex2col1">
+						<h2><a href="#"><img src="{{ asset('public/images/desktop/test.png') }}" class="center-block" style="width: 100%;height:283px;"></a></h2>
 					</div>
 					<div class="flex2col2">
 						<div class="title1 container">
@@ -127,7 +127,7 @@
 							<div class="flex justify-content-center align-items-center">
 								<div>
 									<h5 class="text-center"><a href=""><i class="bg1"></i></a></h5>
-									<h5 class="text-center"><a href="">Dài bao quy đầu</a></h5>
+									<h5 class="text-center"><a href="">Dài bao<br>quy đầu</a></h5>
 								</div>
 							</div>
 							<div class="flex justify-content-center align-items-center">
@@ -139,7 +139,7 @@
 							<div class="flex justify-content-center align-items-center">
 								<div>
 									<h5 class="text-center"><a href=""><i class="bg3"></i></a></h5>
-									<h5 class="text-center"><a href="">Không cương cứng</a></h5>
+									<h5 class="text-center"><a href="">Không cương<br>cứng</a></h5>
 								</div>
 							</div>
 							<div class="flex justify-content-center align-items-center">
@@ -151,7 +151,7 @@
 							<div class="flex justify-content-center align-items-center">
 								<div>
 									<h5 class="text-center"><a href=""><i class="bg5"></i></a></h5>
-									<h5 class="text-center"><a href="">Đi tiểu khó</a></h5>
+									<h5 class="text-center"><a href="">Đi tiểu<br>khó</a></h5>
 								</div>
 							</div>
 							<div class="flex justify-content-center align-items-center">

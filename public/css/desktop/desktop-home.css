@@ -59,9 +59,10 @@
 }
 .home .row2 .middle{
 	margin-top: 15px;
+	margin-bottom: 15px;
 }
 .home .row2 .flex2col1{
-	width: 250px;
+	width: 230px;
 	background-color: #f1f1f1;
 	color: #0078af;
 	padding:8px;
@@ -171,7 +172,7 @@
 	font-weight: normal;
 }
 .home .row2 .flex2col3{
-	width: 250px;
+	width: 280px;
 }
 .flex2col3 >div:nth-child(2){
 	margin-top: 5px;
@@ -179,12 +180,12 @@
 .flex2col3 >div:nth-child(2) >div{
 	width: 33.33%;
 	border:1px solid #aeaeae;
-	padding:6px 0px;
+	padding:0px 0px;
 }
 .flex2col3 >div:nth-child(2) >div h5{
 	color: #373737;
 	font-weight: normal;
-	padding:2px 5px;
+	padding:5px 5px;
 }
 .flex2col3 >div:nth-child(2) >div:nth-child(3n+2){
 	border-left: none;
