@@ -186,6 +186,10 @@
 	font-weight: normal;
 	padding:5px 5px;
 }
+.flex2col3 >div:nth-child(2) >div h5:first-child{
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
 .flex2col3 >div:nth-child(2) >div:nth-child(3n+2){
 	border-left: none;
 	border-right: none;
@@ -672,11 +676,13 @@ div.row7 .flex1{
 }
 .slick-home2 ul.slick-dots button{
 	outline: none;
-	background-color: #fba100;
+	background-color: #3eb3e3;
 	color: #fff;
 	border:none;
 	padding:2px 5px;
 	cursor: pointer;
+	border-radius: 2px;
+	font-size: 12px;
 }
 .slick-home2 ul.slick-dots li.slick-active button{
 	background-color: #007283;
