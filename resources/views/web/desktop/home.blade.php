@@ -3,19 +3,7 @@
 	<title>{{ $setting->web_name }}</title>
 @endsection('title')
 @section('keyword')
-<meta property="og:url" content="{{ url('/') }}" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="{{ $setting->web_name }}" />
-<meta property="og:description" content="{{ $setting->web_description }}" />
-<meta property="og:image" content="{{ asset('public/img/'.$setting->web_logo) }}">
-
-<meta name="og:keyword" content="{{ $setting->web_keyword }}">
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:description" content="{{ $setting->web_description }}" />
-<meta name="twitter:title" content="{{ $setting->web_name }}" />
-<meta name="twitter:image" content="{{ asset('public/img/'.$setting->web_logo) }}" />
-<link rel="canonical" href="{{ url('/') }}" />
-
+	@include('seo.seo_home')
 @endsection('keyword')
 @section('css')
 	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/hover/css/hover.css') }}">
@@ -269,12 +257,12 @@
 					</div>
 				</div>
 				<div class="flex flex2 justify-content-between">
-					<div class="flex2col1">
+					<div class="flex2col1 active">
 						<div class="">
 							<div class="img1">
 								<h3><a href="javascript:;"><img src="{{ asset('public/images/desktop/home-5.png') }}" class="center-block"></a></h3>
 							</div>
-							<div class="img2">
+							<div class="img2" style="display: none;">
 								<h3><a href="javascript:;"><img src="{{ asset('public/images/desktop/home-9.png') }}" class="center-block"></a></h3>
 							</div>
 						</div>
@@ -284,7 +272,7 @@
 							<div class="img1">
 								<h3><a href="javascript:;"><img src="{{ asset('public/images/desktop/home-6.png') }}" class="center-block"></a></h3>
 							</div>
-							<div class="img2">
+							<div class="img2" style="display: none;">
 								<h3><a href="javascript:;"><img src="{{ asset('public/images/desktop/home-10.png') }}" class="center-block"></a></h3>
 							</div>
 						</div>
@@ -294,7 +282,7 @@
 							<div class="img1">
 								<h3><a href="javascript:;"><img src="{{ asset('public/images/desktop/home-7.png') }}" class="center-block"></a></h3>
 							</div>
-							<div class="img2">
+							<div class="img2" style="display: none;">
 								<h3><a href="javascript:;"><img src="{{ asset('public/images/desktop/home-11.png') }}" class="center-block"></a></h3>
 							</div>
 						</div>
@@ -304,35 +292,12 @@
 							<div class="img1">
 								<h3><a href="javascript:;"><img src="{{ asset('public/images/desktop/home-8.png') }}" class="center-block"></a></h3>
 							</div>
-							<div class="img2">
+							<div class="img2" style="display: none;">
 								<h3><a href="javascript:;"><img src="{{ asset('public/images/desktop/home-12.png') }}" class="center-block"></a></h3>
 							</div>
 						</div>
 					</div>
 				</div>
-				<script type="text/javascript">
-					$(document).ready(function() {
-						$('div.row4 div.img1').hover(function() {
-					  		$(this).fadeOut('', function() {
-					  			
-					  		});
-					  		$(this).siblings('div').fadeIn('', function() {
-					  			
-					  		});
-						}, function() {
-
-						});
-						$('div.row4 div.img2').hover(function() {
-						}, function() {
-					  		$(this).fadeOut('', function() {
-					  			
-					  		});
-					  		$(this).siblings('div').fadeIn('', function() {
-					  			
-					  		});
-						});
-					});
-				</script>
 				<div class="flex flex3 justify-content-between">
 					<div class="flex3col1 flex align-items-center justify-content-center">
 						<div class="">
