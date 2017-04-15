@@ -124,6 +124,9 @@ main.term .flex0col2 .row4 .flex95 .flex95col1{
 	color: #fff;
 	background-color: #0070c0;
 }
+main.term .flex0col2 .row4 .flex95 .flex95col1 h5{
+	font-weight: normal;
+}
 main.term .flex0col2 .row4 .flex95 .flex95col1:last-child{
 	background-color: #ff9900;
 }
@@ -144,4 +147,17 @@ main.term .flex0col2 .row5 .maps{
 }
 main.term .flex0col2 .row5 >h5{
 	margin-top: 10px;
+}
+/**/
+main.term .row5 .flex94{
+	margin-top: 15px;
+	color: #4c4c4c;
+}
+main.term .row5 .flex94 >div:nth-child(1){
+	margin-right: 10px;
+}
+main.term .row5 >h5{
+	color:#c23737;
+	font-weight: normal;
+	font-size: 14px;
 }
