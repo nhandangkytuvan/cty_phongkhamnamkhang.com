@@ -91,10 +91,12 @@
 							</div>
 						</div>
 					</div>
+					@php 
+						$posts = $data['term']->post()->paginate(7);
+						$post_first = $posts[0];
+					@endphp
+					@if($post_first)
 					<div class="post-first">
-						@php 
-							$post_first = $data['term']->post()->first();
-						@endphp
 						<h2 class="text-uppercase text-center">{{ $post_first->post_name }}</h2>
 						<p>{{ MyAPI::getLimitWord($post_first->post_description,40) }} <a href="">Chi tiết</a></p>
 					</div>
@@ -132,10 +134,11 @@
 							</h5>
 						</div>
 					</div>
+					@php unset($posts[0]); @endphp
+					@endif
 				</div>
 			</div>
 			<div class="posts">
-				@php $posts = $data['term']->post()->paginate(7); @endphp
 				@foreach($posts as $post)
 				<div class="post">
 					<div class="flex flex4 justify-content-between">

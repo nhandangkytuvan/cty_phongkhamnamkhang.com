@@ -11,24 +11,55 @@
 <link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-hoiphuc.css') }}">
 @endsection('css')
 @section('js')
-<script type="text/javascript" src="{{ asset('public/js/global/MSClass.js') }}"></script>
 @endsection('js')
 @section('content')
 <div class="banner">
 	<div class="container">
-		<div class="search">
-			<div class="clearfix">
-				<div class="pull-left">
-					<a href="{{ url('/') }}"><i class="fa fa-home"></i> Trang chủ ></a>
-					<a href="{{ MyAPI::getUrlTermObj($data['term']) }}">{{ $data['term']->term_name }}</a>
-				</div>
-				<div class="pull-right">
-					<form action="{{ url('/search') }}">
-						{{ csrf_field() }}
-						<button><i class="fa fa-search"></i></button>
-						<input type="text" placeholder="Nhập nội dung" name="keyword">
-						<button type="submit">Tìm kiếm</button>
-					</form>
+		<div class="home">
+			<div class="row1">
+				<div class="container">
+					<div class="flex flex1 justify-content-between">
+						<div class="flex1col1 flex justify-content-center align-items-center">
+							<div class="flex">
+								<div>
+									<h5 class="color1">Từ khóa phổ biến:</h5>
+								</div>
+								<div>
+									<h5 class="color2"><a href="">Sinh dục giảm sút -</a></h5>
+								</div>
+								<div>
+									<h5 class="color2"><a href="">Thời gian quan hệ ngắn -</a></h5>
+								</div>
+								<div>
+									<h5 class="color2"><a href="">Xuất tinh nhanh</a></h5>
+								</div>
+							</div>
+						</div>
+						<div class="flex1col2 flex justify-content-center align-items-center">
+							<div class="flex">
+								<div class="flex justify-content-center align-items-center">
+									<i class="bg1 dis-inline-block"></i>
+								</div>
+								<div class="flex justify-content-center align-items-center">
+									<h5>Tìm kiếm nhiều hơn</h5>
+								</div>
+								<div>
+									<form action="">
+										<div class="flex justify-content-center align-items-center">
+											<div class="flex">
+												<div>
+													<input type="text" placeholder="Nhập từ khóa">
+												</div>
+												<div>
+													<button type="submit" class="text-center"><i class="fa fa-search"></i></button>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

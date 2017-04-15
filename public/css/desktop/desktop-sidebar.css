@@ -33,7 +33,7 @@ main.term .flex0col2 .row2 .flex98{
 main.term .flex0col2 .row2 .flex98col1{
 	width: 33.33%;
 	background-color: #f5f5f5;
-	border:1px solid #929191;
+	border:1px solid #c0bcb7;
 }
 main.term .flex0col2 .row2 .flex98col1:nth-child(2),main.term .flex0col2 .row2 .flex98col1:nth-child(5){
 	border-left: none;
@@ -95,4 +95,53 @@ main.term .flex0col2 .row3>h5{
 main.term .flex0col2 .row3{
 	padding-bottom: 5px;
 	border-bottom: 2px solid #ff0000;
+}
+/**/
+main.term .flex0col2 .row4{
+	margin-top: 20px;
+}
+main.term .flex0col2 .row4 .tb{
+	position: relative;
+	margin-top: 20px;
+	border:1px solid #9ec0f8;
+}
+main.term .flex0col2 .row4 .tb p{
+	position: absolute;
+	width: 100%;overflow: hidden;
+	background-image: url('../../images/desktop/icon-9.png');
+	background-repeat: no-repeat;
+	color: #fff;
+	padding:5px;
+	bottom: -3px;
+	left: 0px;
+}
+main.term .flex0col2 .row4 .flex95{
+	margin-top: 15px;
+}
+main.term .flex0col2 .row4 .flex95 .flex95col1{
+	width: 49%;
+	height: 35px;
+	color: #fff;
+	background-color: #0070c0;
+}
+main.term .flex0col2 .row4 .flex95 .flex95col1:last-child{
+	background-color: #ff9900;
+}
+main.term .flex0col2 .row4 .flex95 .flex95col1 i{
+	font-size: 16px;
+	padding-right: 5px;
+}
+main.term .flex0col2 .row4{
+	padding-bottom: 10px;
+	border-bottom: 2px solid #ff0000;
+}
+/**/
+main.term .flex0col2 .row5{
+	margin-top: 20px;
+}
+main.term .flex0col2 .row5 .maps{
+	margin-top: 15px;
+}
+main.term .flex0col2 .row5 >h5{
+	margin-top: 10px;
 }

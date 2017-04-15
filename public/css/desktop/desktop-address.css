@@ -1,4 +1,66 @@
 /**/
+.banner{
+    background-image: url('../../images/desktop/term-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 452px;
+    padding-top: 400px;
+}
+/*search*/
+.home .row1{
+    background-color: #f1f1f1;
+}
+.home .row1 .flex1{
+    height: 52px;
+    padding:0px 15px;
+}
+.home .row1 .flex1col1 h5.color1{
+    color: #00639d;
+    padding-right: 5px;
+}
+.home .row1 .flex1col1 h5.color2{
+    color: #fa8f03;
+    font-weight: normal;
+}
+.home .row1 .flex1col2 i.bg1{
+    background-image: url('../../images/desktop/home-2.png');
+    background-repeat: no-repeat;
+    background-position: -36px -5px;
+    width: 20px;
+    height: 19px;
+    margin-right: 5px;
+}
+.home .row1 .flex1col2 input{
+    outline: none;
+    border:1px solid #505050;
+    height: 30px;
+    padding-left: 10px;
+    margin-left: 10px;
+    color: #969595;
+    width: 200px;
+}
+.home .row1 .flex1col2 button{
+    outline: none;
+    box-shadow: none;
+    height: 30px;
+    background-color: #505050;
+    color: #fff;
+    width: 55px;
+    border:none;
+    cursor: pointer;
+}
+/**/
+main.term{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+main.term .flex0col1{
+    width: 710px;
+}
+main.term .flex0col2{
+    width: 275px;
+}
+/**/
 main.term .flex0col1 .flex1{
 	margin-top: 15px;
 }

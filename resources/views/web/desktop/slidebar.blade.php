@@ -86,3 +86,99 @@
 	</div>
 	<h5 class="">Thời gian làm việc : 8:00 -20:00</h5>
 </div>
+<div class="row4">
+	<div class="flex flex100 align-items-center">
+		<div class="width-100 flex flex99">
+			<div class="flex flex99col1 align-items-center"><h3><img src="{{ asset('public/images/desktop/logo-header.png') }}" class="center-block img-responsive"></h3></div>
+			<div class="flex flex99col2 align-items-center">
+				<h3 class="text-uppercase"><a href="">Thiết bị hiện đại</a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="slick-tb">
+		<div>
+			<div class="tb">
+				<h5>
+					<a href="{{ MyAPI::getUrlTermID(33) }}">
+						<img alt="" src="{{ asset('public/images/desktop/tb-1.png') }}" class="center-block img-responsive"></a>
+				</h5>
+				<p class="text-center"><a href="{{ MyAPI::getUrlTermID(33) }}">Máy hồi phục chức năng sinh dục</a></p>
+			</div>
+		</div>
+		<div>
+			<div class="tb">
+				<h5>
+					<a href="{{ MyAPI::getUrlTermID(33) }}">
+						<img alt="" src="{{ asset('public/images/desktop/tb-2.png') }}" class="center-block img-responsive"></a>
+				</h5>
+				<p class="text-center"><a href="{{ MyAPI::getUrlTermID(33) }}">Máy điều trị sóng ngắn</a></p>
+			</div>
+		</div>
+		<div>
+			<div class="tb">
+				<h5><a href="{{ MyAPI::getUrlTermID(33) }}">
+				<img alt="" src="{{ asset('public/images/desktop/tb-3.png') }}" class="center-block img-responsive"></a></h5>
+				<p class="text-center"><a href="{{ MyAPI::getUrlTermID(33) }}">Máy điều trị hồng ngoại</a></p>
+			</div>
+		</div>
+		<div>
+			<div class="tb">
+				<h5><a href="{{ MyAPI::getUrlTermID(33) }}">
+				<img alt="" src="{{ asset('public/images/desktop/tb-4.png') }}" class="center-block img-responsive"></a></h5>
+				<p class="text-center"><a href="{{ MyAPI::getUrlTermID(33) }}">Máy hồi phục tuyến tiền liệt</a></p>
+			</div>
+		</div>
+		<div>
+			<div class="tb">
+				<h5><a href="{{ MyAPI::getUrlTermID(33) }}">
+				<img alt="" src="{{ asset('public/images/desktop/tb-5.png') }}" class="center-block img-responsive"></a></h5>
+				<p class="text-center"><a href="{{ MyAPI::getUrlTermID(33) }}">Quầy lễ tân</a></p>
+			</div>
+		</div>
+		<div>
+			<div class="tb">
+				<h5><a href="{{ MyAPI::getUrlTermID(33) }}"><img alt="" src="{{ asset('public/images/desktop/tb-6.png') }}" class="center-block img-responsive"></a></h5>
+				<p class="text-center"><a href="{{ MyAPI::getUrlTermID(33) }}">Phòng phẫu thuật vô khuẩn</a></p>
+			</div>
+		</div>
+		<div>
+			<div class="tb">
+				<h5><a href="{{ MyAPI::getUrlTermID(33) }}"><img alt="" src="{{ asset('public/images/desktop/tb-7.png') }}" class="center-block img-responsive"></a></h5>
+				<p class="text-center"><a href="{{ MyAPI::getUrlTermID(33) }}">Phòng phẫu thuật vô khuẩn</a></p>
+			</div>
+		</div>
+	</div>
+	<script>
+		$('.slick-tb').slick({
+		  	slidesToShow: 1,
+		  	slidesToScroll: 1,
+		  	autoplay:true,
+		});	
+	</script>
+	<div class="flex flex95 justify-content-between">
+		<div class="flex95col1 flex justify-content-center align-items-center">
+			<div class="">
+				<h5 class="text-center"><i class="fa fa-commenting"></i><a href="">Tư vấn trực tuyến</a></h5>
+			</div>
+		</div>
+		<div class="flex95col1 flex justify-content-center align-items-center">
+			<div class="">
+				<h5 class="text-center"><i class="fa fa-user-plus"></i><a href="">Nội dung chi tiết</a></h5>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row5">
+	<div class="flex flex100 align-items-center">
+		<div class="width-100 flex flex99">
+			<div class="flex flex99col1 align-items-center"><h3><img src="{{ asset('public/images/desktop/logo-header.png') }}" class="center-block img-responsive"></h3></div>
+			<div class="flex flex99col2 align-items-center">
+				<h3 class="text-uppercase"><a href="">lộ trình đến phòng khám</a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="maps">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7449.160575567864!2d105.84909!3d21.009455!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8a65517cee98a0b0!2sPh%C3%B2ng+Kh%C3%A1m+Chuy%C3%AAn+Khoa+Nam+Khang!5e0!3m2!1sen!2sus!4v1492224415294" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<h5>Địa chỉ phòng khám : <br>Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội</h5>
+</div>
