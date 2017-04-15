@@ -183,7 +183,7 @@
 				<div class="flex1col1 flex align-items-center justify-content-center">
 					<div>
 						<h3>
-							<a href="" class="text-container-center hvr-fade">Giới thiệu <br>phòng khám</a>
+							<a href="{{ url('ve-chung-toi') }}" class="text-container-center hvr-fade">Giới thiệu <br>phòng khám</a>
 						</h3>
 					</div>
 				</div>
