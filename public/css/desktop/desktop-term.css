@@ -114,7 +114,14 @@ main.term .flex1col2 .flex2col1{
 	background-color: #ff9900;
 }
 main.term .flex1col2 .flex2col1 h5{
-	font-weight: normal;
+	font-weight: normal;width: 100%;
+}
+main.term .flex1col2 .flex2col1 h5 a{
+	display: block;
+	width: 100%;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
 }
 main.term .flex1col2 .flex2col1:nth-child(2){
 	background-color: #d76764;
