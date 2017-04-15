@@ -180,5 +180,11 @@
 	<div class="maps">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7449.160575567864!2d105.84909!3d21.009455!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8a65517cee98a0b0!2sPh%C3%B2ng+Kh%C3%A1m+Chuy%C3%AAn+Khoa+Nam+Khang!5e0!3m2!1sen!2sus!4v1492224415294" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</div>
-	<h5>Địa chỉ phòng khám : <br>Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội</h5>
+	<div class="flex flex94">
+		<div class="flex align-items-center">
+			<img src="{{ asset('public/images/desktop/r_map_icon1.png') }}" class="center-block">
+		</div>
+		<div class="flex align-items-center">Địa chỉ phòng khám :</div>
+	</div>
+	<h5><a href="{{ url('dia-chi-phong-kham') }}">Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội</a></h5>
 </div>
