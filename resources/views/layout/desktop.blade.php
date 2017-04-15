@@ -344,7 +344,7 @@
 		</div>
 		<div class="row2">
 			<div class="footer-status container flex align-items-center justify-content-center">
-				<h5 class="text-center"><a href="">Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội</a></h5>
+				<h5 class="text-center"><a href="{{ url('dia-chi-phong-kham') }}">Địa chỉ Phòng khám: Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội</a></h5>
 			</div>
 		</div>
 	</footer>
