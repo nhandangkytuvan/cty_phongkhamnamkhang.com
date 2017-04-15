@@ -103,34 +103,32 @@
 					<div class="flex flex2 flex-wrap-wrap justify-content-between align-content-between">
 						<div class="flex2col1 flex align-items-center justify-content-center">
 							<h5>
-								<a href="#">Triệu chứng</a>
+								<a href="#" class="hvr-glow">Triệu chứng</a>
 							</h5>
 						</div>
 						<div class="flex2col1 flex align-items-center justify-content-center">
 							<h5>
-								<a href="#">
-									Nguyên nhân
-								</a>
+								<a href="#" class="hvr-glow">Nguyên nhân</a>
 							</h5>
 						</div>
 						<div class="flex2col1 flex align-items-center justify-content-center">
 							<h5>
-								<a href="#">Nguy hại</a>
+								<a href="#" class="hvr-glow">Nguy hại</a>
 							</h5>
 						</div>
 						<div class="flex2col1 flex align-items-center justify-content-center">
 							<h5>
-								<a href="#">Điều trị</a>
+								<a href="#" class="hvr-glow">Điều trị</a>
 							</h5>
 						</div>
 						<div class="flex2col1 flex align-items-center justify-content-center">
 							<h5>
-								<a href="#">Chi phí</a>
+								<a href="#" class="hvr-glow">Chi phí</a>
 							</h5>
 						</div>
 						<div class="flex2col1 flex align-items-center justify-content-center">
 							<h5>
-								<a href="#">Phòng khám</a>
+								<a href="#" class="hvr-glow">Phòng khám</a>
 							</h5>
 						</div>
 					</div>
