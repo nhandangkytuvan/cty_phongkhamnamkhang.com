@@ -143,7 +143,17 @@
 							<h3><a href="{{ MyAPI::getUrlPostObj($post) }}">{{ $post->post_name }}</a></h3>
 						</div>	
 						<div class="flex4col2 flex align-items-center">
-							<a href="">1800 - 6181</a>
+							<div class="flex flex5 justify-content-between">
+								<div class="flex5col1 flex align-items-center justify-content-center">
+									<a href="tel:1800 - 6181"><img src="{{ asset('public/images/desktop/term-5.png') }}" class="center-block"></a>
+								</div>
+								<div class="flex5col2 flex align-items-center justify-content-center">
+									<h5><a href="">1800 - 6181</a></h5>
+								</div>
+								<div class="flex5col3 flex align-items-center justify-content-center">
+									<h5><a href="">Tư vấn</a></h5>
+								</div>
+							</div>
 						</div>
 					</div>
 					<p>
@@ -155,6 +165,9 @@
 			</div>
 			<div class="my_pagination">
 				{{ $posts->links() }}
+			</div>
+			<div>
+				<h5><a href=""><img src="{{ asset('public/images/desktop/term-6.png') }}" class="center-block"></a></h5>
 			</div>
 		</div>
 		<div class="flex0col2">

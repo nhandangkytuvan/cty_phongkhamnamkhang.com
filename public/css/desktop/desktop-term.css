@@ -156,9 +156,24 @@ main.term .flex0col1 .post h3{
 	font-weight: normal;
 	color: #0170c1;
 }
-main.term .flex0col1 .post span{
-	font-size: 12px;
-	color: #a3a3ab;
+main.term .flex0col1 .post .flex4col1{
+	width: 74%;
+}
+main.term .flex0col1 .post .flex4col2{
+	width: 25%;
+}
+main.term .flex0col1 .post .flex4col2 .flex5{
+	width: 100%;
+}
+main.term .flex0col1 .post .flex4col2 .flex5col2 a{
+	color: #dd505c;font-size: 14px;
+}
+main.term .flex0col1 .post .flex4col2 .flex5col3 h5{
+	width: 100%;
+	background-color: #ff9900;
+	color: #fff;
+	padding:5px 8px;
+	border-radius: 2px;
 }
 main.term .flex0col1 .post p{
 	margin-top: 10px;
