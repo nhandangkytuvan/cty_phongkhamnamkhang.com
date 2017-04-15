@@ -141,6 +141,11 @@ class TermController extends Controller{
                 $post_avatars[$key] = public_path().'\img\\'.$post_avatar;
             }
             $term->post()->delete();
+            $media_files = $term->media()->pluck('media_file')->toArray();
+            foreach ($media_files as $key => $media_file) {
+                $media_files[$key] = public_path().'\img\\'.$media_file;
+            }
+            $term->media()->delete();
             File::delete($post_avatars);
             return redirect('user/term/index');
         }else{

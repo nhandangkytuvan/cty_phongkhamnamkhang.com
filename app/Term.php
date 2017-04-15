@@ -9,6 +9,9 @@ class Term extends Model{
     public function post(){
     	return $this->hasMany('App\Post','term_id','id');
     }
+    public function media(){
+        return $this->hasMany('App\Media','term_id','id');
+    }
     public function visit(){
         return $this->hasOne('App\Visit','term_id','id');
     }
