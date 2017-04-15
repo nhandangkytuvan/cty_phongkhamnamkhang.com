@@ -97,8 +97,8 @@
 					@endphp
 					@if($post_first)
 					<div class="post-first">
-						<h2 class="text-uppercase text-center">{{ $post_first->post_name }}</h2>
-						<p>{{ MyAPI::getLimitWord($post_first->post_description,40) }} <a href="">Chi tiết</a></p>
+						<h2 class="text-uppercase text-center"><a href="{{ MyAPI::getUrlPostObj($post_first) }}">{{ $post_first->post_name }}</a></h2>
+						<p>{{ MyAPI::getLimitWord($post_first->post_description,40) }} <a href="{{ MyAPI::getUrlPostObj($post_first) }}">Chi tiết</a></p>
 					</div>
 					<div class="flex flex2 flex-wrap-wrap justify-content-between align-content-between">
 						<div class="flex2col1 flex align-items-center justify-content-center">
