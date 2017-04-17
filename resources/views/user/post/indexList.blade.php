@@ -68,8 +68,8 @@
         @foreach($data['posts'] as $key => $post)
         <tr>
             <td>{{ $post->id }}</td>
-            <td><a href="{{ url($post->post_alias.'/'.$post->id.'.htm') }}">{{ $post->post_name }}</a></td>
-            <td><a href="{{ url($post->term->term_alias.'/'.$post->term->id) }}">{{ $post->term->term_name }}</a></td>
+            <td><a href="{{ MyAPI::getUrlPostObj($post) }}">{{ $post->post_name }}</a></td>
+            <td><a href="{{ MyAPI::getUrlTermObj($post->term) }}">{{ $post->term->term_name }}</a></td>
             <td>
                 <div class="radio {{ $post->post_status == 1 ? 'radio-success' : 'radio-default' }} radio-inline">
                     <input type="radio" checked="">
@@ -88,7 +88,7 @@
                             </a>
                             <ul class="dropdown-menu" style="border-radius: 0;right: 0;left: auto;">
                                 <li>
-                                    <a href="{{ url($post->post_alias.'/'.$post->id.'.htm') }}">
+                                    <a href="{{ MyAPI::getUrlPostObj($post) }}">
                                         <span class="glyphicon glyphicon-eye-open"></span> Xem bài viết
                                     </a> 
                                 </li> 

@@ -53,4 +53,8 @@ class TestController extends Controller{
         Session::put('web_dathen',$web_dathen);
         return 'oke';
     }
+    // 
+    public function seo(Request $request){
+        return view('test.seo');
+    }
 }

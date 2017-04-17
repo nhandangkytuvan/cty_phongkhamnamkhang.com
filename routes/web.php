@@ -8,7 +8,7 @@ Route::any('/search{query?}', 'Web\HomeController@search');
 // Term
 Route::get('/{term_alias?}/{term_id?}', 'Web\TermController@show')->where(['term_alias'=>'[-a-z0-9]+','term_id'=>'[0-9]+']);
 // Post
-Route::get('/{post_alias?}/{post_id?}.htm', 'Web\PostController@show')->where(['post_alias'=>'[-a-z0-9]+','post_id'=>'[0-9]+']);
+Route::get('/{post_alias?}/{post_id?}.html', 'Web\PostController@show')->where(['post_alias'=>'[-a-z0-9]+','post_id'=>'[0-9]+']);
 
 Route::any('web/user/login','Web\UserController@login');
 
@@ -50,3 +50,4 @@ Route::any('db_pluck','Web\TestController@db_pluck');
 Route::any('setRandomName','Web\TestController@setRandomName');
 Route::any('resetNumberTuvan','Web\TestController@resetNumberTuvan');
 Route::any('setNumberTuvan','Web\TestController@setNumberTuvan');
+Route::any('test/seo','Web\TestController@seo');

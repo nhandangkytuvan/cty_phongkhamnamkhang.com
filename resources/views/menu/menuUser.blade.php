@@ -48,6 +48,9 @@
             <li class="list-group-item"><a href="{{ url('user/setting/create') }}">
                 <i class="glyphicon glyphicon-home"></i> Web</a>
             </li>
+            <li class="list-group-item"><a href="{{ url('test/seo') }}">
+                <i class="fa fa-globe"></i> Seo</a>
+            </li>
         </ul>
     </div> 
 </div> 

@@ -9,14 +9,14 @@ class MyAPI {
     public static function getUrlPostID($post_id){
         $post = Post::find($post_id);
         if($post){
-        	return url($post->post_alias.'/'.$post->id.'.htm');
+        	return url($post->post_alias.'/'.$post->id.'.html');
         }else{
         	return url('/');
         }
     }
     public static function getUrlPostObj($post){
         if($post){
-            return url($post->post_alias.'/'.$post->id.'.htm');
+            return url($post->post_alias.'/'.$post->id.'.html');
         }else{
             return url('/');
         }
