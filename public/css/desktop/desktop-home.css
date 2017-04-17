@@ -530,7 +530,7 @@ div.row5 .flex2col2 .flex5col2 >div h5{
 	font-weight: normal;
 	font-size: 13px;
 }
-div.row5 .flex2col2 .flex5col2 >div h5 i{
+div.row5 .flex2col2 .flex5col2 >div >h5 >i{
 	display: inline-block;
 	background-image: url('../../images/desktop/home-2.png');
 	background-repeat: no-repeat;

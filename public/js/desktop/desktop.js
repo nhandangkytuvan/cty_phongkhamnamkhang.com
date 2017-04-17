@@ -32,11 +32,23 @@ $(document).ready(function() {
   		$(this).siblings('div').fadeIn();
   		myinter = setInterval( home_kythuatnamkhoa, 3000);
 	});
-	// $('div.row4 div.img2').hover(function() {
-	// }, function() {
- //  		$(this).fadeOut();
- //  		$(this).siblings('div').fadeIn();
-	// });
+	
+	$('#popup-desktop').popup({
+        blur:false,
+        transition: 'all 0.3s',
+        scrolllock: false,
+        background: false,
+        backgroundactive:false,
+        onclose: function() {setTimeout(showchat, 20000);}
+    });
+    var d = new Date();
+    var gio = d.getHours();
+    var phut = d.getMinutes();
+    if((7<gio&&gio<22)||(gio==22&&phut<=30)||(gio==7&&phut>=30)){
+        setTimeout(showchat, 15000);
+    }
+
+
 });
 function open_tuvan(){
 	window.open("http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en","_blank");
@@ -57,4 +69,8 @@ function home_kythuatnamkhoa(){
 		obj.removeClass('active');
 		$(".row4 .flex2col1").first().addClass('active');
 	}
+}
+
+function showchat() {
+    $('#popup-desktop').popup('show');
 }
