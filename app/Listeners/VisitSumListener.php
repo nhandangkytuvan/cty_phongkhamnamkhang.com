@@ -2,7 +2,7 @@
 
 namespace App\Listeners;
 
-use App\Events\ViewSumEvent;
+use App\Events\VisitSumEvent;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use App\Setting;
@@ -22,39 +22,21 @@ class VisitSumListener
     /**
      * Handle the event.
      *
-     * @param  ViewSumEvent  $event
+     * @param  VisitSumEvent  $event
      * @return void
      */
-    public function handle(ViewSumEvent $event)
+    public function handle(VisitSumEvent $event)
     {
-        if(!Session::has('use')){
-            if(rand(0,9)>=3){
+        if(!Session::has('user')){
+            if(rand(0,9)>=6){
                 $setting = $event->setting;
                 $setting->web_visitday = $setting->web_visitday + 1;
+                $setting->web_tuvan = $setting->web_tuvan + 1;
                 $setting->save();
-                //visit today
-                $web_visitday = Session::get('web_visitday');
-                $web_visitday = implode('',$web_visitday)+1;
-                $web_visitday = str_split($web_visitday);
-                if(count($web_visitday)==1){
-                    array_unshift($web_visitday,'0','0');
-                }
-                if(count($web_visitday)==2){
-                    array_unshift($web_visitday,'0');
-                }
-                Session::put('web_visitday',$web_visitday);
                 //dathen today
-                if(rand(0,9)>=2){
-                    $web_dathen = Session::get('web_dathen');
-                    $web_dathen = implode('',$web_dathen)+1;
-                    if($web_dathen>99){
-                        $web_dathen = 99;
-                    }
-                    $web_dathen = str_split($web_dathen);
-                    if(count($web_dathen)==1){
-                        array_unshift($web_dathen,'0');
-                    }
-                    Session::put('web_dathen',$web_dathen);
+                if(rand(0,9)>=6){
+                    $setting->web_dathen = $setting->web_dathen + 1;
+                    $setting->save();
                 }
             }
         }

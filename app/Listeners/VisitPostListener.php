@@ -2,7 +2,7 @@
 
 namespace App\Listeners;
 
-use App\Events\ViewPostEvent;
+use App\Events\VisitPostEvent;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use App\Visit;
@@ -21,19 +21,19 @@ class VisitPostListener
     /**
      * Handle the event.
      *
-     * @param  ViewPostEvent  $event
+     * @param  VisitPostEvent  $event
      * @return void
      */
-    public function handle(ViewPostEvent $event)
+    public function handle(VisitPostEvent $event)
     {
         $post_id = $event->post->id;
-        if($view_post = Visit::where('post_id',$post_id)->first()){
-            $view_post->view_sum = $view_post->view_sum + 1;
+        if($visit = Visit::where('post_id',$post_id)->first()){
+            $visit->visit_sum = $visit->visit_sum + 1;
         }else{
-            $view_post = new Visit;
-            $view_post->post_id = $post_id;
-            $view_post->view_sum = 0;
+            $visit = new Visit;
+            $visit->post_id = $post_id;
+            $visit->visit_sum = 0;
         }
-        $view_post->save();
+        $visit->save();
     }
 }
