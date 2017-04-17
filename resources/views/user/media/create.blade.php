@@ -20,9 +20,7 @@
                     <input type="file" class="form-control" name="media_file[]" multiple id="fileUpload">
                 </div>
             </div>
-            <div class="row" id="image-holder">
-                
-            </div>
+            <div class="row" id="image-holder"></div>
             <div class="form-group">
                 <label class="control-label">Tên</label>
                 <input type="text" class="form-control" name="media_name" placeholder="Tiêu đề ảnh" value="{{ old('media_name') }}">
