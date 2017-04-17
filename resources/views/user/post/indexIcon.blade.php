@@ -4,7 +4,7 @@
 @endsection('menu')
 @section('content')
 <div style="margin-bottom: 10px;">
-    <form action="{{ url('user/post/index') }}" class="form-inline">
+    <form action="" class="form-inline">
         <input type="hidden" name="view" value="{{ Request::input('view') }}">
         <div class="form-group">
             <select name="term_id" class="form-control">

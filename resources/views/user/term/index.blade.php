@@ -4,7 +4,7 @@
 @endsection('menu')
 @section('content')
 <div style="margin-bottom: 10px;">
-    <form action="{{ url('user/term/index') }}" class="form-inline">
+    <form action="" class="form-inline">
         <div class="form-group">
             <select name="term_id" class="form-control">
                 <option value="0">Chọn danh mục</option>
