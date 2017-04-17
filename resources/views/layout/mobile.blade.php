@@ -20,7 +20,7 @@
 	<meta property="og:type" content="Bệnh viện, Phòng Khám Đa Khoa, Y tế" />
     <meta property="og:locale " content="vi_VN">
     <!-- link rss,sitemap -->
-    <link rel="canonical" href="{{ url('sitemap.xml') }}" />
+    <link rel="canonical" href="{{ url('/') }}" />
     <!-- link icon -->
     <link rel="shortcut icon" href="{{ asset('public/img/'.$setting->web_icon) }}" type="image/x-icon">
     @yield('title')

@@ -20,7 +20,7 @@
 	<meta property="og:type" content="Bệnh viện, Phòng Khám Đa Khoa, Y tế" />
     <meta property="og:locale " content="vi_VN">
     <!-- link rss,sitemap -->
-    <link rel="canonical" href="{{ url('sitemap.xml') }}" />
+    <link rel="canonical" href="{{ url('/') }}" />
     <!-- link icon -->
     <link rel="shortcut icon" href="{{ asset('public/img/'.$setting->web_icon) }}" type="image/x-icon">
     @yield('title')
@@ -60,7 +60,11 @@
 					</div>
 					<div class="flex2col2 flex align-items-center justify-content-center">
 						<div>
+							@if(Request::url()==url('/'))
+							<h1 class="text-uppercase"><a href="{{ url('ve-chung-toi') }}">Phòng khám chuyên khoa Nam Khang</a></h1>
+							@else
 							<h2 class="text-uppercase"><a href="{{ url('ve-chung-toi') }}">Phòng khám chuyên khoa Nam Khang</a></h2>
+							@endif
 							<h3 class="text-uppercase"><a href="{{ url('dia-chi-phong-kham') }}">Số 193C1 Bà Triệu - Hai Bà Trưng - Hà Nội</a></h3>
 						</div>
 					</div>

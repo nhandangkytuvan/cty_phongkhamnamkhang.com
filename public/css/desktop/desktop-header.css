@@ -2,7 +2,7 @@ header {margin:35px 0px;}
 header .flex1 .flex2col1{
 	padding-right: 10px;
 }
-header .flex1 .flex2col2 h2{ 
+header .flex1 .flex2col2 h2,header .flex1 .flex2col2 h1{ 
 	color: #2a6636;
 	font-size: 16px;
 	font-weight: 900;
