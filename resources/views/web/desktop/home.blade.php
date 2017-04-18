@@ -1,6 +1,6 @@
 @extends('layout.desktop')
 @section('title')
-	<title>Phòng khám chuyên khoa Nam Khang</title>
+	<title>{{ $setting->web_name }}</title>
 @endsection('title')
 @section('keyword')
 	@include('seo.seo_home')
