@@ -7,6 +7,7 @@ use App\Term;
 use File;
 use Gate;
 use Session;
+use DB;
 class TermController extends Controller{
     protected $rules = [
         'term_name' => 'required',
@@ -120,6 +121,10 @@ class TermController extends Controller{
                 }
                 $term->post()->delete();
                 File::delete($post_avatars);
+                $term->visit()->delete();
+                DB::statement('ALTER TABLE term AUTO_INCREMENT = 1');
+                DB::statement('ALTER TABLE post AUTO_INCREMENT = 1');
+                DB::statement('ALTER TABLE visit AUTO_INCREMENT = 1');
                 return redirect('user/term/index');
             }else{
                 Session::flash('error','Xóa lỗi.');
@@ -146,6 +151,8 @@ class TermController extends Controller{
             }
             $term->media()->delete();
             File::delete($post_avatars);
+            DB::statement('ALTER TABLE post AUTO_INCREMENT = 1');
+            DB::statement('ALTER TABLE visit AUTO_INCREMENT = 1');
             return redirect('user/term/index');
         }else{
             $data['term'] = $term;

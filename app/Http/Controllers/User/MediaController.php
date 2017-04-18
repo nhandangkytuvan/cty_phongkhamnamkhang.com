@@ -8,6 +8,7 @@ use App\Term;
 use File;
 use Gate;
 use Session;
+use DB;
 class MediaController extends Controller{
     protected $rules_create = [
         'media_name' => 'required',
@@ -125,6 +126,7 @@ class MediaController extends Controller{
                 return back();
             }
             if($media->delete()){
+                DB::statement('ALTER TABLE media AUTO_INCREMENT = 1');
                 Session::flash('success','Xóa thành công.');
                 File::delete(public_path().'/img/'.$media->media_file);
                 return redirect('user/media/index');
