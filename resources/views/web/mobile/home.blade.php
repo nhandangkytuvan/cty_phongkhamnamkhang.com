@@ -1,6 +1,6 @@
 @extends('layout.mobile')
 @section('title')
-    <title>{{ $setting->web_name }}</title>
+    <title>Phòng khám chuyên khoa Nam Khang</title>
 @endsection('title')
 @section('keyword')
 	@include('seo.seo_home')
