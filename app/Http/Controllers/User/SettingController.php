@@ -21,9 +21,9 @@ class SettingController extends Controller{
             $setting = new Setting;
             $setting->user_id = $user->id;
             foreach ($setting->column as $key => $value) {
-                if($request->has($value)){
+                //if($request->has($value)){
                     $setting->$value = $request->input($value);
-                }
+                //}
             }
             if($setting->column_avatar){
                 foreach ($setting->column_avatar as $key => $value) {
