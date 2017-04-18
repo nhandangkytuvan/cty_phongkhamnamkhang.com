@@ -139,13 +139,14 @@ class TermController extends Controller{
             foreach ($post_avatars as $key => $post_avatar) {
                 $post_avatars[$key] = public_path().'\img\\'.$post_avatar;
             }
-            $term->post()->delete();
-            $media_files = $term->media()->pluck('media_file')->toArray();
-            foreach ($media_files as $key => $media_file) {
-                $media_files[$key] = public_path().'\img\\'.$media_file;
-            }
-            $term->media()->delete();
             File::delete($post_avatars);
+            $term->post()->delete();
+            // $media_files = $term->media()->pluck('media_file')->toArray();
+            // foreach ($media_files as $key => $media_file) {
+            //     $media_files[$key] = public_path().'\img\\'.$media_file;
+            // }
+            // $term->media()->delete();
+            //File::delete($media_files);
             DB::statement('ALTER TABLE post AUTO_INCREMENT = 1');
             DB::statement('ALTER TABLE visit AUTO_INCREMENT = 1');
             return redirect('user/term/index');
