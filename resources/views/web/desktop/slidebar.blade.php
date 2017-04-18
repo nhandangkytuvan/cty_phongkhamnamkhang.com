@@ -3,7 +3,7 @@
 		<div class="width-100 flex flex99">
 			<div class="flex flex99col1 align-items-center"><h3><img src="{{ asset('public/images/desktop/logo-header.png') }}" class="center-block img-responsive"></h3></div>
 			<div class="flex flex99col2 align-items-center">
-				<h3 class="text-uppercase"><a href="">Giới thiệu phòng khám</a></h3>
+				<h3 class="text-uppercase">Giới thiệu phòng khám</h3>
 			</div>
 		</div>
 	</div>
@@ -17,7 +17,7 @@
 		<div class="width-100 flex flex99">
 			<div class="flex flex99col1 align-items-center"><h3><img src="{{ asset('public/images/desktop/logo-header.png') }}" class="center-block img-responsive"></h3></div>
 			<div class="flex flex99col2 align-items-center">
-				<h3 class="text-uppercase"><a href="">chỉ nam thăm khám</a></h3>
+				<h3 class="text-uppercase">chỉ nam thăm khám</h3>
 			</div>
 		</div>
 	</div>
@@ -25,48 +25,48 @@
 		<div class="flex98col1">
 			<div class="flex97 flex align-items-center justify-content-center">
 				<div>
-					<h5 class="text-center"><a href=""><i class="bg1"></i></a></h5>
-					<h5 class="text-center"><a href="">Tư vấn<br>trực tuyến</a></h5>
+					<h5 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="bg1"></i></a></h5>
+					<h5 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn<br>trực tuyến</a></h5>
 				</div>
 			</div>
 		</div>
 		<div class="flex98col1">
 			<div class="flex97 flex align-items-center justify-content-center">
 				<div>
-					<h5 class="text-center"><a href=""><i class="bg2"></i></a></h5>
-					<h5 class="text-center"><a href="">Giải đáp<br>triệu chứng</a></h5>
+					<h5 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="bg2"></i></a></h5>
+					<h5 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Giải đáp<br>triệu chứng</a></h5>
 				</div>
 			</div>
 		</div>
 		<div class="flex98col1">
 			<div class="flex97 flex align-items-center justify-content-center">
 				<div>
-					<h5 class="text-center"><a href=""><i class="bg3"></i></a></h5>
-					<h5 class="text-center"><a href="">Tư vấn<br>chi phí</a></h5>
+					<h5 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="bg3"></i></a></h5>
+					<h5 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn<br>chi phí</a></h5>
 				</div>
 			</div>
 		</div>
 		<div class="flex98col1">
 			<div class="flex97 flex align-items-center justify-content-center">
 				<div>
-					<h5 class="text-center"><a href=""><i class="bg4"></i></a></h5>
-					<h5 class="text-center"><a href="">Đặt hẹn<br>kiếm tra</a></h5>
+					<h5 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="bg4"></i></a></h5>
+					<h5 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đặt hẹn<br>kiếm tra</a></h5>
 				</div>
 			</div>
 		</div>
 		<div class="flex98col1">
 			<div class="flex97 flex align-items-center justify-content-center">
 				<div>
-					<h5 class="text-center"><a href=""><i class="bg5"></i></a></h5>
-					<h5 class="text-center"><a href="">Tư vấn<br>ưu đãi</a></h5>
+					<h5 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="bg5"></i></a></h5>
+					<h5 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn<br>ưu đãi</a></h5>
 				</div>
 			</div>
 		</div>
 		<div class="flex98col1">
 			<div class="flex97 flex align-items-center justify-content-center">
 				<div>
-					<h5 class="text-center"><a href=""><i class="bg6"></i></a></h5>
-					<h5 class="text-center"><a href="">Đặt hẹn<br>trên mạng</a></h5>
+					<h5 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="bg6"></i></a></h5>
+					<h5 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đặt hẹn<br>trên mạng</a></h5>
 				</div>
 			</div>
 		</div>
@@ -80,7 +80,7 @@
 		<div class="flex96col2 flex justify-content-center align-items-center">
 			<div>
 				<h5>Điện thoại tư vấn miễn phí</h5>
-				<h5><a href="">1800 - 6181</a></h5>
+				<h5><a href="tel:18006181">1800 - 6181</a></h5>
 			</div>
 		</div>
 	</div>
@@ -91,7 +91,7 @@
 		<div class="width-100 flex flex99">
 			<div class="flex flex99col1 align-items-center"><h3><img src="{{ asset('public/images/desktop/logo-header.png') }}" class="center-block img-responsive"></h3></div>
 			<div class="flex flex99col2 align-items-center">
-				<h3 class="text-uppercase"><a href="">Thiết bị hiện đại</a></h3>
+				<h3 class="text-uppercase">Thiết bị hiện đại</h3>
 			</div>
 		</div>
 	</div>
@@ -158,12 +158,12 @@
 	<div class="flex flex95 justify-content-between">
 		<div class="flex95col1 flex justify-content-center align-items-center">
 			<div class="">
-				<h5 class="text-center"><i class="fa fa-commenting"></i><a href="">Tư vấn trực tuyến</a></h5>
+				<h5 class="text-center"><i class="fa fa-commenting"></i><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a></h5>
 			</div>
 		</div>
 		<div class="flex95col1 flex justify-content-center align-items-center">
 			<div class="">
-				<h5 class="text-center"><i class="fa fa-user-plus"></i><a href="">Nội dung chi tiết</a></h5>
+				<h5 class="text-center"><i class="fa fa-user-plus"></i><a href="{{ MyAPI::getUrlTermID(33) }}">Nội dung chi tiết</a></h5>
 			</div>
 		</div>
 	</div>
@@ -173,7 +173,7 @@
 		<div class="width-100 flex flex99">
 			<div class="flex flex99col1 align-items-center"><h3><img src="{{ asset('public/images/desktop/logo-header.png') }}" class="center-block img-responsive"></h3></div>
 			<div class="flex flex99col2 align-items-center">
-				<h3 class="text-uppercase"><a href="">lộ trình đến phòng khám</a></h3>
+				<h3 class="text-uppercase">lộ trình đến phòng khám</h3>
 			</div>
 		</div>
 	</div>

@@ -22,17 +22,14 @@
 					<div class="flex flex1 justify-content-between">
 						<div class="flex1col1 flex justify-content-center align-items-center">
 							<div class="flex">
-								<div>
-									<h5 class="color1">Từ khóa phổ biến:</h5>
+								<div class="flex justify-content-center align-items-center">
+									<i class="fa fa-home"></i>
 								</div>
-								<div>
-									<h5 class="color2"><a href="">Sinh dục giảm sút -</a></h5>
+								<div class="flex justify-content-center align-items-center">
+									<a href="">Trang chủ</a> > 
 								</div>
-								<div>
-									<h5 class="color2"><a href="">Thời gian quan hệ ngắn -</a></h5>
-								</div>
-								<div>
-									<h5 class="color2"><a href="">Xuất tinh nhanh</a></h5>
+								<div class="flex justify-content-center align-items-center">
+									<a href="{{ MyAPI::getUrlTermObj($term) }}">{{ $term->term_name }}</a>
 								</div>
 							</div>
 						</div>

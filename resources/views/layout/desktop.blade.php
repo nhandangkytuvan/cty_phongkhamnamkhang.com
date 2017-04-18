@@ -43,8 +43,8 @@
 	<script type="text/javascript" src="{{ asset('public/js/global/toastr8/dist/js/toastr8.min.js') }}"></script>
 	@yield('js')
 	<script type="text/javascript" src="{{ asset('public/js/desktop/desktop.js') }}"></script>
-	<!-- <script type="text/javascript" src="{{ asset('public/js/desktop/right.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('public/js/desktop/swt.js') }}"></script> -->
+	<script type="text/javascript" src="{{ asset('public/js/desktop/right.js') }}"></script>
+	<!-- <script type="text/javascript" src="{{ asset('public/js/desktop/swt.js') }}"></script> -->
 </head>
 <body>
     <header>
@@ -215,134 +215,134 @@
 				<div class="flex flex1">
 					<div class="flex1col1">
 						<h2>
-							<a href="">
+							<a href="{{ url('/') }}">
 								<img src="{{ asset('public/images/desktop/logo-header.png') }}" class="center-block">
 							</a>
 						</h2>
 						<h3 class="text-center text-uppercase">
-							<a href="">Phòng khám<br>chuyên khoa Nam Khang</a>
+							<a href="{{ url('/') }}">Phòng khám<br>chuyên khoa Nam Khang</a>
 						</h3>
-						<h4 class="text-center text-uppercase"><a href="">1800 - 6181</a></h4>
-						<h4 class="text-center text-uppercase"><a href="">043 - 9656999</a></h4>
+						<h4 class="text-center text-uppercase"><a href="tel:1800 - 6181">1800 - 6181</a></h4>
+						<h4 class="text-center text-uppercase"><a href="tel:043 - 9656999">043 - 9656999</a></h4>
 					</div>
 					<div class="flex1col2">
-						<h3 class="icon text-center"><a href="#"><i class="hvr-glow"></i></a></h3>
+						<h3 class="icon text-center"><i></i></h3>
 						<div class="bg1 flex align-items-center justify-content-center">
 							<h5 class="text-center">
-								<a href="">Rối loạn chức năng sinh dục</a>
+								Rối loạn chức năng sinh dục
 							</h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Liệt dương</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(8) }}">Liệt dương</a></h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Yếu sinh lý</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(35) }}">Yếu sinh lý</a></h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Xuất tinh sớm</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(10) }}">Xuất tinh sớm</a></h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Rối loạn cương dương</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(9) }}">Rối loạn cương dương</a></h5>
 						</div>
 					</div>
 					<div class="flex1col2">
-						<h3 class="icon text-center"><a href="#"><i class="hvr-glow"></i></a></h3>
+						<h3 class="icon text-center"><i></i></h3>
 						<div class="bg1 flex align-items-center justify-content-center">
 							<h5 class="text-center">
-								<a href="">Bệnh tuyến<br>tiền liệt </a>
+								Bệnh tuyến<br>tiền liệt
 							</h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Viêm tuyến tiền liệt</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(3) }}">Viêm tuyến tiền liệt</a></h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Phì đại tuyến tiền liệt</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(6) }}">Phì đại tuyến tiền liệt</a></h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">U nang tuyến tiền liệt</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(4) }}">U nang tuyến tiền liệt</a></h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Tăng sinh tuyến tiền liệt</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(5) }}">Tăng sinh tuyến tiền liệt</a></h5>
 						</div>
 					</div>
 					<div class="flex1col2">
-						<h3 class="icon text-center"><a href="#"><i class="hvr-glow"></i></a></h3>
+						<h3 class="icon text-center"><i></i></h3>
 						<div class="bg1 flex align-items-center justify-content-center">
 							<h5 class="text-center">
-								<a href="">Viêm đường<br>tiết niệu</a>
+								Viêm đường<br>tiết niệu
 							</h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Viêm quy đầu</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(18) }}">Viêm quy đầu</a></h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Viêm niệu đạo</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(20) }}">Viêm niệu đạo</a></h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Viêm tinh hoàn</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(21) }}">Viêm tinh hoàn</a></h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Viêm bàng quang</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(19) }}">Viêm bàng quang</a></h5>
 						</div>
 					</div>
 					<div class="flex1col2">
-						<h3 class="icon text-center"><a href="#"><i class="hvr-glow"></i></a></h3>
+						<h3 class="icon text-center"><i></i></h3>
 						<div class="bg1 flex align-items-center justify-content-center">
 							<h5 class="text-center">
-								<a href="">Bệnh xã hội</a>
+								Bệnh xã hội
 							</h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Bệnh lậu</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(30) }}">Bệnh lậu</a></h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Giang mai</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(29) }}">Giang mai</a></h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Sùi mào gà</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(28) }}">Sùi mào gà</a></h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Mụn rộp sinh dục</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(31) }}">Mụn rộp sinh dục</a></h5>
 						</div>
 					</div>
 					<div class="flex1col2">
-						<h3 class="icon text-center"><a href="#"><i class="hvr-glow"></i></a></h3>
+						<h3 class="icon text-center"><i></i></h3>
 						<div class="bg1 flex align-items-center justify-content-center">
 							<h5 class="text-center">
-								<a href=""> Chỉnh hình cơ<br>quan sinh dục</a>
+								Chỉnh hình cơ<br>quan sinh dục
 							</h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Dài bao quy đầu</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(13) }}">Dài bao quy đầu</a></h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Hẹp bao quy đầu</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(15) }}">Hẹp bao quy đầu</a></h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Kéo dài dương vật</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(14) }}">Kéo dài dương vật</a></h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Tăng kích thước<br>dương vật</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(16) }}">Tăng kích thước<br>dương vật</a></h5>
 						</div>
 					</div>
 					<div class="flex1col2">
-						<h3 class="icon text-center"><a href="#"><i class="hvr-glow"></i></a></h3>
+						<h3 class="icon text-center">><i></i></h3>
 						<div class="bg1 flex align-items-center justify-content-center">
 							<h5 class="text-center">
-								<a href="">Vô sinh nam</a>
+								Vô sinh nam
 							</h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Vô tinh</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(25) }}">Vô tinh</a></h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Tinh trùng ít</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(23) }}">Tinh trùng ít</a></h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Tin trùng yếu</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(26) }}">Tinh trùng yếu</a></h5>
 						</div>
 						<div class="item">
-							<h5 class="text-center"><a href="">Xuất tinh ra máu</a></h5>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(24) }}">Xuất tinh ra máu</a></h5>
 						</div>
 					</div>
 				</div>

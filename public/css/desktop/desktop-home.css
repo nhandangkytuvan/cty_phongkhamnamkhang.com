@@ -368,6 +368,7 @@ div.row5 .flex2{
 	margin-top: 35px;
 	padding:30px 13px;
 	background-color: #fff;
+	height: 409px;
 }
 div.row5 .flex2col1{
 	width: 211px;
@@ -432,10 +433,10 @@ div.row5 .flex2col2 .flex4col1 >div a{
 	background-color: #3fb3e4;
 	width: 100%;
 	padding:0px 15px;
-	text-align: center;
+	text-align: center;cursor: default;
 }
-div.row5 .flex2col2 .flex4col1 >div a.active{
-	background-color: #2a5aa6;
+div.row5 .flex2col2 .flex4col1 >div a:hover{
+	text-decoration: none;
 }
 div.row5 .flex2col2 .flex4col1 >div a.active {
 	position: relative;
@@ -466,6 +467,7 @@ div.row5 .flex2col2 .tabs-contents-1 >div.active,div.row5 .flex2col2 .tabs-conte
 }
 div.row5 .flex2col2 .flex5col1{
 	width: 485px;
+	/*height: 280px;*/
 }
 div.row5 .flex2col2 .flex5col2{
 	width: 245px;
@@ -473,7 +475,7 @@ div.row5 .flex2col2 .flex5col2{
 div.row5 .flex2col2 .flex5col1 h2{
 	font-weight: normal;
 	font-size: 14px;
-	margin-top: 25px;
+	/*margin-top: 25px;*/
 }
 div.row5 .flex2col2 .flex5col1 p{
 	margin-top: 5px;color: #373737;
@@ -483,7 +485,7 @@ div.row5 .flex2col2 .flex5col1 p a{
 }
 div.row5 .flex2col2 ul{
 	list-style: none;
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 }
 div.row5 .flex2col2 ul li{
 	border-top:1px dashed #e2e2e2;
@@ -506,7 +508,7 @@ div.row5 .flex2col2 ul li h5 i{
     top: 11px;
 }
 div.row5 .flex2col2 .flex6{
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 	border:1px dashed #f2f2f2;
 	padding:8px 10px;
 }
@@ -520,13 +522,13 @@ div.row5 .flex2col2 .flex6 .flex6col1:last-child{
 /**/
 div.row5 .flex2col2 .flex5col2{
 	background-color: #f2f1f1;
-	padding:5px;
-	margin-top: 20px;
+	padding:0px 5px;
+	/*margin-top: 20px;*/
 }
 div.row5 .flex2col2 .flex5col2 >div{
 	margin-top: 5px;
 }
-div.row5 .flex2col2 .flex5col2 >div h5{
+div.row5 .flex2col2 .flex5col2 >div >h5{
 	font-weight: normal;
 	font-size: 13px;
 }

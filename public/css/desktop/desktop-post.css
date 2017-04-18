@@ -21,6 +21,18 @@
     color: #fa8f03;
     font-weight: normal;
 }
+/**/
+.home .row1 .flex1col1 >div>div:first-child i{
+    font-size: 30px;
+    color: #ff812d;
+}
+.home .row1 .flex1col1{
+    color: #242424;
+}
+.home .row1 .flex1col1 >div>div{
+    margin-right: 5px;
+}
+/**/
 .home .row1 .flex1col2 i.bg1{
     background-image: url('../../images/desktop/home-2.png');
     background-repeat: no-repeat;
