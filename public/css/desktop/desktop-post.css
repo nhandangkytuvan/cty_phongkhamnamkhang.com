@@ -64,17 +64,25 @@
 main.term{
     margin-top: 50px;
     padding-bottom: 50px;
+    border:1px solid #e6e6e6;
+    padding:0px 10px;
 }
 main.term .flex0col1{
-    width: 710px;
+    width: 688px;
+    border-right:1px solid #e6e6e6;
+    padding:10px 0px 0px 0px;
 }
 main.term .flex0col2{
     width: 275px;
+    padding-top: 10px;
 }
 /**/
 main.term.post h1{
     font-size: 16px;
     color: #00639d;
+}
+main.term.post .post-footer{
+    padding-right: 15px;
 }
 main.term.post .post-footer .order1 p{
     line-height: 20px;
@@ -114,9 +122,17 @@ main.term.post .post-footer .order2 .flex1col1{
     background-color: #f7f7f7;
     height: 200px;
     padding:0px 5px;
-    border-right: none;
-    border-top: none;
     color: #000;
+}
+main.term.post .post-footer .order2 .flex1col1:nth-child(n+4){
+    border-top: none;
+}
+main.term.post .post-footer .order2 .flex1col1:nth-child(2){
+    border-color: #02b9c7;
+}
+main.term.post .post-footer .order2 .flex1col1:nth-child(5){
+    border-left: none;
+    border-right: none;
 }
 main.term.post .post-footer .order2 .flex1col1 h4 i{
     display: inline-block;
