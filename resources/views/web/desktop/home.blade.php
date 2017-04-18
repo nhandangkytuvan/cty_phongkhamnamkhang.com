@@ -929,7 +929,7 @@
 											</div>
 											<div class="flex6col1 flex align-items-center justify-content-center">
 												<h5 class="text-center">
-													<a href="{{ MyAPI::getUrlTermID(15) }}">Thủ thuật hẹp bao quy đầu</a>
+													<a href="{{ MyAPI::getUrlTermID(15) }}">Hẹp bao quy đầu</a>
 												</h5>
 											</div>
 											<div class="flex6col1 flex align-items-center justify-content-center">
@@ -1117,7 +1117,7 @@
 											<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(23) }}">Tinh trùng ít</a></h5>
 										</div>
 										<div class="flex6col1 flex align-items-center justify-content-center">
-											<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(25) }}">Vô tinh</a></h5>
+											<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(25) }}">Không có tinh trùng</a></h5>
 										</div>
 										<div class="flex6col1 flex align-items-center justify-content-center">
 											<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(24) }}">Xuất tinh ra máu</a></h5>
