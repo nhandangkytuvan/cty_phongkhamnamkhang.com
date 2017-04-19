@@ -285,7 +285,7 @@
 						</p>
 					</div>
 					<div class="flex2col1">
-						<h3 class="text-center">Có kinh nghiệm phong phú trong điều trị<br>các bệnh trực tràng hậu môn</h3>
+						<h3 class="text-center">Có kinh nghiệm phong phú trong điều trị<br>các bệnh nam khoa</h3>
 						<p class="text-justify">
 							Dựa vào đội ngũ y bác sỹ nhiều năm kinh nghiệm lâm sàng, đã điều trị thành công cho rất nhiều ca bệnh phức tạp. Hợp tác với nhiều bác sỹ chuyên khoa, đã cứu chữa khỏi cho rất nhiều bệnh nhân mắc bệnh nguy hiểm.
 						</p>
@@ -488,7 +488,7 @@
 								<div><h4 class="text-center"><a class="flex align-items-center justify-content-center">Xuất tinh sớm</a></h4></div>
 							</div>
 							<div class="flex4col1">
-								<div><h4 class="text-center"><a  class="flex align-items-center justify-content-center">Suy giảm khả năng cương cứng</a></h4></div>
+								<div><h4 class="text-center"><a  class="flex align-items-center justify-content-center">Rối loạn cương dương</a></h4></div>
 							</div>
 							<div class="flex4col1">
 								<div><h4 class="text-center"><a class="flex align-items-center justify-content-center">Yếu sinh lý</a></h4></div>
@@ -615,33 +615,43 @@
 							<div>
 								<div class="flex flex5 justify-content-between">
 									<div class="flex5col1 flex flex-wrap-wrap align-content-between">
-										<div class="width-100"><h2 class="text-uppercase text-center"><a href="">Suy giảm khả năng cương cứng là gì</a></h2></div>
+										@php
+											$term = MyAPI::getTermID(9);
+											$posts =  $term->post()->limit(6)->latest()->get();
+										@endphp
+										@if(count($posts))
 										<div class="width-100">
-											<p class="text-justify">
-												Liệt dương hay rối loạn cương dương hay yếu sinh lý là một rối loạn chức năng tình dục ở nam giới có biểu hiện dương vật không đủ hay không giữ được độ cứng làm mất khả năng đi vào ... <a href="">chi tiết</a>
-											</p>
+											<h2 class="text-uppercase text-center">
+												<a href="{{ MyAPI::getUrlPostObj($posts[0]) }}">{{ $posts[0]->post_name }}</a>
+											</h2>
 										</div>
 										<div class="width-100">
+											<p class="text-justify">
+												{{ MyAPI::getLimitWord($posts[0]->post_description,30) }}... 
+												<a href="{{ MyAPI::getUrlPostObj($posts[0]) }}">chi tiết</a>
+											</p>
+										</div>
+										@php unset($posts[0]) ; @endphp
+										@endif
+										<div class="width-100">
 											<ul>
-												<li><h5><i></i><a href="">Nguyên nhân gây bệnh liệt dương</a></h5></li>
-												<li><h5><i></i><a href="">Những triệu chứng ban đầu của bệnh liệt dương</a></h5></li>
-												<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
-												<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
-												<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+												@foreach($posts as $post)
+												<li><h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}">{{ $post->post_name }}</a></h5></li>
+												@endforeach
 											</ul>
 										</div>
 										<div class="flex flex6 width-100">
 											<div class="flex6col1 flex align-items-center justify-content-center">
-												<h5 class="text-center"><a href="">Liệt dương</a></h5>
+												<h5 class="text-center"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Liệt dương</a></h5>
 											</div>
 											<div class="flex6col1 flex align-items-center justify-content-center">
-												<h5 class="text-center"><a href="">cương cứng kém</a></h5>
+												<h5 class="text-center"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">cương cứng kém</a></h5>
 											</div>
 											<div class="flex6col1 flex align-items-center justify-content-center">
-												<h5 class="text-center"><a href="">Không cương cứng được</a></h5>
+												<h5 class="text-center"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Không cương cứng được</a></h5>
 											</div>
 											<div class="flex6col1 flex align-items-center justify-content-center">
-												<h5 class="text-center"><a href="">Thời gian cương cứng ngắn</a></h5>
+												<h5 class="text-center"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Thời gian cương cứng ngắn</a></h5>
 											</div>
 										</div>
 									</div>
@@ -649,13 +659,14 @@
 										<div class="width-100"><h5 class="text-center"><i></i>Bài viết được quan tâm</h5></div>
 										<div class="width-100">
 											<ul>
-												<li><h5><i></i><a href="">Nguyên nhân gây bệnh liệt dương</a></h5></li>
-												<li><h5><i></i><a href="">Những triệu chứng ban đầu của bệnh liệt dương</a></h5></li>
-												<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
-												<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
-												<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
-												<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
-												<li><h5><i></i><a href="">Phòng tránh chứng liệt dương như thế nào?</a></h5></li>
+												@php 
+													$posts = $term->post()->limit(8)->get();
+												@endphp
+												@foreach($posts as $post)
+												<li>
+													<h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}">{{ $post->post_name }}</a></h5>
+												</li>
+												@endforeach
 											</ul>
 										</div>
 									</div>
