@@ -279,9 +279,9 @@
 				</div>
 				<div class="flex flex2 justify-content-between">
 					<div class="flex2col1">
-						<h3 class="text-center">Đội ngũ bác sỹ khám chữa bệnh trĩ<br>chuyên nghiệp tại Hà Nội</h3>
+						<h3 class="text-center">Đội ngũ bác sỹ khám chữa bệnh nam khoa<br>chuyên nghiệp tại Hà Nội</h3>
 						<p class="text-justify">
-							Phòng khám hội tụ đội ngũ y bác sỹ chuyên nghiệp, tích lũy từ 20 đến 30 năm kinh nghiệm thăm khám lâm sàng, trong đó có những bác sỹ nước ngoài, vô cùng chuyên nghiệp trong lĩnh vực điều trị phụ khoa.
+							Phòng khám hội tụ đội ngũ y bác sỹ chuyên nghiệp, tích lũy từ 20 đến 30 năm kinh nghiệm thăm khám lâm sàng, trong đó có những bác sỹ nước ngoài, vô cùng chuyên nghiệp trong lĩnh vực điều trị nam khoa.
 						</p>
 					</div>
 					<div class="flex2col1">
