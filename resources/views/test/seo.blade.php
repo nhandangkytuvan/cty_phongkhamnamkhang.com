@@ -47,6 +47,16 @@
             <td>Đổi linkcarel sitemap.xml về trang chủ phòng khám</td>
             <td>#</td>
         </tr>
+        <tr>
+            <td>5</td>
+            <td></td>
+            <td>18/4</td>
+            <td>
+                <p>Đổi Vô tính => Không có tinh trùng</p>
+                <p>Đổi Thủ thuật hẹp bao quy đầu => Hẹp bao quy đầu</p>
+            </td>
+            <td>#</td>
+        </tr>
     </table>
 </div>
 @endsection('content')
