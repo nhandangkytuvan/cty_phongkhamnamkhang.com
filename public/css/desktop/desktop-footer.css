@@ -76,3 +76,8 @@ footer .row2 >div{
 footer a:hover{
 	text-decoration: underline;
 }
+/**/
+.footer-status h5{
+	font-weight: normal;
+	font-size: 20px;
+}

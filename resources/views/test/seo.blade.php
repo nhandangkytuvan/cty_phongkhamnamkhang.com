@@ -52,8 +52,17 @@
             <td></td>
             <td>18/4</td>
             <td>
-                <p>Đổi Vô tính => Không có tinh trùng</p>
+                <p>Đổi Vô tinh => Không có tinh trùng</p>
                 <p>Đổi Thủ thuật hẹp bao quy đầu => Hẹp bao quy đầu</p>
+            </td>
+            <td>#</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td><a href="{{ asset('public/images/seo/menutrangconnoth2.png') }}"><img src="{{ asset('public/images/seo/menutrangconnoth2.png') }}" class="img-responsive" style="max-width:200px;"></a></td>
+            <td>20/4</td>
+            <td>
+                <p>Sửa lỗi h2 menu ở trang chủ, thì trang trong, menu không còn là h2</p>
             </td>
             <td>#</td>
         </tr>
