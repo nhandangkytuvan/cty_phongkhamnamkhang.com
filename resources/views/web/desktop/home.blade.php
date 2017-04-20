@@ -1,4 +1,4 @@
-@extends('layout.desktop')
+@extends('layout.desktop2')
 @section('title')
 	<title>{{ $setting->web_name }}</title>
 @endsection('title')
@@ -75,191 +75,30 @@
 			</div>
 		</div>
 		<div class="row2">
-			<div class="container middle">
+			<div class="container">
+				<div class="title1 container">
+					<div class="flex flex1">
+						<div><h2 class="text-uppercase color1">về chúng tôi</h2></div>
+						<div><h2 class="text-uppercase color2">about us</h2></div>
+					</div>
+					<h5>Sức khỏe của bạn là món quà tuyệt với nhất đối với chúng tôi</h5>
+				</div>
 				<div class="flex flex2 justify-content-between">
 					<div class="flex2col1">
-						<div class="slick-home2">
-							<div>
-								<h2>
-									<a href="#">
-										<img src="{{ asset('public/images/desktop/slide-1.png') }}" class="center-block" style="width: 100%;">
-									</a>
-								</h2>
-							</div>
-							<div>
-								<h2>
-									<a href="#">
-										<img src="{{ asset('public/images/desktop/slide-2.png') }}" class="center-block" style="width: 100%;">
-									</a>
-								</h2>
-							</div>
-							<div>
-								<h2>
-									<a href="#">
-										<img src="{{ asset('public/images/desktop/slide-3.png') }}" class="center-block" style="width: 100%;">
-									</a>
-								</h2>
-							</div>
-							<div>
-								<h2>
-									<a href="#">
-										<img src="{{ asset('public/images/desktop/slide-4.png') }}" class="center-block" style="width: 100%;">
-									</a>
-								</h2>
-							</div>
-						</div>
-						<script>
-							$('.slick-home2').slick({
-							  	slidesToShow: 1,
-							  	slidesToScroll: 1,
-							  	autoplay: true,
-							  	autoplaySpeed: 2000,
-							  	dots: true,
-							});	
-						</script>
+						<p class="text-justify">
+							&nbsp;&nbsp;&nbsp;&nbsp;Phòng khám Nam Khang Hà Nội là 1 trong những cơ sở y tế hàng đầu chuyên điều trị các bệnh nam khoa tại Hà Nội. Phòng khám chuyên điều trị tất cả các bệnh: viêm tuyến tiền liệt, tăng sinh tuyến tiền liệt, u nang tuyến tiền liệt, phì đại tuyến tiền liệt, liệt dương, xuất tinh sớm, yếu sinh lý, rối loạn cương dương, dài bao quy đầu, hẹp bao quy đầu, kéo dài dương vật, tăng kích thước dương vật, viêm quy đầu, viêm niệu đạo, viêm bàng quang, viêm tinh hoàn, tinh trùng ít, không có tinh trùng, xuất tinh ra máu, tinh trùng yếu, sùi mào gà, bệnh lậu, giang mai, mụn rộp sinh dục.
+						</p>
+						<p>
+   							&nbsp;&nbsp;&nbsp;&nbsp;Phòng khám đạt chuẩn y tế JCI quốc tế, tại đây hội tụ đội ngũ chuyên gia hàng đầu trong và ngoài nước,
+   							với chất lượng dịch vụ tốt nhất đạt tiêu chuẩn 5 sao. Đây được xem là phòng khám điều trị các bệnh nam khoa đỉnh cao số 1 tại Hà 	Nội. Uy tín, trách nhiệm sức khỏe người bệnh luôn được đặt lên hàng đầu. 
+						</p>
 					</div>
 					<div class="flex2col2">
-						<div class="title1 container">
-							<div class="flex flex1">
-								<div><h2 class="text-uppercase color1">về chúng tôi</h2></div>
-								<div><h2 class="text-uppercase color2">about us</h2></div>
-							</div>
-							<h5>Sức khỏe của bạn là món quà tuyệt với nhất đối với chúng tôi</h5>
-						</div>
-						<p class="text-justify">
-							Phòng khám Nam Khang Hà Nội là cơ sở y tế chuyên điều trị nam khoa hiếm có ở khu vực Hà Nội, phòng khám đạt tiêu chuẩn y tế JCI quốc tế, hội tụ đội ngũ chuyên gia cao cấp trong và ngoài nước, dịch vụ chất lượng cao, môi trường khám chữa bệnh ấm cúng đạt chất lượng 5 sao, vượt qua mô hình truyền thống của ngành y tế Hà Nội, mở ra thời đại mới về khám điều trị bệnh nam khoa đỉnh cao tại Hà Nội, kết hợp với dịch vụ đặc biệt chuyên khoa, chuyên bệnh, chuyên trị, xây dựng thương hiệu chuyên nghiệp về nam khoa trên toàn quốc.
-						</p>
-						<div class="text-center">
-							<a href="{{ url('ve-chung-toi') }}" class="hvr-float-shadow">Xem chi tiết</a>
-						</div>
+						<img src="{{ asset('public/images/desktop/sua-1.png') }}" class="center-block">
 					</div>
-					<div class="flex2col3">
-						<div class="global1">
-							<div class="col1 flex align-items-center">
-								<div class="flex">
-									<div class="flex justify-content-center align-items-center">
-										<div><i class="bg1 dis-inline-block"></i></div>
-									</div>
-									<div class="flex justify-content-center align-items-center">
-										<div>
-											<h3 class="text-uppercase">tư vấn bệnh</h3>
-											<h4>Disease counseling</h4>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="flex flex-wrap-wrap">
-							<div class="flex justify-content-center align-items-center">
-								<div>
-									<h5 class="text-center">
-										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
-											<i class="bg1"></i>
-										</a>
-									</h5>
-									<h5 class="text-center">
-										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Dài bao<br>quy đầu</a>
-									</h5>
-								</div>
-							</div>
-							<div class="flex justify-content-center align-items-center">
-								<div>
-									<h5 class="text-center">
-										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
-											<i class="bg2"></i>
-										</a>
-									</h5>
-									<h5 class="text-center">
-										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tinh dịch<br>vàng</a>
-									</h5>
-								</div>
-							</div>
-							<div class="flex justify-content-center align-items-center">
-								<div>
-									<h5 class="text-center">
-										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
-											<i class="bg3"></i>
-										</a>
-									</h5>
-									<h5 class="text-center">
-										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Không cương<br>cứng</a>
-									</h5>
-								</div>
-							</div>
-							<div class="flex justify-content-center align-items-center">
-								<div>
-									<h5 class="text-center">
-										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
-											<i class="bg4"></i>
-										</a>
-									</h5>
-									<h5 class="text-center">
-										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Nhu cầu sinh dục giảm</a>
-									</h5>
-								</div>
-							</div>
-							<div class="flex justify-content-center align-items-center">
-								<div>
-									<h5 class="text-center">
-										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
-											<i class="bg5"></i>
-										</a>
-									</h5>
-									<h5 class="text-center">
-										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Đi tiểu<br>khó</a>
-									</h5>
-								</div>
-							</div>
-							<div class="flex justify-content-center align-items-center">
-								<div>
-									<h5 class="text-center">
-										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
-											<i class="bg6"></i>
-										</a>
-									</h5>
-									<h5 class="text-center">
-										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Rối loạn<br>xuất tinh</a>
-									</h5>
-								</div>
-							</div>
-							<div class="flex justify-content-center align-items-center">
-								<div>
-									<h5 class="text-center">
-										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
-											<i class="bg7"></i>
-										</a>
-									</h5>
-									<h5 class="text-center">
-										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Quy đầu<br>bất thường</a>
-									</h5>
-								</div>
-							</div>
-							<div class="flex justify-content-center align-items-center">
-								<div>
-									<h5 class="text-center">
-										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
-											<i class="bg8"></i>
-										</a>
-									</h5>
-									<h5 class="text-center">
-										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Lỗ niệu đạo<br>ra mủ</a>
-									</h5>
-								</div>
-							</div>
-							<div class="flex justify-content-center align-items-center">
-								<div>
-									<h5 class="text-center">
-										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
-											<i class="bg9"></i>
-										</a>
-									</h5>
-									<h5 class="text-center">
-										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Kéo dài<br>dương vật</a>
-									</h5>
-								</div>
-							</div>
-						</div>
-					</div>
+				</div>
+				<div class="">
+					<a href="{{ url('ve-chung-toi') }}" class="">TÌM HIỂU CHI TIẾT</a>
 				</div>
 			</div>
 		</div>
@@ -1174,52 +1013,457 @@
 						</div>
 					</div>
 				</div>
-				<div class="flex justify-content-between flex2">
-					<div class="flex2col1">
-						<img src="{{ asset('public/images/desktop/home-16.png') }}" class="center-block">
-					</div>
-					<div class="flex2col2">
-						<div class="flex flex3 justify-content-between">
-							<div class="flex3col1 flex align-content-around flex-wrap-wrap">
-								<div class="flex justify-content-between">
-									<div class="flex align-items-center justify-content-center">
-										<h5>Bệnh nhân</h5>
+				<div class="slick-hp">
+					<div class="flex justify-content-between flex2">
+						<div class="flex2col1">
+							<img src="{{ asset('public/images/desktop/hp-1.png') }}" class="center-block width-100">
+						</div>
+						<div class="flex2col2 flex flex-wrap-wrap align-content-between">
+							<div class="flex flex3 justify-content-between width-100">
+								<div class="flex3col1 flex align-content-around flex-wrap-wrap">
+									<div class="flex justify-content-between">
+										<div class="flex align-items-center justify-content-center">
+											<h5>Bệnh nhân</h5>
+										</div>
+										<div class="flex align-items-center justify-content-center">
+											<h5>Anh Đoàn</h5>
+										</div>
 									</div>
-									<div class="flex align-items-center justify-content-center">
-										<h5>Nguyễn Anh Tuấn</h5>
+									<div class="flex justify-content-between">
+										<div class="flex align-items-center justify-content-center">
+											<h5>Triệu trứng</h5>
+										</div>
+										<div class="flex align-items-center justify-content-center">
+											<h5>Viêm tuyến tiền liệt</h5>
+										</div>
 									</div>
 								</div>
-								<div class="flex justify-content-between">
-									<div class="flex align-items-center justify-content-center">
-										<h5>Triệu trứng</h5>
-									</div>
-									<div class="flex align-items-center justify-content-center">
-										<h5>Dài bao quy đầu</h5>
+								<div class="flex3col2">
+									<div>
+										<span class="number">5</span>
+										<span class="number">6</span>
+										<span class="number">2</span>
+										<span class="number">1</span>
+										<span>nam giới đã phục hồi</span>
 									</div>
 								</div>
 							</div>
-							<div class="flex3col2">
-								<div>
-									<span class="number">5</span>
-									<span class="number">6</span>
-									<span class="number">2</span>
-									<span class="number">1</span>
-									<span>nam giới đã phục hồi</span>
+							<div class="order2 width-100">
+								<h2 class="text-center color1">
+									Thanh niên ưu tú nơi làm việc và “cuộc chạm trán” với <span class="color2">viêm tuyến tiền liệt</span>
+								</h2>
+								<p class="text-justify">
+									Bệnh viêm tuyến tiền liệt của tôi cuối cùng cũng đã điều trị khỏi rồi!” Anh Đoàn năm nay 29 tuổi, là giám đốc bộ phận của một công ty, cuối năm công việc bận rộn, thường xuyên phải làm thêm, ở cơ quan thì ngồi cả ngày, rất ít khi vận động, cả ngày bận rộn ở cơ quan, sau khi về nhà thì anh thích uống chút bia rượu để giải tỏa áp lực... 
+									<a href="{{ MyAPI::getUrlPostID(13) }}">(chi tiết)</a>
+								</p>
+								<div class="footer1">
+									<a href="{{ MyAPI::getUrlPostID(13) }}">Xem chi tiết hơn</a>
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a>
 								</div>
 							</div>
 						</div>
-						<div class="order2">
-							<h2 class="text-center color1"><span class="color2">Dài bao quy đầu</span> lâu năm không điều trị, hại người hại mình</h2>
-							<p class="text-justify">
-								Tôi và vợ quen nhau từ rất lâu, chúng tôi hết mực yêu thương nhau, sau thời gian 3 năm, vì lý do khoảng cách nên chúng tôi rất trân trọng mối quan hệ này, cuối cùng 2 bên cha mẹ cũng đồng ý, năm ngoái chúng tôi quyết định kết hôn. Chúng tôi đang trong thời gian hưởng thụ hạnh phúc thì... <a href="">(chi tiết)</a>
-							</p>
-							<div class="footer1">
-								<a href="{{ MyAPI::getUrlTermID(34) }}">Ví dụ nhiều hơn</a>
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a>
+					</div>
+					<div class="flex justify-content-between flex2">
+						<div class="flex2col1">
+							<img src="{{ asset('public/images/desktop/hp-2.png') }}" class="center-block width-100">
+						</div>
+						<div class="flex2col2 flex flex-wrap-wrap align-content-between">
+							<div class="flex flex3 justify-content-between width-100">
+								<div class="flex3col1 flex align-content-around flex-wrap-wrap">
+									<div class="flex justify-content-between">
+										<div class="flex align-items-center justify-content-center">
+											<h5>Bệnh nhân</h5>
+										</div>
+										<div class="flex align-items-center justify-content-center">
+											<h5>Anh Quân</h5>
+										</div>
+									</div>
+									<div class="flex justify-content-between">
+										<div class="flex align-items-center justify-content-center">
+											<h5>Triệu trứng</h5>
+										</div>
+										<div class="flex align-items-center justify-content-center">
+											<h5>Viêm quy đầu</h5>
+										</div>
+									</div>
+								</div>
+								<div class="flex3col2">
+									<div>
+										<span class="number">5</span>
+										<span class="number">6</span>
+										<span class="number">2</span>
+										<span class="number">1</span>
+										<span>nam giới đã phục hồi</span>
+									</div>
+								</div>
+							</div>
+							<div class="order2 width-100">
+								<h2 class="text-center color1">
+									Phòng khám nam khang Hà Nội cứu chữa bệnh <span class="color2">viêm quy đầu</span> của tôi
+								</h2>
+								<p class="text-justify">
+									Như hiện nay, có rất nhiều người đã nhầm lẫn và điều trị bệnh viêm bao quy đầu như các bệnh xã hội khác, trung quy cũng vì bản thân họ không có những kiến thức đầy đủ về bệnh xã hội. Anh Quân chính là một bệnh nhân như vậy...
+									<a href="{{ MyAPI::getUrlPostID(18) }}">(chi tiết)</a>
+								</p>
+								<div class="footer1">
+									<a href="{{ MyAPI::getUrlPostID(18) }}">Xem chi tiết hơn</a>
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="flex justify-content-between flex2">
+						<div class="flex2col1">
+							<img src="{{ asset('public/images/desktop/hp-3.png') }}" class="center-block width-100">
+						</div>
+						<div class="flex2col2 flex flex-wrap-wrap align-content-between">
+							<div class="flex flex3 justify-content-between width-100">
+								<div class="flex3col1 flex align-content-around flex-wrap-wrap">
+									<div class="flex justify-content-between">
+										<div class="flex align-items-center justify-content-center">
+											<h5>Bệnh nhân</h5>
+										</div>
+										<div class="flex align-items-center justify-content-center">
+											<h5>Anh Đạt</h5>
+										</div>
+									</div>
+									<div class="flex justify-content-between">
+										<div class="flex align-items-center justify-content-center">
+											<h5>Triệu trứng</h5>
+										</div>
+										<div class="flex align-items-center justify-content-center">
+											<h5>Tiểu ra máu</h5>
+										</div>
+									</div>
+								</div>
+								<div class="flex3col2">
+									<div>
+										<span class="number">5</span>
+										<span class="number">6</span>
+										<span class="number">2</span>
+										<span class="number">1</span>
+										<span>nam giới đã phục hồi</span>
+									</div>
+								</div>
+							</div>
+							<div class="order2 width-100">
+								<h2 class="text-center color1">
+									<span class="color2">Tiểu máu</span> ảnh hưởng nghiêm trọng cuộc sống và công việc của anh ấy
+								</h2>
+								<p class="text-justify">
+									Anh Đạt, năm nay 38 tuổi, khỏe mạnh, đang trong giai đoạn sự nghiệp tương đối thành công. Với đặc trưng của công việc anh ngồi cả ngày, công việc cuối năm lại rất bận rộn, thường xuyên làm thêm và đi ra ngoài tiếp khách hàng. Anh Đạt xuất hiện đi tiểu gấp, thỉnh thoảng có cảm giác đau buốt...
+									<a href="{{ MyAPI::getUrlPostID(20) }}">(chi tiết)</a>
+								</p>
+								<div class="footer1">
+									<a href="{{ MyAPI::getUrlPostID(20) }}">Xem chi tiết hơn</a>
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="flex justify-content-between flex2">
+						<div class="flex2col1">
+							<img src="{{ asset('public/images/desktop/hp-4.png') }}" class="center-block width-100">
+						</div>
+						<div class="flex2col2 flex flex-wrap-wrap align-content-between">
+							<div class="flex flex3 justify-content-between width-100">
+								<div class="flex3col1 flex align-content-around flex-wrap-wrap">
+									<div class="flex justify-content-between">
+										<div class="flex align-items-center justify-content-center">
+											<h5>Bệnh nhân</h5>
+										</div>
+										<div class="flex align-items-center justify-content-center">
+											<h5>Anh Tuấn</h5>
+										</div>
+									</div>
+									<div class="flex justify-content-between">
+										<div class="flex align-items-center justify-content-center">
+											<h5>Triệu trứng</h5>
+										</div>
+										<div class="flex align-items-center justify-content-center">
+											<h5>Xuất tinh sớm</h5>
+										</div>
+									</div>
+								</div>
+								<div class="flex3col2">
+									<div>
+										<span class="number">5</span>
+										<span class="number">6</span>
+										<span class="number">2</span>
+										<span class="number">1</span>
+										<span>nam giới đã phục hồi</span>
+									</div>
+								</div>
+							</div>
+							<div class="order2 width-100">
+								<h2 class="text-center color1">
+									<span class="color2">Xuất tinh sớm</span> có thể tự khỏi được không? Trường hợp phục hồi chức năng xuất tinh sớm giải đáp thắc mắc của bạn.
+								</h2>
+								<p class="text-justify">
+									Xuất tinh sớm có thể tự khỏi được không? Có rất nhiều nam giới lên trên trang tư vấn trực tuyến của phòng khám Nam Khang Hà Nội có thắc mắc về vấn đề xuất tinh sớm này. Xuất tinh sớm có tự khỏi được không? Xuất tinh sớm uống thuốc gì tốt....
+									<a href="{{ MyAPI::getUrlPostID(17) }}">(chi tiết)</a>
+								</p>
+								<div class="footer1">
+									<a href="{{ MyAPI::getUrlPostID(17) }}">Xem chi tiết hơn</a>
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="flex justify-content-between flex2">
+						<div class="flex2col1">
+							<img src="{{ asset('public/images/desktop/hp-5.png') }}" class="center-block width-100">
+						</div>
+						<div class="flex2col2 flex flex-wrap-wrap align-content-between">
+							<div class="flex flex3 justify-content-between width-100">
+								<div class="flex3col1 flex align-content-around flex-wrap-wrap">
+									<div class="flex justify-content-between">
+										<div class="flex align-items-center justify-content-center">
+											<h5>Bệnh nhân</h5>
+										</div>
+										<div class="flex align-items-center justify-content-center">
+											<h5>Anh Trưởng</h5>
+										</div>
+									</div>
+									<div class="flex justify-content-between">
+										<div class="flex align-items-center justify-content-center">
+											<h5>Triệu trứng</h5>
+										</div>
+										<div class="flex align-items-center justify-content-center">
+											<h5>Liệt dương</h5>
+										</div>
+									</div>
+								</div>
+								<div class="flex3col2">
+									<div>
+										<span class="number">5</span>
+										<span class="number">6</span>
+										<span class="number">2</span>
+										<span class="number">1</span>
+										<span>nam giới đã phục hồi</span>
+									</div>
+								</div>
+							</div>
+							<div class="order2 width-100">
+								<h2 class="text-center color1">
+									<span class="color2">Bất lực</span> trở thành một chất xúc tác cho việc ly hôn, anh ấy gần như suy sụp
+								</h2>
+								<p class="text-justify">
+									Anh Trưởng năm nay 31 tuổi, đã lấy vợ đã 5 năm. Vốn có cuộc sống hạnh phúc, nhưng những năm gần đây vợ chồng anh rất ít khi nói chuyện với nhau. Nguyên nhân là do những năm gần đây, Anh Trưởng vì lo cho công việc và cuộc sống, thời gian làm thêm và tiếp xúc khách hàng cũng nhiều hơn...
+									<a href="{{ MyAPI::getUrlPostID(21) }}">(chi tiết)</a>
+								</p>
+								<div class="footer1">
+									<a href="{{ MyAPI::getUrlPostID(21) }}">Xem chi tiết hơn</a>
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="flex justify-content-between flex2">
+						<div class="flex2col1">
+							<img src="{{ asset('public/images/desktop/hp-6.png') }}" class="center-block width-100">
+						</div>
+						<div class="flex2col2 flex flex-wrap-wrap align-content-between">
+							<div class="flex flex3 justify-content-between width-100">
+								<div class="flex3col1 flex align-content-around flex-wrap-wrap">
+									<div class="flex justify-content-between">
+										<div class="flex align-items-center justify-content-center">
+											<h5>Bệnh nhân</h5>
+										</div>
+										<div class="flex align-items-center justify-content-center">
+											<h5>Anh Phong</h5>
+										</div>
+									</div>
+									<div class="flex justify-content-between">
+										<div class="flex align-items-center justify-content-center">
+											<h5>Triệu trứng</h5>
+										</div>
+										<div class="flex align-items-center justify-content-center">
+											<h5>Sùi mào gà</h5>
+										</div>
+									</div>
+								</div>
+								<div class="flex3col2">
+									<div>
+										<span class="number">5</span>
+										<span class="number">6</span>
+										<span class="number">2</span>
+										<span class="number">1</span>
+										<span>nam giới đã phục hồi</span>
+									</div>
+								</div>
+							</div>
+							<div class="order2 width-100">
+								<h2 class="text-center color1">
+									Cảnh báo: bệnh nhân bị <span class="color2">sùi mào gà</span>
+								</h2>
+								<p class="text-justify">
+									Bệnh sử: Tháng 5 năm 2016 anh Phong có quan hệ tình dục với một cô gái ở trung tâm massage, sau đó xuất hiện những biểu hiện bất thường, tháng 6 anh đi kiểm tra phát hiện bị mắc bệnh sùi mào gà, ngay sau đó anh đã điều trị và khỏi bệnh....
+									<a href="{{ MyAPI::getUrlPostID(15) }}">(chi tiết)</a>
+								</p>
+								<div class="footer1">
+									<a href="{{ MyAPI::getUrlPostID(15) }}">Xem chi tiết hơn</a>
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="flex justify-content-between flex2">
+						<div class="flex2col1">
+							<img src="{{ asset('public/images/desktop/hp-7.png') }}" class="center-block width-100">
+						</div>
+						<div class="flex2col2 flex flex-wrap-wrap align-content-between">
+							<div class="flex flex3 justify-content-between width-100">
+								<div class="flex3col1 flex align-content-around flex-wrap-wrap">
+									<div class="flex justify-content-between">
+										<div class="flex align-items-center justify-content-center">
+											<h5>Bệnh nhân</h5>
+										</div>
+										<div class="flex align-items-center justify-content-center">
+											<h5>Anh Toàn</h5>
+										</div>
+									</div>
+									<div class="flex justify-content-between">
+										<div class="flex align-items-center justify-content-center">
+											<h5>Triệu trứng</h5>
+										</div>
+										<div class="flex align-items-center justify-content-center">
+											<h5>Mụn rộp sinh dục</h5>
+										</div>
+									</div>
+								</div>
+								<div class="flex3col2">
+									<div>
+										<span class="number">5</span>
+										<span class="number">6</span>
+										<span class="number">2</span>
+										<span class="number">1</span>
+										<span>nam giới đã phục hồi</span>
+									</div>
+								</div>
+							</div>
+							<div class="order2 width-100">
+								<h2 class="text-center color1">
+									<span class="color2">Vượt qua mụn rộp</span>, xây dựng lại gia đình hạnh phúc
+								</h2>
+								<p class="text-justify">
+									Anh Toàn, 38 tuổi, bản thân anh vốn là một người khỏe mạnh, luôn đầy sức sống, có một gia đình hạnh phúc và tự mở công ty để kinh doanh.Vì điều trị mụn rộp sinh dục, một gia đinh giàu có cũng phải điêu đứng....
+									<a href="{{ MyAPI::getUrlPostID(16) }}">(chi tiết)</a>
+								</p>
+								<div class="footer1">
+									<a href="{{ MyAPI::getUrlPostID(16) }}">Xem chi tiết hơn</a>
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="flex justify-content-between flex2">
+						<div class="flex2col1">
+							<img src="{{ asset('public/images/desktop/hp-8.png') }}" class="center-block width-100">
+						</div>
+						<div class="flex2col2 flex flex-wrap-wrap align-content-between">
+							<div class="flex flex3 justify-content-between width-100">
+								<div class="flex3col1 flex align-content-around flex-wrap-wrap">
+									<div class="flex justify-content-between">
+										<div class="flex align-items-center justify-content-center">
+											<h5>Bệnh nhân</h5>
+										</div>
+										<div class="flex align-items-center justify-content-center">
+											<h5>Anh Lâm</h5>
+										</div>
+									</div>
+									<div class="flex justify-content-between">
+										<div class="flex align-items-center justify-content-center">
+											<h5>Triệu trứng</h5>
+										</div>
+										<div class="flex align-items-center justify-content-center">
+											<h5>Vô sinh nam</h5>
+										</div>
+									</div>
+								</div>
+								<div class="flex3col2">
+									<div>
+										<span class="number">5</span>
+										<span class="number">6</span>
+										<span class="number">2</span>
+										<span class="number">1</span>
+										<span>nam giới đã phục hồi</span>
+									</div>
+								</div>
+							</div>
+							<div class="order2 width-100">
+								<h2 class="text-center color1">
+									Điều trị khỏi chứng <span class="color2">tinh trùng yếu</span>, vợ mang thai.
+								</h2>
+								<p class="text-justify">
+									 Chuyên gia phòng khám Nam Khang Hà Nội kiểm tra lần đầu cho thấy, bộ phận sinh dục của anh Lâm phát triển bình thường, tinh hoàn không có bất thường, “Phòng thí nghiệm nam khoa” phân tích tinh dịch: màu trắng đục, lượng tinh dịch 3.5ml, độ nhày (++)...
+									<a href="{{ MyAPI::getUrlPostID(14) }}">(chi tiết)</a>
+								</p>
+								<div class="footer1">
+									<a href="{{ MyAPI::getUrlPostID(14) }}">Xem chi tiết hơn</a>
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="flex justify-content-between flex2">
+						<div class="flex2col1">
+							<img src="{{ asset('public/images/desktop/hp-9.png') }}" class="center-block width-100">
+						</div>
+						<div class="flex2col2 flex flex-wrap-wrap align-content-between">
+							<div class="flex flex3 justify-content-between width-100">
+								<div class="flex3col1 flex align-content-around flex-wrap-wrap">
+									<div class="flex justify-content-between">
+										<div class="flex align-items-center justify-content-center">
+											<h5>Bệnh nhân</h5>
+										</div>
+										<div class="flex align-items-center justify-content-center">
+											<h5>Anh Vũ</h5>
+										</div>
+									</div>
+									<div class="flex justify-content-between">
+										<div class="flex align-items-center justify-content-center">
+											<h5>Triệu trứng</h5>
+										</div>
+										<div class="flex align-items-center justify-content-center">
+											<h5>Dài bao quy đầu</h5>
+										</div>
+									</div>
+								</div>
+								<div class="flex3col2">
+									<div>
+										<span class="number">5</span>
+										<span class="number">6</span>
+										<span class="number">2</span>
+										<span class="number">1</span>
+										<span>nam giới đã phục hồi</span>
+									</div>
+								</div>
+							</div>
+							<div class="order2 width-100">
+								<h2 class="text-center color1">
+									Vợ bị mắc bệnh viêm phụ khoa, thủ phạm thực sự lại chính là do <span class="color2">dài bao quy đầu</span>
+								</h2>
+								<p class="text-justify">
+									Bệnh nhân Vũ, giới tình nam, 28 tuổi. Anh Vũ và vợ là bạn học thời đại học, sau khi tốt nghiệp họ đã cùng nhau đi đến hôn nhân. Trong cuộc sống và công việc họ luôn hỗ trợ lẫn nhau, cuộc sống hôn nhân của họ đang hạnh phúc như vậy, nhưng nửa năm gần đây anh Vũ lại phát hiện ra vợ mình trở nên chán nản...
+									<a href="{{ MyAPI::getUrlPostID(19) }}">(chi tiết)</a>
+								</p>
+								<div class="footer1">
+									<a href="{{ MyAPI::getUrlPostID(19) }}">Xem chi tiết hơn</a>
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<script>
+					$('.slick-hp').slick({
+					  	slidesToShow: 1,
+					  	slidesToScroll: 1,
+					  	autoplay: true,
+					  	autoplaySpeed: 2000,
+					});	
+				</script>
 			</div>
 		</div>
 		<div class="row7">
@@ -1240,23 +1484,89 @@
 					<div class="flex1col1">
 						<h3>
 							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-glow">
-								<img src="{{ asset('public/images/desktop/home-19.png') }}" class="center-block">
+								<img src="{{ asset('public/images/desktop/sua-2.png') }}" class="center-block">
 							</a>
 						</h3>
+						<div class="slick-th1">
+							<div>
+								<img src="{{ asset('public/images/desktop/th1.png') }}" class="center-block">
+							</div>
+							<div>
+								<img src="{{ asset('public/images/desktop/th2.png') }}" class="center-block">
+							</div>
+							<div>
+								<img src="{{ asset('public/images/desktop/th3.png') }}" class="center-block">
+							</div>
+							<div>
+								<img src="{{ asset('public/images/desktop/th4.png') }}" class="center-block">
+							</div>
+						</div>
+						<script>
+							$('.slick-th1').slick({
+							  	//slidesToShow: 1,
+							  	//slidesToScroll: 1,
+							  	// autoplay: true,
+							  	// autoplaySpeed: 2000,
+							});	
+						</script>
 					</div>
 					<div class="flex1col2">
 						<h3>
 							<a href="{{ MyAPI::getUrlTermID(33) }}" class="hvr-glow">
-								<img src="{{ asset('public/images/desktop/home-20.png') }}" class="center-block">
+								<img src="{{ asset('public/images/desktop/sua-3.png') }}" class="center-block">
 							</a>
 						</h3>
+						<div class="slick-th2">
+							<div>
+								<img src="{{ asset('public/images/desktop/th5.png') }}" class="center-block">
+							</div>
+							<div>
+								<img src="{{ asset('public/images/desktop/th6.png') }}" class="center-block">
+							</div>
+							<div>
+								<img src="{{ asset('public/images/desktop/th7.png') }}" class="center-block">
+							</div>
+							<div>
+								<img src="{{ asset('public/images/desktop/th8.png') }}" class="center-block">
+							</div>
+						</div>
+						<script>
+							$('.slick-th2').slick({
+							  	//slidesToShow: 1,
+							  	//slidesToScroll: 1,
+							  	// autoplay: true,
+							  	// autoplaySpeed: 2000,
+							});	
+						</script>
 					</div>
 					<div class="flex1col3">
 						<h3>
 							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-glow">
-								<img src="{{ asset('public/images/desktop/home-21.png') }}" class="center-block">
+								<img src="{{ asset('public/images/desktop/sua-4.png') }}" class="center-block">
 							</a>
 						</h3>
+						<div class="slick-th3">
+							<div>
+								<img src="{{ asset('public/images/desktop/th9.png') }}" class="center-block">
+							</div>
+							<div>
+								<img src="{{ asset('public/images/desktop/th10.png') }}" class="center-block">
+							</div>
+							<div>
+								<img src="{{ asset('public/images/desktop/th11.png') }}" class="center-block">
+							</div>
+							<div>
+								<img src="{{ asset('public/images/desktop/th12.png') }}" class="center-block">
+							</div>
+						</div>
+						<script>
+							$('.slick-th3').slick({
+							  	//slidesToShow: 1,
+							  	//slidesToScroll: 1,
+							  	// autoplay: true,
+							  	// autoplaySpeed: 2000,
+							});	
+						</script>
 					</div>
 				</div>
 			</div>

@@ -66,6 +66,33 @@
             </td>
             <td>#</td>
         </tr>
+        <tr>
+            <td>7</td>
+            <td><a href="{{ asset('public/images/seo/home1.png') }}"><img src="{{ asset('public/images/seo/home1.png') }}" class="img-responsive" style="max-width:200px;"></a></td>
+            <td>20/4</td>
+            <td>
+                <p>Sửa phần "Về chúng tôi"</p>
+            </td>
+            <td>#</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td><a href="{{ asset('public/images/seo/home2.png') }}"><img src="{{ asset('public/images/seo/home2.png') }}" class="img-responsive" style="max-width:200px;"></a></td>
+            <td>20/4</td>
+            <td>
+                <p>Sửa phần "Trường hợp hồi phục" chạy slide 9 trường hợp hồi phục</p>
+            </td>
+            <td>#</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td><a href="{{ asset('public/images/seo/home3.png') }}"><img src="{{ asset('public/images/seo/home3.png') }}" class="img-responsive" style="max-width:200px;"></a></td>
+            <td>20/4</td>
+            <td>
+                <p>Sửa phần "Giao lưu học thuật"</p>
+            </td>
+            <td>#</td>
+        </tr>
     </table>
 </div>
 @endsection('content')
