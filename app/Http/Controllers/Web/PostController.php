@@ -9,7 +9,9 @@ use App\Events\VisitPostEvent;
 use Session;
 use BrowserDetect;
 class PostController extends Controller{
-    public function show($post_alias,$post_id,Request $request){
+    public function show($post_link,Request $request){
+        $array_link = explode('-',$post_link);
+        $post_id = end($array_link);
     	$setting = Setting::first();
         if(!Session::has('user')){
             event(new VisitSumEvent($setting));
