@@ -290,7 +290,7 @@
 							</div>
 							<div class="flex4 flex justify-content-between">
 								<div class="flex4col1">
-									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="flex align-items-center dis-block width-100 justify-content-around">
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="flex align-items-center dis-block width-100 justify-content-around active">
 										<span class="flex align-items-center justify-content-center">
 											<i class="bg3"></i>
 										</span>

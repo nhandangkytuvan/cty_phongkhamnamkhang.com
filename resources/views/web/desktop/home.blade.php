@@ -17,6 +17,11 @@
 					<img src="{{ asset('public/images/desktop/home-1.png') }}" alt="" class="center-block">
 				</a>
 			</div>
+			<div>
+				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+					<img src="{{ asset('public/images/desktop/addslide2.png') }}" alt="" class="center-block">
+				</a>
+			</div>
 		</div>
 		<script>
 			$('.slick-home').slick({

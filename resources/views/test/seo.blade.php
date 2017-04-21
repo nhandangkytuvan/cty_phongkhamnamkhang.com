@@ -62,7 +62,7 @@
             <td><a href="{{ asset('public/images/seo/menutrangconnoth2.png') }}"><img src="{{ asset('public/images/seo/menutrangconnoth2.png') }}" class="img-responsive" style="max-width:200px;"></a></td>
             <td>20/4</td>
             <td>
-                <p>Sửa lỗi h2 menu ở trang chủ, thì trang trong, menu không còn là h2</p>
+                <p>Sửa h2 menu ở trang chủ, thì trang trong, menu không còn là h2</p>
             </td>
             <td>#</td>
         </tr>
@@ -98,7 +98,7 @@
             <td><a href="{{ asset('public/images/seo/doilink.png') }}"><img src="{{ asset('public/images/seo/doilink.png') }}" class="img-responsive" style="max-width:200px;"></a></td>
             <td>21/4</td>
             <td>
-                <p>Sửa lại link url cho số vào trong, bỏ "/"</p>
+                <p>Sửa link url cho số vào trong, bỏ "/"</p>
             </td>
             <td>#</td>
         </tr>
@@ -108,6 +108,15 @@
             <td>21/4</td>
             <td>
                 <p>Chạy slide giao lưu học thuật lần lượt sau 2 giây</p>
+            </td>
+            <td>#</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td><a href="{{ asset('public/images/seo/chantrang.png') }}"><img src="{{ asset('public/images/seo/chantrang.png') }}" class="img-responsive" style="max-width:200px;"></a></td>
+            <td>21/4</td>
+            <td>
+                <p>Thay mới chân trang</p>
             </td>
             <td>#</td>
         </tr>

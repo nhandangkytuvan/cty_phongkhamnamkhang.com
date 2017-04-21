@@ -81,7 +81,7 @@ footer .row1 .flex1col3 .flex4 a{
 	border-radius: 5px;
 	color: #0c879a;padding:0px 8px;
 }
-footer .row1 .flex1col3 .flex4 a:hover{
+footer .row1 .flex1col3 .flex4 a.active{
 	background-color: #edfeb7;
 }
 footer .row1 .flex1col3 .flex4 a i{
