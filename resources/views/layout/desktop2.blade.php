@@ -218,146 +218,109 @@
 	<footer>
 		<div class="row1">
 			<div class="container">
-				<div class="flex flex1">
+				<div class="flex flex1 justify-content-between">
 					<div class="flex1col1">
-						<h2>
+						<div>
 							<a href="{{ url('/') }}">
 								<img src="{{ asset('public/images/desktop/logo-header.png') }}" class="center-block">
 							</a>
-						</h2>
+						</div>
 						<h3 class="text-center text-uppercase">
-							<a href="{{ url('/') }}">Phòng khám<br>chuyên khoa Nam Khang</a>
+							<a href="{{ url('/') }}">Phòng khám chuyên khoa Nam Khang</a>
 						</h3>
-						<h4 class="text-center text-uppercase"><a href="tel:1800 - 6181">1800 - 6181</a></h4>
-						<h4 class="text-center text-uppercase"><a href="tel:043 - 9656999">043 - 9656999</a></h4>
+						<h4 class="text-center text-uppercase">_____PHÒNG KHÁM UY TÍN Ở HÀ NỘI_____</h4>
 					</div>
 					<div class="flex1col2">
-						<h3 class="icon text-center"><i></i></h3>
-						<div class="bg1 flex align-items-center justify-content-center">
-							<h5 class="text-center">
-								Rối loạn chức năng sinh dục
-							</h5>
+						<div class="">
+							<h4 class="text-uppercase">Trung tâm uy tín</h4>
 						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(8) }}">Liệt dương</a></h5>
+						<div>
+							<h5 class="text-uppercase"><a href="{{ MyAPI::getUrlTermID(32) }}">Kĩ thuật điều trị</a></h5>
 						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(35) }}">Yếu sinh lý</a></h5>
+						<div>
+							<h5 class="text-uppercase"><a href="{{ MyAPI::getUrlTermID(33) }}">Thiết bị tiên tiến</a></h5>
 						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(10) }}">Xuất tinh sớm</a></h5>
+						<div>
+							<h5 class="text-uppercase"><a href="{{ MyAPI::getUrlTermID(34) }}">Bệnh án điển hình</a></h5>
 						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(9) }}">Rối loạn cương dương</a></h5>
+						<div>
+							<h5 class="text-uppercase"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">TƯ VẤN CHI PHÍ</a></h5>
 						</div>
-					</div>
-					<div class="flex1col2">
-						<h3 class="icon text-center"><i></i></h3>
-						<div class="bg1 flex align-items-center justify-content-center">
-							<h5 class="text-center">
-								Bệnh tuyến<br>tiền liệt
-							</h5>
+						<div>
+							<h5 class="text-uppercase"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">LIÊN HỆ VỚI CHÚNG TÔI</a></h5>
 						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(3) }}">Viêm tuyến tiền liệt</a></h5>
-						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(6) }}">Phì đại tuyến tiền liệt</a></h5>
-						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(4) }}">U nang tuyến tiền liệt</a></h5>
-						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(5) }}">Tăng sinh tuyến tiền liệt</a></h5>
+						<div>
+							<h5 class="text-uppercase"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">ĐẶT HẸN TRỰC TUYẾN</a></h5>
 						</div>
 					</div>
-					<div class="flex1col2">
-						<h3 class="icon text-center"><i></i></h3>
-						<div class="bg1 flex align-items-center justify-content-center">
-							<h5 class="text-center">
-								Viêm đường<br>tiết niệu
-							</h5>
-						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(18) }}">Viêm quy đầu</a></h5>
-						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(20) }}">Viêm niệu đạo</a></h5>
-						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(21) }}">Viêm tinh hoàn</a></h5>
-						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(19) }}">Viêm bàng quang</a></h5>
-						</div>
-					</div>
-					<div class="flex1col2">
-						<h3 class="icon text-center"><i></i></h3>
-						<div class="bg1 flex align-items-center justify-content-center">
-							<h5 class="text-center">
-								Bệnh xã hội
-							</h5>
-						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(30) }}">Bệnh lậu</a></h5>
-						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(29) }}">Giang mai</a></h5>
-						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(28) }}">Sùi mào gà</a></h5>
-						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(31) }}">Mụn rộp sinh dục</a></h5>
-						</div>
-					</div>
-					<div class="flex1col2">
-						<h3 class="icon text-center"><i></i></h3>
-						<div class="bg1 flex align-items-center justify-content-center">
-							<h5 class="text-center">
-								Chỉnh hình cơ<br>quan sinh dục
-							</h5>
-						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(13) }}">Dài bao quy đầu</a></h5>
-						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(15) }}">Hẹp bao quy đầu</a></h5>
-						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(14) }}">Kéo dài dương vật</a></h5>
-						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(16) }}">Tăng kích thước<br>dương vật</a></h5>
-						</div>
-					</div>
-					<div class="flex1col2">
-						<h3 class="icon text-center"><i></i></h3>
-						<div class="bg1 flex align-items-center justify-content-center">
-							<h5 class="text-center">
-								Vô sinh nam
-							</h5>
-						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(25) }}">Không có tinh trùng</a></h5>
-						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(23) }}">Tinh trùng ít</a></h5>
-						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(26) }}">Tinh trùng yếu</a></h5>
-						</div>
-						<div class="item">
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(24) }}">Xuất tinh ra máu</a></h5>
+					<div class="flex1col3">
+						<div class="">
+							<h4 class="text-uppercase">Liên hệ với chúng tôi</h4>
+							<div class="flex2 flex justify-content-between">
+								<div class="flex2col1">
+									<div class="flex flex3">
+										<div class="flex3col1 flex align-items-center justify-content-center">
+											<div class="">
+												<i class="bg1"></i>
+											</div>
+										</div>
+										<div class="flex3col2 flex align-items-center justify-content-center">
+											<div>
+												<p class="text-uppercase">ĐIỆN THOẠI TƯ VẤN MIỄN PHÍ</p>
+												<p class="call"><a href="tel:18006181">1800-6181</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="flex2col2">
+									<div class="flex flex3">
+										<div class="flex3col1 flex align-items-center justify-content-center">
+											<div class="">
+												<i class="bg2"></i>
+											</div>
+										</div>
+										<div class="flex3col2 flex align-items-center justify-content-center">
+											<div>
+												<p class="text-uppercase">TƯ VẤN</p>
+												<p class="call"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">SKYPE</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="flex4 flex justify-content-between">
+								<div class="flex4col1">
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="flex align-items-center dis-block width-100 justify-content-around">
+										<span class="flex align-items-center justify-content-center">
+											<i class="bg3"></i>
+										</span>
+										<span class="flex align-items-center justify-content-center">Hỏi bệnh tình</span>
+									</a>
+								</div>
+								<div class="flex4col1">
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="flex align-items-center dis-block width-100 justify-content-around">
+										<span class="flex align-items-center justify-content-center">
+											<i class="bg4"></i>
+										</span>
+										<span class="flex align-items-center justify-content-center">Hỏi bệnh tình</span>
+									</a>
+								</div>
+								<div class="flex4col1">
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="flex align-items-center dis-block width-100 justify-content-around">
+										<span class="flex align-items-center justify-content-center">
+											<i class="bg5"></i>
+										</span>
+										<span class="flex align-items-center justify-content-center">Hỏi bệnh tình</span>
+									</a>
+								</div>
+							</div>
+							<p class="address"><a href="{{ url('dia-chi-phong-kham') }}">Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội</a></p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row2">
-			<div class="footer-status container flex align-items-center justify-content-center">
-				<h5 class="text-center"><a href="{{ url('dia-chi-phong-kham') }}">Địa chỉ Phòng khám: Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội</a></h5>
-			</div>
 		</div>
 	</footer>
 	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
