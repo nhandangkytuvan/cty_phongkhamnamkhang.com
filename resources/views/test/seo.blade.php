@@ -96,7 +96,7 @@
         <tr>
             <td>10</td>
             <td><a href="{{ asset('public/images/seo/doilink.png') }}"><img src="{{ asset('public/images/seo/doilink.png') }}" class="img-responsive" style="max-width:200px;"></a></td>
-            <td>20/4</td>
+            <td>21/4</td>
             <td>
                 <p>Sửa lại link url cho số vào trong, bỏ "/"</p>
             </td>
