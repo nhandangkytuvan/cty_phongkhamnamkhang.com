@@ -120,6 +120,15 @@
             </td>
             <td>#</td>
         </tr>
+        <tr>
+            <td>13</td>
+            <td><a href="{{ asset('public/images/seo/doimaunen.png') }}"><img src="{{ asset('public/images/seo/doimaunen.png') }}" class="img-responsive" style="max-width:200px;"></a></td>
+            <td>21/4</td>
+            <td>
+                <p>Thay màu nền chân trang và right scroll</p>
+            </td>
+            <td>#</td>
+        </tr>
     </table>
 </div>
 @endsection('content')

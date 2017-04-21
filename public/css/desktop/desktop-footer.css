@@ -1,5 +1,5 @@
 footer .row1{
-	background-color: #38bcd1;
+	background-color: #00639d;
 	padding-top: 30px;
 	color: #fff;
 	padding-bottom: 25px;
@@ -79,9 +79,12 @@ footer .row1 .flex1col3 .flex4 a{
 	background-color: #71ebfe;
 	height: 38px;
 	border-radius: 5px;
-	color: #0c879a;padding:0px 8px;
+	color: #00639d;padding:0px 8px;
 }
 footer .row1 .flex1col3 .flex4 a.active{
+	background-color: #edfeb7;
+}
+.row1 .flex1col3 .flex4 a:hover{
 	background-color: #edfeb7;
 }
 footer .row1 .flex1col3 .flex4 a i{
@@ -107,7 +110,7 @@ footer .row1 .flex1col3 p.address{
 }
 /**/
 footer .row2{
-	background-color: #1a93a6;
+	background-color: #014872;
 	height: 14px;
 }
 footer a:hover{

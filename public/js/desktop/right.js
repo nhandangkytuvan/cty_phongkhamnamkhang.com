@@ -6,7 +6,7 @@ $(function(){$("#sidebar").fix({float:'left',minStatue:false,skin:'green',durati
 document.writeln("<style>");
 document.writeln("#sidebar{position:absolute;z-index:100001;}");
 document.writeln("#sidebar ul{list-style:none;}");
-document.writeln("#sidebar ul li{width:72px; height:72px; line-height:normal; background:#6699cd;float:left;margin-top:2px;text-align:center;position: relative;clear:both;}");
+document.writeln("#sidebar ul li{width:72px; height:72px; line-height:normal; background:#00639d!important;float:left;margin-top:2px;text-align:center;position: relative;clear:both;}");
 document.writeln("#sidebar ul li.first{ border:0; background:none; height:70px}");
 document.writeln("#sidebar ul li i{ display:inline-block; width:72px; height:72px; float:right}");
 document.writeln("#sidebar ul li i.top{ width:72px; height:72px; margin-top:0}");
@@ -26,7 +26,7 @@ document.writeln(".qq_s{ background:url(http://www.phongkhamnamkhang.net/public/
 document.writeln(".dx_s{ background:url(http://www.phongkhamnamkhang.net/public/images/global/advleft/dx_s.png) no-repeat center center; width:44px; height:38px}");
 document.writeln(".wb_s{ background:url(http://www.phongkhamnamkhang.net/public/images/global/advleft/wb_s.png) no-repeat center center; width:44px; height:36px}");
 document.writeln("");
-document.writeln("#sidebar ul li .sidebox{position:absolute;width:72px;height:72px;top:0;left:0px;transition:all 0.3s;background:#6699cd;opacity:1;filter:Alpha(opacity=100);color:#fff;overflow:hidden;}");
+document.writeln("#sidebar ul li .sidebox{position:absolute;width:72px;height:72px;top:0;left:0px;transition:all 0.3s;background:#00639d!important;opacity:1;filter:Alpha(opacity=100);color:#fff;overflow:hidden;}");
 document.writeln("#sidebar ul li span{ position:relative;left:8px;top:15px;}");
 document.writeln("</style>");
 document.writeln("");
