@@ -49,7 +49,7 @@
         </tr>
         <tr>
             <td>5</td>
-            <td></td>
+            <td><a href="{{ asset('public/images/seo/votinh.png') }}"><img src="{{ asset('public/images/seo/votinh.png') }}" class="img-responsive" style="max-width:200px;"></a></td>
             <td>18/4</td>
             <td>
                 <p>Đổi Vô tinh => Không có tinh trùng</p>
@@ -99,6 +99,15 @@
             <td>21/4</td>
             <td>
                 <p>Sửa lại link url cho số vào trong, bỏ "/"</p>
+            </td>
+            <td>#</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td><a href="{{ asset('public/images/seo/home3.png') }}"><img src="{{ asset('public/images/seo/home3.png') }}" class="img-responsive" style="max-width:200px;"></a></td>
+            <td>21/4</td>
+            <td>
+                <p>Chạy slide giao lưu học thuật lần lượt sau 2 giây</p>
             </td>
             <td>#</td>
         </tr>

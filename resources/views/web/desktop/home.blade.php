@@ -1481,13 +1481,13 @@
 					</div>
 				</div>
 				<div class="flex flex1 justify-content-between">
-					<div class="flex1col1">
+					<div class="flex1col1 active">
 						<h3>
 							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-glow">
 								<img src="{{ asset('public/images/desktop/sua-2.png') }}" class="center-block">
 							</a>
 						</h3>
-						<div class="slick-th1">
+						<div class="slickmy slick-th1">
 							<div>
 								<img src="{{ asset('public/images/desktop/th1.png') }}" class="center-block">
 							</div>
@@ -1516,7 +1516,7 @@
 								<img src="{{ asset('public/images/desktop/sua-3.png') }}" class="center-block">
 							</a>
 						</h3>
-						<div class="slick-th2">
+						<div class="slickmy slick-th2">
 							<div>
 								<img src="{{ asset('public/images/desktop/th5.png') }}" class="center-block">
 							</div>
@@ -1545,7 +1545,7 @@
 								<img src="{{ asset('public/images/desktop/sua-4.png') }}" class="center-block">
 							</a>
 						</h3>
-						<div class="slick-th3">
+						<div class="slickmy slick-th3">
 							<div>
 								<img src="{{ asset('public/images/desktop/th9.png') }}" class="center-block">
 							</div>

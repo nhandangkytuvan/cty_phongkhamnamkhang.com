@@ -145,7 +145,7 @@
 										<h2><a href="{{ MyAPI::getUrlTermID(14) }}">Kéo dài dương vật</a></h2>
 									</div>
 									<div class="flex2col1">
-										<h2><a href="{{ MyAPI::getUrlTermID(15) }}">Thủ thuật hẹp bao quy đầu</a></h2>
+										<h2><a href="{{ MyAPI::getUrlTermID(15) }}">Hẹp bao quy đầu</a></h2>
 										<h2><a href="{{ MyAPI::getUrlTermID(16) }}">Tăng kích thước dương vật</a></h2>
 									</div>
 								</div>
@@ -171,7 +171,7 @@
 										<h2><a href="{{ MyAPI::getUrlTermID(24) }}">Xuất tinh ra máu</a></h2>
 									</div>
 									<div class="flex2col1">
-										<h2><a href="{{ MyAPI::getUrlTermID(25) }}">Vô tinh</a></h2>
+										<h2><a href="{{ MyAPI::getUrlTermID(25) }}">Không có tinh trùng</a></h2>
 										<h2><a href="{{ MyAPI::getUrlTermID(26) }}">Tinh trùng yếu</a></h2>
 									</div>
 								</div>
