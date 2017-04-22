@@ -37,7 +37,7 @@
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery-1.12.3.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery.popupoverlay.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery-scrolltofixed-min.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('public/js/global/slick/slick.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('public/js/global/slick/slick.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/toastr8/dist/js/toastr8.min.js') }}"></script>
 	@yield('js')
 	<script type="text/javascript" src="{{ asset('public/js/desktop/desktop.js') }}"></script>
