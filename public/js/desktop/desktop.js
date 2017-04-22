@@ -36,7 +36,7 @@ $(document).ready(function() {
 	var myinter2 = setInterval(home_thuonghieu, 3000);
 
 	$('#popup-desktop').popup({
-        blur:false,
+        //blur:false,
         transition: 'all 0.3s',
         scrolllock: false,
         background: false,
