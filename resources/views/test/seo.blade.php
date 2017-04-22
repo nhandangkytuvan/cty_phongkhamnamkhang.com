@@ -129,6 +129,62 @@
             </td>
             <td>#</td>
         </tr>
+        <tr>
+            <td>14</td>
+            <td><a href="{{ asset('public/images/seo/linkcarel2.png') }}"><img src="{{ asset('public/images/seo/linkcarel2.png') }}" class="img-responsive" style="max-width:200px;"></a></td>
+            <td>22/4</td>
+            <td>
+                <p>Trong bài viết link canonical chuyển về trang danh mục của nó</p>
+            </td>
+            <td>#</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td><a href="{{ asset('public/images/seo/h2menu2.png') }}"><img src="{{ asset('public/images/seo/h2menu2.png') }}" class="img-responsive" style="max-width:200px;"></a></td>
+            <td>22/4</td>
+            <td>
+                <p>Sửa ở header và menu phù hợp cho seo.</p>
+            </td>
+            <td>#</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td><a href="{{ asset('public/images/seo/footer2.png') }}"><img src="{{ asset('public/images/seo/footer2.png') }}" class="img-responsive" style="max-width:200px;"></a></td>
+            <td>22/4</td>
+            <td>
+                <p>Sửa footer phù hợp cho seo</p>
+            </td>
+            <td>#</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td><a href="{{ asset('public/images/seo/theh.png') }}"><img src="{{ asset('public/images/seo/theh.png') }}" class="img-responsive" style="max-width:200px;"></a></td>
+            <td>22/4</td>
+            <td>
+                <p>Sửa lại thẻ h trang chủ, thẻ h trang danh mục, thẻ h trang bài viết phù hợp cho seo</p>
+            </td>
+            <td>#</td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>
+                <a href="{{ asset('public/images/seo/alt1.png') }}">
+                    <img src="{{ asset('public/images/seo/alt1.png') }}" class="img-responsive" style="max-width:200px;">
+                </a>
+                <a href="{{ asset('public/images/seo/alt2.png') }}">
+                    <img src="{{ asset('public/images/seo/alt2.png') }}" class="img-responsive" style="max-width:200px;">
+                </a>
+                <a href="{{ asset('public/images/seo/title.png') }}">
+                    <img src="{{ asset('public/images/seo/title.png') }}" class="img-responsive" style="max-width:200px;">
+                </a>
+            </td>
+            <td>22/4</td>
+            <td>
+                <p>Thêm alt cho tất cả img và ảnh ở trang chủ, trang bệnh, trang bài viết , nội dung alt tương ứng</p>
+                <p>Thêm title cho tất cả link</p>
+            </td>
+            <td>#</td>
+        </tr>
     </table>
 </div>
 @endsection('content')

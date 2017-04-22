@@ -40,7 +40,7 @@ $(document).ready(function() {
         transition: 'all 0.3s',
         scrolllock: false,
         background: false,
-        backgroundactive:false,
+        backgroundactive:true,
         onclose: function() {setTimeout(showchat, 20000);}
     });
     var d = new Date();

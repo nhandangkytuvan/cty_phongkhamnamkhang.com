@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="language" content="vi" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="classification" content="Bệnh viện, phòng khám, Y tế." />
-	<meta name="distribution" content="Bệnh viện, phòng khám, Y tế" />
+	<meta name="classification" content="Phòng khám Nam Khang" />
+	<meta name="distribution" content="Phòng khám Nam Khang" />
 	<meta name="rating" content="General" />
 	<meta name="robots" content="index, follow" />
-	<meta name="creator" content="Phòng khám Nam Khang,Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội" />
-	<meta name="publisher" content="Phòng khám Nam Khang,Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội" />
+	<meta name="creator" content="Phòng khám Nam Khang" />
+	<meta name="publisher" content="Phòng khám Nam Khang" />
     <meta name="author" content="{{ $setting->web_name }}">
     <!-- csrf -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- facebook -->
     <meta property="og:site_name" content="Phòng Khám Nam Khang" />
-	<meta property="og:type" content="Bệnh viện, Phòng Khám Đa Khoa, Y tế" />
+	<meta property="og:type" content="website" />
     <meta property="og:locale " content="vi_VN">
     <!-- link rss,sitemap -->
     <link rel="canonical" href="{{ url('/') }}" />

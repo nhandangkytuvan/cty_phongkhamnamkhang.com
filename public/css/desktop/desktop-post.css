@@ -93,10 +93,10 @@ main.term.post .post-footer .order1 p span{
     color: red;
     font-weight: bold;
 }
-main.term.post .post-footer .order1 h4{
+main.term.post .post-footer .order1 p{
     margin-top: 8px;
 }
-main.term.post .post-footer .order1 h4 a{
+main.term.post .post-footer .order1 p strong a{
     color: red;
 }
 main.term.post .post-footer .order1 ul{
@@ -134,7 +134,7 @@ main.term.post .post-footer .order2 .flex1col1:nth-child(5){
     border-left: none;
     border-right: none;
 }
-main.term.post .post-footer .order2 .flex1col1 h4 i{
+main.term.post .post-footer .order2 .flex1col1 div i{
     display: inline-block;
     width: 78px;
     height: 75px;
@@ -142,30 +142,31 @@ main.term.post .post-footer .order2 .flex1col1 h4 i{
     background-repeat: no-repeat;
     background-position: 0px 0px;
 }
-main.term.post .post-footer .order2 .flex1col1 h4 i.bg2{
+main.term.post .post-footer .order2 .flex1col1 div i.bg2{
     background-position: -332px 0px;
 }
-main.term.post .post-footer .order2 .flex1col1 h4 i.bg3{
+main.term.post .post-footer .order2 .flex1col1 div i.bg3{
     background-position: -665px 0px;
 }
-main.term.post .post-footer .order2 .flex1col1 h4 i.bg4{
+main.term.post .post-footer .order2 .flex1col1 div i.bg4{
     background-position: 0px -218px;
 }
-main.term.post .post-footer .order2 .flex1col1 h4 i.bg5{
+main.term.post .post-footer .order2 .flex1col1 div i.bg5{
     background-position: -332px -218px;
 }
-main.term.post .post-footer .order2 .flex1col1 h4 i.bg6{
+main.term.post .post-footer .order2 .flex1col1 div i.bg6{
     background-position: -665px -218px;
 }
 main.term.post .post-footer .order2 .flex1col1.active{
     background-color: #02b9c7;
     color: #fff;
 }
-main.term.post .order2 .flex1col1 h5{
+main.term.post .order2 .flex1col1 div:nth-child(2){
     font-size: 14px;
     margin-top: 8px;
+    font-weight: bold;
 }
-main.term.post .order2 .flex1col1 h6{
+main.term.post .order2 .flex1col1 div:nth-child(n+3){
     font-size: 12px;
     font-weight: normal;
     margin-top: 8px;

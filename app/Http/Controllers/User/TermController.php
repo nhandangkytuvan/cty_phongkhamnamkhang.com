@@ -52,10 +52,10 @@ class TermController extends Controller{
         $term = Term::find($term_id);
         if($request->isMethod('post')){
             $this->validate($request,$this->rules);
-            if (Gate::forUser($user)->denies('edit-term', $term)) {
-                Session::flash('error','Không phải của bạn.');
-                return back();
-            }
+            // if (Gate::forUser($user)->denies('edit-term', $term)) {
+            //     Session::flash('error','Không phải của bạn.');
+            //     return back();
+            // }
             $term->term_id = $request->input('term_id');
             $term->term_name = $request->input('term_name');
             $term->term_alias = str_slug($request->input('term_name'),'-');

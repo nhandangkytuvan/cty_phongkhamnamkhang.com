@@ -1,14 +1,14 @@
 <!-- meta -->
 @if($data['term']->term_description)
-	<meta name="description" content="{{ $data['term']->term_description }}">
+	<meta name="description" content="{{ MyAPI::getLimitWord($data['term']->term_description,32) }}">
 @else
-	<meta name="description" content="{{ $setting->web_description }}">
+	<meta name="description" content="{{ $data['term']->term_name }}">
 @endif
 
 @if($data['term']->term_keyword)
 	<meta name="keywords" content="{{ $data['term']->term_keyword }}">
 @else
-	<meta name="keywords" content="{{ $setting->web_keyword }}">
+	<meta name="keywords" content="{{ $data['term']->term_name }}">
 @endif
 	<!-- facebook -->
 @if($data['term']->term_avatar)

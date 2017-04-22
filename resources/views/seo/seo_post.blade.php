@@ -2,13 +2,13 @@
 @if($data['post']->post_description)
 	<meta name="description" content="{{ $data['post']->post_description }}">
 @else
-	<meta name="description" content="{{ $setting->web_description }}">
+	<meta name="description" content="{{ $data['post']->post_name }}">
 @endif
 
 @if($data['post']->post_keyword)
 	<meta name="keywords" content="{{ $data['post']->post_keyword }}">
 @else
-	<meta name="keywords" content="{{ $setting->web_keyword }}">
+	<meta name="keywords" content="{{ $data['post']->post_name }}">
 @endif
 <!-- facebook -->
 @if($data['post']->post_avatar)

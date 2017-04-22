@@ -62,11 +62,9 @@
 				<div class="flex1col1 flex2 flex justify-content-between">
 					<div class="flex2col1 flex align-items-center justify-content-center">
 						<div>
-							<h2>
-								<a href="{{ url('/') }}">
-									<img src="{{ asset('public/images/desktop/logo-header.png') }}" alt="">
-								</a>
-							</h2>
+							<a href="{{ url('/') }}">
+								<img src="{{ asset('public/images/desktop/logo-header.png') }}" alt="">
+							</a>
 						</div>
 					</div>
 					<div class="flex2col2 flex align-items-center justify-content-center">
@@ -74,17 +72,17 @@
 							@if(Request::url()==url('/'))
 							<h1 class="text-uppercase"><a href="{{ url('ve-chung-toi') }}">Phòng khám chuyên khoa Nam Khang</a></h1>
 							@else
-							<h2 class="text-uppercase"><a href="{{ url('ve-chung-toi') }}">Phòng khám chuyên khoa Nam Khang</a></h2>
+							<div class="text-uppercase web-name"><a href="{{ url('ve-chung-toi') }}">Phòng khám chuyên khoa Nam Khang</a></div>
 							@endif
-							<h3 class="text-uppercase"><a href="{{ url('dia-chi-phong-kham') }}">Số 193C1 Bà Triệu - Hai Bà Trưng - Hà Nội</a></h3>
+							<div class="text-uppercase web-address"><a href="{{ url('dia-chi-phong-kham') }}">Số 193C1 Bà Triệu - Hai Bà Trưng - Hà Nội</a></div>
 						</div>
 					</div>
 				</div>
 				<div class="flex1col1 flex justify-content-center align-items-center">
 					<div class="thoigian-lamviec">
-						<p class="text-left">Thời gian làm việc</p>
-						<p class="text-center">8:00 - 20:00</p>
-						<p class="text-right">(làm việc cả chủ nhật, ngày lễ)</p>
+						<div class="text-left">Thời gian làm việc</div>
+						<div class="text-center">8:00 - 20:00</div>
+						<div class="text-right">(làm việc cả chủ nhật, ngày lễ)</div>
 					</div>
 				</div>
 				<div class="flex1col1 flex flex3 justify-content-between">
@@ -95,9 +93,9 @@
 					</div>
 					<div class="flex3col2 flex justify-content-center align-items-center">
 						<div>
-							<h5 class="text-uppercase">Đường dây nóng khẩn cấp</h5>
-							<h2 class="text-center"><a href="tel:043-9656999">043 - 9656999</a></h2>
-							<h2 class="text-center"><a href="tel:1800 - 6181">1800 - 6181</a></h2>
+							<div class="text-uppercase">Đường dây nóng khẩn cấp</div>
+							<div class="text-center"><a href="tel:043-9656999">043 - 9656999</a></div>
+							<div class="text-center"><a href="tel:1800 - 6181">1800 - 6181</a></div>
 						</div>
 					</div>
 				</div>
@@ -109,83 +107,83 @@
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1 chidanbenh flex align-items-center justify-content-center">
 					<div>
-						<h2><a href="#"  class="text-container-center">Danh mục bệnh</a></h2>
+						<div class="dm-benh text-uppercase"><a href="#"  class="text-container-center">Danh mục bệnh</a></div>
 						<div class="menu-items">
 							<div>
-								<h2 class="bg bg1">Bệnh về tuyến tiền liệt</h2>
+								<div class="bg bg1">Bệnh về tuyến tiền liệt</div>
 								<div class="flex flex2 justify-content-between">
 									<div class="flex2col1">
-										<h2><a href="{{ MyAPI::getUrlTermID(3) }}">Viêm tuyến tiền liệt</a></h2>
-										<h2><a href="{{ MyAPI::getUrlTermID(4) }}">U nang tuyến tiền liệt</a></h2>
+										<div><a href="{{ MyAPI::getUrlTermID(3) }}">Viêm tuyến tiền liệt</a></div>
+										<div><a href="{{ MyAPI::getUrlTermID(4) }}">U nang tuyến tiền liệt</a></div>
 									</div>
 									<div class="flex2col1">
-										<h2><a href="{{ MyAPI::getUrlTermID(5) }}">Tăng sinh tuyến tiền liệt</a></h2>
-										<h2><a href="{{ MyAPI::getUrlTermID(6) }}">Phì đại tuyến tiền liệt</a></h2>
+										<div><a href="{{ MyAPI::getUrlTermID(5) }}">Tăng sinh tuyến tiền liệt</a></div>
+										<div><a href="{{ MyAPI::getUrlTermID(6) }}">Phì đại tuyến tiền liệt</a></div>
 									</div>
 								</div>
 							</div>
 							<div>
-								<h2 class="bg bg2">Rối loạn chức năng sinh dục</h2>
+								<div class="bg bg2">Rối loạn chức năng sinh dục</div>
 								<div class="flex flex2 justify-content-between">
 									<div class="flex2col1">
-										<h2><a href="{{ MyAPI::getUrlTermID(8) }}">Liệt dương</a></h2>
-										<h2><a href="{{ MyAPI::getUrlTermID(35) }}">Yếu sinh lý</a></h2>
+										<div><a href="{{ MyAPI::getUrlTermID(8) }}">Liệt dương</a></div>
+										<div><a href="{{ MyAPI::getUrlTermID(35) }}">Yếu sinh lý</a></div>
 									</div>
 									<div class="flex2col1">
-										<h2><a href="{{ MyAPI::getUrlTermID(10) }}">Xuất tinh sớm</a></h2>
-										<h2><a href="{{ MyAPI::getUrlTermID(9) }}">Rối loạn cương dương</a></h2>
+										<div><a href="{{ MyAPI::getUrlTermID(10) }}">Xuất tinh sớm</a></div>
+										<div><a href="{{ MyAPI::getUrlTermID(9) }}">Rối loạn cương dương</a></div>
 									</div>
 								</div>
 							</div>
 							<div>
-								<h2 class="bg bg3">Chỉnh hình cơ quan sinh dục</h2>
+								<div class="bg bg3">Chỉnh hình cơ quan sinh dục</div>
 								<div class="flex flex2 justify-content-between">
 									<div class="flex2col1">
-										<h2><a href="{{ MyAPI::getUrlTermID(13) }}">Dài bao quy đầu</a></h2>
-										<h2><a href="{{ MyAPI::getUrlTermID(14) }}">Kéo dài dương vật</a></h2>
+										<div><a href="{{ MyAPI::getUrlTermID(13) }}">Dài bao quy đầu</a></div>
+										<div><a href="{{ MyAPI::getUrlTermID(14) }}">Kéo dài dương vật</a></div>
 									</div>
 									<div class="flex2col1">
-										<h2><a href="{{ MyAPI::getUrlTermID(15) }}">Hẹp bao quy đầu</a></h2>
-										<h2><a href="{{ MyAPI::getUrlTermID(16) }}">Tăng kích thước dương vật</a></h2>
+										<div><a href="{{ MyAPI::getUrlTermID(15) }}">Hẹp bao quy đầu</a></div>
+										<div><a href="{{ MyAPI::getUrlTermID(16) }}">Tăng kích thước dương vật</a></div>
 									</div>
 								</div>
 							</div>
 							<div>
-								<h2 class="bg bg4">Viêm nhiễm hệ thống sinh dục</h2>
+								<div class="bg bg4">Viêm nhiễm hệ thống sinh dục</div>
 								<div class="flex flex2 justify-content-between">
 									<div class="flex2col1">
-										<h2><a href="{{ MyAPI::getUrlTermID(18) }}">Viêm quy đầu</a></h2>
-										<h2><a href="{{ MyAPI::getUrlTermID(19) }}">Viêm bàng quang</a></h2>
+										<div><a href="{{ MyAPI::getUrlTermID(18) }}">Viêm quy đầu</a></div>
+										<div><a href="{{ MyAPI::getUrlTermID(19) }}">Viêm bàng quang</a></div>
 									</div>
 									<div class="flex2col1">
-										<h2><a href="{{ MyAPI::getUrlTermID(20) }}">Viêm niệu đạo</a></h2>
-										<h2><a href="{{ MyAPI::getUrlTermID(21) }}">Viêm tinh hoàn</a></h2>
+										<div><a href="{{ MyAPI::getUrlTermID(20) }}">Viêm niệu đạo</a></div>
+										<div><a href="{{ MyAPI::getUrlTermID(21) }}">Viêm tinh hoàn</a></div>
 									</div>
 								</div>
 							</div>
 							<div>
-								<h2 class="bg bg5">Vô sinh nam</h2>
+								<div class="bg bg5">Vô sinh nam</div>
 								<div class="flex flex2 justify-content-between">
 									<div class="flex2col1">
-										<h2><a href="{{ MyAPI::getUrlTermID(23) }}">Tinh trùng ít</a></h2>
-										<h2><a href="{{ MyAPI::getUrlTermID(24) }}">Xuất tinh ra máu</a></h2>
+										<div><a href="{{ MyAPI::getUrlTermID(23) }}">Tinh trùng ít</a></div>
+										<div><a href="{{ MyAPI::getUrlTermID(24) }}">Xuất tinh ra máu</a></div>
 									</div>
 									<div class="flex2col1">
-										<h2><a href="{{ MyAPI::getUrlTermID(25) }}">Không có tinh trùng</a></h2>
-										<h2><a href="{{ MyAPI::getUrlTermID(26) }}">Tinh trùng yếu</a></h2>
+										<div><a href="{{ MyAPI::getUrlTermID(25) }}">Không có tinh trùng</a></div>
+										<div><a href="{{ MyAPI::getUrlTermID(26) }}">Tinh trùng yếu</a></div>
 									</div>
 								</div>
 							</div>
 							<div>
-								<h2 class="bg bg6">Bệnh xã hội</h2>
+								<div class="bg bg6">Bệnh xã hội</div>
 								<div class="flex flex2 justify-content-between">
 									<div class="flex2col1">
-										<h2><a href="{{ MyAPI::getUrlTermID(28) }}">Sùi mào gà</a></h2>
-										<h2><a href="{{ MyAPI::getUrlTermID(29) }}">Giang mai</a></h2>
+										<div><a href="{{ MyAPI::getUrlTermID(28) }}">Sùi mào gà</a></div>
+										<div><a href="{{ MyAPI::getUrlTermID(29) }}">Giang mai</a></div>
 									</div>
 									<div class="flex2col1">
-										<h2><a href="{{ MyAPI::getUrlTermID(30) }}">Bệnh lậu</a></h2>
-										<h2><a href="{{ MyAPI::getUrlTermID(31) }}">Mụn rộp sinh dục</a></h2>
+										<div><a href="{{ MyAPI::getUrlTermID(30) }}">Bệnh lậu</a></div>
+										<div><a href="{{ MyAPI::getUrlTermID(31) }}">Mụn rộp sinh dục</a></div>
 									</div>
 								</div>
 							</div>
@@ -193,23 +191,24 @@
 					</div>
 				</div>
 				<div class="flex1col1 flex align-items-center justify-content-center">
-					<div><h2><a href="{{ url('/') }}" class="text-container-center hvr-fade">Trang chủ</a></h2></div>
+					<div><a href="{{ url('/') }}" class="text-container-center hvr-fade">Trang chủ</a></div>
 				</div>
 				<div class="flex1col1 flex align-items-center justify-content-center">
-					<div><h2><a href="{{ url('ve-chung-toi') }}" class="text-container-center hvr-fade">Giới thiệu<br>phòng khám</a></h2>
+					<div>
+						<a href="{{ url('ve-chung-toi') }}" class="text-container-center hvr-fade">Giới thiệu<br>phòng khám</a>
 					</div>
 				</div>
 				<div class="flex1col1 flex align-items-center justify-content-center">
-					<div><h2><a href="{{ MyAPI::getUrlTermID(32) }}" class="text-container-center hvr-fade" >Kỹ thuật<br>điều trị</a></h2></div>
+					<div><a href="{{ MyAPI::getUrlTermID(32) }}" class="text-container-center hvr-fade" >Kỹ thuật<br>điều trị</a></div>
 				</div>
 				<div class="flex1col1 flex align-items-center justify-content-center">
-					<div><h2><a href="{{ MyAPI::getUrlTermID(33) }}" class="text-container-center hvr-fade">Thiết bị<br>tiên tiến</a></h2></div>
+					<div><a href="{{ MyAPI::getUrlTermID(33) }}" class="text-container-center hvr-fade">Thiết bị<br>tiên tiến</a></div>
 				</div>
 				<div class="flex1col1 flex align-items-center justify-content-center">
-					<div><h2><a href="{{ MyAPI::getUrlTermID(34) }}" class="text-container-center hvr-fade">Bệnh án<br>điển hình</a></h2></div>
+					<div><a href="{{ MyAPI::getUrlTermID(34) }}" class="text-container-center hvr-fade">Bệnh án<br>điển hình</a></div>
 				</div>
 				<div class="flex1col1 flex align-items-center justify-content-center">
-					<div><h2><a href="{{ url('/dia-chi-phong-kham') }}" class="text-container-center hvr-fade">Địa chỉ <br>phòng khám</a></h2></div>
+					<div><a href="{{ url('/dia-chi-phong-kham') }}" class="text-container-center hvr-fade">Địa chỉ <br>phòng khám</a></div>
 				</div>
 			</div>
 		</div>
@@ -225,10 +224,10 @@
 								<img src="{{ asset('public/images/desktop/logo-header.png') }}" class="center-block">
 							</a>
 						</div>
-						<h3 class="text-center text-uppercase">
+						<div class="text-center text-uppercase web-name">
 							<a href="{{ url('/') }}">Phòng khám chuyên khoa Nam Khang</a>
-						</h3>
-						<h4 class="text-center text-uppercase">_____PHÒNG KHÁM UY TÍN Ở HÀ NỘI_____</h4>
+						</div>
+						<div class="text-center text-uppercase web-slogan">_____PHÒNG KHÁM UY TÍN Ở HÀ NỘI_____</div>
 					</div>
 					<div class="flex1col2">
 						<div class="">

@@ -13,11 +13,11 @@
 	height: 52px;
 	padding:0px 15px;
 }
-.home .row1 .flex1col1 h5.color1{
+.home .row1 .flex1col1 span.color1{
 	color: #00639d;
 	padding-right: 5px;
 }
-.home .row1 .flex1col1 h5.color2{
+.home .row1 .flex1col1 span.color2{
 	color: #fa8f03;
 	font-weight: normal;
 }

@@ -61,3 +61,21 @@ a{text-decoration: none;}
 .sbtn.cf a:hover {color: #c50707;border-color:#c50707!important;}
 /**/
 .toast8-message a{text-decoration: underline;}
+
+
+
+
+
+/**/
+.h2{
+	font-size: 24px;
+	font-weight: bold;
+}
+.h5{
+	font-size: 12px;
+	font-weight: bold;
+}
+.h6{
+	font-size: 10px;
+	font-weight: bold;
+}

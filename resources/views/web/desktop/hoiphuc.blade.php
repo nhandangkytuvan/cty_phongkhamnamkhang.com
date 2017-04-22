@@ -1,6 +1,6 @@
 @extends('layout.desktop')
 @section('title')
-	<title>{{ $data['term']->term_name }} - {{ $setting->web_name }}</title>
+	<title>{{ $data['term']->term_name }}</title>
 @endsection('title')
 @section('keyword')
 	@include('seo.seo_term',['data'=>$data])
@@ -22,16 +22,16 @@
 						<div class="flex1col1 flex justify-content-center align-items-center">
 							<div class="flex">
 								<div>
-									<h5 class="color1">Từ khóa phổ biến:</h5>
+									<span class="color1">Từ khóa phổ biến:</span>
 								</div>
 								<div>
-									<h5 class="color2"><a href="">Sinh dục giảm sút -</a></h5>
+									<span class="color2"><a href="">Sinh dục giảm sút -</a></span>
 								</div>
 								<div>
-									<h5 class="color2"><a href="">Thời gian quan hệ ngắn -</a></h5>
+									<span class="color2"><a href="">Thời gian quan hệ ngắn -</a></span>
 								</div>
 								<div>
-									<h5 class="color2"><a href="">Xuất tinh nhanh</a></h5>
+									<span class="color2"><a href="">Xuất tinh nhanh</a></span>
 								</div>
 							</div>
 						</div>
@@ -41,7 +41,7 @@
 									<i class="bg1 dis-inline-block"></i>
 								</div>
 								<div class="flex justify-content-center align-items-center">
-									<h5>Tìm kiếm nhiều hơn</h5>
+									<span class="h5">Tìm kiếm nhiều hơn</span>
 								</div>
 								<div>
 									<form action="">
