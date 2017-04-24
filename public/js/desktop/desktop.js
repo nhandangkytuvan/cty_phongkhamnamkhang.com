@@ -36,11 +36,11 @@ $(document).ready(function() {
 	var myinter2 = setInterval(home_thuonghieu, 3000);
 
 	$('#popup-desktop').popup({
-        //blur:false,
+        blur:true,
         transition: 'all 0.3s',
         scrolllock: false,
         background: false,
-        backgroundactive:true,
+        backgroundactive:false,
         onclose: function() {setTimeout(showchat, 20000);}
     });
     var d = new Date();

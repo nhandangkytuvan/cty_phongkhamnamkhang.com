@@ -61,7 +61,7 @@
 				<div class="flex1col1 flex2 flex justify-content-between">
 					<div class="flex2col1 flex align-items-center justify-content-center">
 						<div>
-							<a href="{{ url('/') }}" title="logo">
+							<a href="{{ url('/') }}" title="Phòng khám chuyên khoa Nam Khang">
 								<img src="{{ asset('public/images/desktop/logo-header.png') }}" alt="logo">
 							</a>
 						</div>
