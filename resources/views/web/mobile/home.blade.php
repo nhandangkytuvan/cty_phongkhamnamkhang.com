@@ -6,6 +6,7 @@
 	@include('seo.seo_home')
 @endsection('keyword')
 @section('css')
+	<link rel="canonical" href="{{ url('/') }}" />
     <link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-home.css') }}">
 @endsection('css')
 @section('content')
@@ -26,54 +27,70 @@
 				<div class="flex2col1">
 					<div class="flex">
 						<div class="box-center">
-							<h3 class="text-center"><a href="{{ url('/ve-chung-toi') }}"><i class="bg bg1"></i></a></h3>
-							<h4 class="text-uppercase text-center"><a href="{{ url('/ve-chung-toi') }}">Giới thiệu phòng khám</a></h4>
-							<h5 class="text-center"><a href="{{ url('/ve-chung-toi') }}">Năng lực, phẩm chất</a></h5>
+							<div class="text-center h3"><a href="{{ url('/ve-chung-toi') }}"><i class="bg bg1"></i></a></div>
+							<div class="text-uppercase text-center h4"><a href="{{ url('/ve-chung-toi') }}">Giới thiệu phòng khám</a></div>
+							<div class="text-center h5"><a href="{{ url('/ve-chung-toi') }}">Năng lực, phẩm chất</a></div>
 						</div>
 					</div>
 				</div>
 				<div class="flex2col1">
 					<div class="flex">
 						<div class="box-center">
-							<h3 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="bg bg2"></i></a></h3>
-							<h4 class="text-uppercase text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đặt hẹn nhanh</a></h4>
-							<h5 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Mã số khám bệnh ưu tiên</a></h5>
+							<div class="text-center h3">
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+									<i class="bg bg2"></i>
+								</a>
+							</div>
+							<div class="text-uppercase text-center h4">
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đặt hẹn nhanh</a>
+							</div>
+							<div class="text-center h5">
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Mã số khám bệnh ưu tiên</a>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="flex2col1">
 					<div class="flex">
 						<div class="box-center">
-							<h3 class="text-center"><a href="{{ url('/dia-chi-phong-kham') }}"><i class="bg bg3"></i></a></h3>
-							<h4 class="text-uppercase text-center"><a href="{{ url('/dia-chi-phong-kham') }}">Bản đồ</a></h4>
-							<h5 class="text-center"><a href="{{ url('/dia-chi-phong-kham') }}">Ô tô xe máy, xe bus</a></h5>
+							<div class="text-center h3"><a href="{{ url('/dia-chi-phong-kham') }}"><i class="bg bg3"></i></a></div>
+							<div class="text-uppercase text-center h4"><a href="{{ url('/dia-chi-phong-kham') }}">Bản đồ</a></div>
+							<div class="text-center h5"><a href="{{ url('/dia-chi-phong-kham') }}">Ô tô xe máy, xe bus</a></div>
 						</div>
 					</div>
 				</div>
 				<div class="flex2col1">
 					<div class="flex">
 						<div class="box-center">
-							<h3 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="bg bg4"></i></a></h3>
-							<h4 class="text-uppercase text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Hỏi bác sĩ</a></h4>
-							<h5 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chi phí, điều trị</a></h5>
+							<div class="text-center h3">
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+									<i class="bg bg4"></i>
+								</a>
+							</div>
+							<div class="text-uppercase text-center h4">
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Hỏi bác sĩ</a>
+							</div>
+							<div class="text-center h5">
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chi phí, điều trị</a>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="flex2col1">
 					<div class="flex">
 						<div class="box-center">
-							<h3 class="text-center"><a href="{{ MyAPI::getUrlTermID(32) }}"><i class="bg bg5"></i></a></h3>
-							<h4 class="text-uppercase text-center"><a href="{{ MyAPI::getUrlTermID(32) }}">Liệu pháp điều trị</a></h4>
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(32) }}">Tiên tiến, an toàn</a></h5>
+							<div class="text-center h3"><a href="{{ MyAPI::getUrlTermID(32) }}"><i class="bg bg5"></i></a></div>
+							<div class="text-uppercase text-center h4"><a href="{{ MyAPI::getUrlTermID(32) }}">Liệu pháp điều trị</a></div>
+							<div class="text-center h5"><a href="{{ MyAPI::getUrlTermID(32) }}">Tiên tiến, an toàn</a></div>
 						</div>
 					</div>
 				</div>
 				<div class="flex2col1">
 					<div class="flex">
 						<div class="box-center">
-							<h3 class="text-center"><a href="{{ MyAPI::getUrlTermID(34) }}"><i class="bg bg6"></i></a></h3>
-							<h4 class="text-uppercase text-center"><a href="{{ MyAPI::getUrlTermID(34) }}">Trường hợp hồi phục</a></h4>
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(34) }}">Điển hình, thực tế</a></h5>
+							<div class="text-center h3"><a href="{{ MyAPI::getUrlTermID(34) }}"><i class="bg bg6"></i></a></div>
+							<div class="text-uppercase text-center h4"><a href="{{ MyAPI::getUrlTermID(34) }}">Trường hợp hồi phục</a></div>
+							<div class="text-center h5"><a href="{{ MyAPI::getUrlTermID(34) }}">Điển hình, thực tế</a></div>
 						</div>
 					</div>
 				</div>
