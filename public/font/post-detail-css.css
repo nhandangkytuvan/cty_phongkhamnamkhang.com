@@ -8,7 +8,7 @@
 .post-detail h4{font-size:22px}
 .post-detail h5{font-size:18px}
 .post-detail h6{font-size:14px}
-.post-detail p{margin:25px 0}
+.post-detail p{margin:25px 0;line-height: 24px;}
 .post-detail ol,.post-detail ul{margin-left:15px;list-style-position:outside;margin-bottom:20px}
 .post-detail ol li,.post-detail ul li{margin-left:10px;margin-bottom:10px;}
 .post-detail ul{list-style-type:disc}

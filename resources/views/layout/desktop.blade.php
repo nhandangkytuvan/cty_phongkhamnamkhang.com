@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="language" content="vi" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="classification" content="Phòng khám Nam Khang" />
-	<meta name="distribution" content="Phòng khám Nam Khang" />
+	<meta name="classification" content="hospital" />
+	<meta name="distribution" content="Global" />
 	<meta name="rating" content="General" />
 	<meta name="robots" content="index, follow" />
 	<meta name="creator" content="Phòng khám Nam Khang" />
@@ -16,7 +16,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- facebook -->
     <meta property="og:site_name" content="Phòng Khám Nam Khang" />
-	<meta property="og:type" content="website" />
+	<meta property="og:type" content="article" />
     <meta property="og:locale " content="vi_VN">
     <!-- link rss,sitemap -->
     <!-- link icon -->

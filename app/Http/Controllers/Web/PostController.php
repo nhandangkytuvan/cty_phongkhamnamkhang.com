@@ -30,4 +30,21 @@ class PostController extends Controller{
         	return view('web.mobile.post',['data'=>$data]); 
         }
     }
+    public function showold($post_alias,$post_id,Request $request){
+        $setting = Setting::first();
+        event(new VisitSumEvent($setting));
+        $post = Post::find($post_id);
+        if(!$post){
+            return redirect('/');
+        }
+        // --------------
+        event(new VisitPostEvent($post));
+        // ------------
+        $data['post'] = $post;
+        if(BrowserDetect::isDesktop()){
+            return view('web.desktop.post',['data'=>$data]); 
+        }else{
+            return view('web.mobile.post',['data'=>$data]); 
+        }
+    }
 }
