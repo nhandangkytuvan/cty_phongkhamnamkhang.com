@@ -113,10 +113,10 @@ main.term .flex1col2 .flex2col1{
 	color: #fff;
 	background-color: #ff9900;
 }
-main.term .flex1col2 .flex2col1 h5{
+main.term .flex1col2 .flex2col1 div{
 	font-weight: normal;width: 100%;
 }
-main.term .flex1col2 .flex2col1 h5 a{
+main.term .flex1col2 .flex2col1 div a{
 	display: block;
 	width: 100%;
 	height: 35px;

@@ -6,6 +6,7 @@
 	@include('seo.seo_term',['data'=>$data])
 @endsection('keyword')
 @section('css')
+<link rel="canonical" href="http://www.phongkhamnamkhang.com/benh-an-dien-hinh-34" />
 <link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/imagehover/css/imagehover.css') }}">
 <link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-sidebar.css') }}">
 <link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-hoiphuc.css') }}">
@@ -74,7 +75,7 @@
 					<div class="border">
 						<div class="pos-relative">
 							<figure class="imghvr-slide-up width-100">
-								<h3><img src="{{ asset('public/images/desktop/hp-1.png') }}" class="center-block"></h3>
+								<h3><img src="{{ asset('public/images/desktop/hp-1.png') }}" class="center-block" alt="Anh Đoàn  29 tuổi"></h3>
 						    	<figcaption class="flex justify-content-between align-items-center">
 					    			<div>
 							      		<h5><span>Thông tin cơ bản: </span>Anh Đoàn  29 tuổi</h5>
@@ -82,20 +83,20 @@
 							      		<h5><span>Triệu chứng: </span>Tiểu nhiều, tiểu rắt, tiểu không hết</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="{{ MyAPI::getUrlPostID(13) }}"></a>
+						      	<a href="{{ MyAPI::getUrlPostID(13) }}" title="Viêm tuyến tiền liệt"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(13) }}">Viêm tuyến tiền liệt</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(13) }}" title="Viêm tuyến tiền liệt">Viêm tuyến tiền liệt</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu tình trạng bệnh</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Tìm hiểu tình trạng bệnh">Tìm hiểu tình trạng bệnh</a></h5>
 							</div>
 						</div>
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chuyên gia<br>tư vấn</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Chuyên gia tư vấn">Chuyên gia<br>tư vấn</a></h5>
 							</div>
 						</div>
 					</div>
@@ -104,7 +105,7 @@
 					<div class="border">
 						<div class="pos-relative">
 							<figure class="imghvr-slide-up width-100">
-								<h3><img src="{{ asset('public/images/desktop/hp-2.png') }}" class="center-block"></h3>
+								<h3><img src="{{ asset('public/images/desktop/hp-2.png') }}" class="center-block" alt="Anh Quân 29 tuổi"></h3>
 						    	<figcaption class="flex justify-content-between align-items-center">
 					    			<div>
 							      		<h5><span>Thông tin cơ bản: </span>Anh Quân 29 tuổi</h5>
@@ -112,20 +113,20 @@
 							      		<h5><span>Triệu chứng: </span>Lột da bao quy đầu, có mùi hôi</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="{{ MyAPI::getUrlPostID(18) }}"></a>
+						      	<a href="{{ MyAPI::getUrlPostID(18) }}" title="Viêm quy đầu"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(18) }}">Viêm quy đầu</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(18) }}" title="Viêm quy đầu">Viêm quy đầu</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu tình trạng bệnh</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Tìm hiểu tình trạng bệnh">Tìm hiểu tình trạng bệnh</a></h5>
 							</div>
 						</div>
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chuyên gia<br>tư vấn</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Chuyên gia tư vấn">Chuyên gia<br>tư vấn</a></h5>
 							</div>
 						</div>
 					</div>
@@ -134,7 +135,7 @@
 					<div class="border">
 						<div class="pos-relative">
 							<figure class="imghvr-slide-up width-100">
-								<h3><img src="{{ asset('public/images/desktop/hp-3.png') }}" class="center-block"></h3>
+								<h3><img src="{{ asset('public/images/desktop/hp-3.png') }}" class="center-block" alt="Anh Đạt  38 tuổi"></h3>
 						    	<figcaption class="flex justify-content-between align-items-center">
 					    			<div>
 							      		<h5><span>Thông tin cơ bản: </span>Anh Đạt  38 tuổi</h5>
@@ -142,20 +143,20 @@
 							      		<h5><span>Triệu chứng: </span>Thường xuyên tiểu nhiều tiểu rắt, còn có cảm giác đau nhói, thậm chí xuất hiện tiểu ra máu</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="{{ MyAPI::getUrlPostID(20) }}"></a>
+						      	<a href="{{ MyAPI::getUrlPostID(20) }}" title="Tiểu ra máu"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(20) }}">Tiểu ra máu</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(20) }}" title="Tiểu ra máu">Tiểu ra máu</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu tình trạng bệnh</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Tìm hiểu tình trạng bệnh">Tìm hiểu tình trạng bệnh</a></h5>
 							</div>
 						</div>
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chuyên gia<br>tư vấn</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Chuyên gia tư vấn">Chuyên gia<br>tư vấn</a></h5>
 							</div>
 						</div>
 					</div>
@@ -164,7 +165,7 @@
 					<div class="border">
 						<div class="pos-relative">
 							<figure class="imghvr-slide-up width-100">
-								<h3><img src="{{ asset('public/images/desktop/hp-4.png') }}" class="center-block"></h3>
+								<h3><img src="{{ asset('public/images/desktop/hp-4.png') }}" class="center-block" alt="Anh Tuấn  29 tuổi"></h3>
 						    	<figcaption class="flex justify-content-between align-items-center">
 					    			<div>
 							      		<h5><span>Thông tin cơ bản: </span>Anh Tuấn  29 tuổi</h5>
@@ -172,20 +173,20 @@
 							      		<h5><span>Triệu chứng: </span>Xuất tinh quá nhanh (5 phút), xuất tinh vô lực</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="{{ MyAPI::getUrlPostID(17) }}"></a>
+						      	<a href="{{ MyAPI::getUrlPostID(17) }}" title="Xuất tinh sớm"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(17) }}">Xuất tinh sớm</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(17) }}" title="Xuất tinh sớm">Xuất tinh sớm</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu tình trạng bệnh</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Tìm hiểu tình trạng bệnh">Tìm hiểu tình trạng bệnh</a></h5>
 							</div>
 						</div>
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chuyên gia<br>tư vấn</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Chuyên gia tư vấn">Chuyên gia<br>tư vấn</a></h5>
 							</div>
 						</div>
 					</div>
@@ -194,7 +195,7 @@
 					<div class="border">
 						<div class="pos-relative">
 							<figure class="imghvr-slide-up width-100">
-								<h3><img src="{{ asset('public/images/desktop/hp-5.png') }}" class="center-block"></h3>
+								<h3><img src="{{ asset('public/images/desktop/hp-5.png') }}" class="center-block" alt="Anh Trưởng  31 tuổi"></h3>
 						    	<figcaption class="flex justify-content-between align-items-center">
 					    			<div>
 							      		<h5><span>Thông tin cơ bản: </span>Anh Trưởng  31 tuổi</h5>
@@ -202,20 +203,20 @@
 							      		<h5><span>Triệu chứng: </span>Dương vật cương cứng kém, mệt mỏi sau quan hệ</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="{{ MyAPI::getUrlPostID(21) }}"></a>
+						      	<a href="{{ MyAPI::getUrlPostID(21) }}" title="Liệt dương"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(21) }}">Liệt dương</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(21) }}" title="Liệt dương">Liệt dương</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu tình trạng bệnh</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Tìm hiểu tình trạng bệnh">Tìm hiểu tình trạng bệnh</a></h5>
 							</div>
 						</div>
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chuyên gia<br>tư vấn</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Chuyên gia tư vấn">Chuyên gia<br>tư vấn</a></h5>
 							</div>
 						</div>
 					</div>
@@ -224,7 +225,7 @@
 					<div class="border">
 						<div class="pos-relative">
 							<figure class="imghvr-slide-up width-100">
-								<h3><img src="{{ asset('public/images/desktop/hp-6.png') }}" class="center-block"></h3>
+								<h3><img src="{{ asset('public/images/desktop/hp-6.png') }}" class="center-block" alt="Anh Phong  34 tuổi"></h3>
 						    	<figcaption class="flex justify-content-between align-items-center">
 					    			<div>
 							      		<h5><span>Thông tin cơ bản: </span>Anh Phong  34 tuổi</h5>
@@ -232,20 +233,20 @@
 							      		<h5><span>Triệu chứng: </span>Có các u nhú hình súp lơ kích thước như hạt đậu ở quy đầu trong thời gian dài</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="{{ MyAPI::getUrlPostID(15) }}"></a>
+						      	<a href="{{ MyAPI::getUrlPostID(15) }}" title="Sùi mào gà"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(15) }}">Sùi mào gà</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(15) }}" title="Sùi mào gà">Sùi mào gà</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu tình trạng bệnh</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Tìm hiểu tình trạng bệnh">Tìm hiểu tình trạng bệnh</a></h5>
 							</div>
 						</div>
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chuyên gia<br>tư vấn</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Chuyên gia tư vấn">Chuyên gia<br>tư vấn</a></h5>
 							</div>
 						</div>
 					</div>
@@ -254,7 +255,7 @@
 					<div class="border">
 						<div class="pos-relative">
 							<figure class="imghvr-slide-up width-100">
-								<h3><img src="{{ asset('public/images/desktop/hp-7.png') }}" class="center-block"></h3>
+								<h3><img src="{{ asset('public/images/desktop/hp-7.png') }}" class="center-block" alt="Anh Toàn 38 tuổi"></h3>
 						    	<figcaption class="flex justify-content-between align-items-center">
 					    			<div>
 							      		<h5><span>Thông tin cơ bản: </span>Anh Toàn 38 tuổi</h5>
@@ -262,20 +263,20 @@
 							      		<h5><span>Triệu chứng: </span>Có mụn nước trên cơ quan sinh dục, kèm hiện tượng đau đầu</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="{{ MyAPI::getUrlPostID(16) }}"></a>
+						      	<a href="{{ MyAPI::getUrlPostID(16) }}" title="Mụn rộp sinh dục"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(16) }}">Mụn rộp sinh dục</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(16) }}" title="Mụn rộp sinh dục">Mụn rộp sinh dục</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu tình trạng bệnh</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Tìm hiểu tình trạng bệnh">Tìm hiểu tình trạng bệnh</a></h5>
 							</div>
 						</div>
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chuyên gia<br>tư vấn</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Chuyên gia tư vấn">Chuyên gia<br>tư vấn</a></h5>
 							</div>
 						</div>
 					</div>
@@ -284,7 +285,7 @@
 					<div class="border">
 						<div class="pos-relative">
 							<figure class="imghvr-slide-up width-100">
-								<h3><img src="{{ asset('public/images/desktop/hp-8.png') }}" class="center-block"></h3>
+								<h3><img src="{{ asset('public/images/desktop/hp-8.png') }}" class="center-block" alt="Anh Lâm 33 tuổi"></h3>
 						    	<figcaption class="flex justify-content-between align-items-center">
 					    			<div>
 							      		<h5><span>Thông tin cơ bản: </span>Anh Lâm 33 tuổi</h5>
@@ -292,20 +293,20 @@
 							      		<h5><span>Triệu chứng: </span>Yếu tinh trùng, giãn tĩnh mạch thừng tinh</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="{{ MyAPI::getUrlPostID(14) }}"></a>
+						      	<a href="{{ MyAPI::getUrlPostID(14) }}" title="Yếu tinh trùng"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(14) }}">Vô sinh nam</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(14) }}" title="Vô sinh nam">Vô sinh nam</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu tình trạng bệnh</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Tìm hiểu tình trạng bệnh">Tìm hiểu tình trạng bệnh</a></h5>
 							</div>
 						</div>
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chuyên gia<br>tư vấn</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Chuyên gia tư vấn">Chuyên gia<br>tư vấn</a></h5>
 							</div>
 						</div>
 					</div>
@@ -314,7 +315,7 @@
 					<div class="border">
 						<div class="pos-relative">
 							<figure class="imghvr-slide-up width-100">
-								<h3><img src="{{ asset('public/images/desktop/hp-9.png') }}" class="center-block"></h3>
+								<h3><img src="{{ asset('public/images/desktop/hp-9.png') }}" class="center-block" alt="Anh Vũ   28 tuổi"></h3>
 						    	<figcaption class="flex justify-content-between align-items-center">
 					    			<div>
 							      		<h5><span>Thông tin cơ bản: </span>Anh Vũ   28 tuổi</h5>
@@ -322,20 +323,20 @@
 							      		<h5><span>Triệu chứng: </span>Dài bao quy đầu, viêm quy đầu, làm bạn gái mắc viêm phụ khoa</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="{{ MyAPI::getUrlPostID(19) }}"></a>
+						      	<a href="{{ MyAPI::getUrlPostID(19) }}" title="Dài bao quy đầu, hẹp bao quy đầu"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(19) }}">Dài bao quy đầu</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(19) }}" title="Dài bao quy đầu">Dài bao quy đầu</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu tình trạng bệnh</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Tìm hiểu tình trạng bệnh">Tìm hiểu tình trạng bệnh</a></h5>
 							</div>
 						</div>
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chuyên gia<br>tư vấn</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Chuyên gia tư vấn">Chuyên gia<br>tư vấn</a></h5>
 							</div>
 						</div>
 					</div>

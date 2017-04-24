@@ -65,7 +65,7 @@
 							@else
 							<h3 class="text-uppercase">phòng khám chuyên khoa nam khang</h3>
 							@endif
-							<h4 class="text-uppercase">số 193C1 bà triệu - hai bà trưng - hà nội</h4>
+							<div class="web-address text-uppercase">số 193C1 bà triệu - hai bà trưng - hà nội</div>
 						</div>
 					</div>
 				</div>

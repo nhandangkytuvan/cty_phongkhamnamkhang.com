@@ -6,6 +6,7 @@
 	@include('seo.seo_term',['data'=>$data])
 @endsection('keyword')
 @section('css')
+<link rel="canonical" href="http://www.phongkhamnamkhang.com/thiet-bi-tien-tien-33" />
 <link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/hover/css/hover.css') }}">
 <link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-sidebar.css') }}">
 <link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-thietbi.css') }}">
@@ -70,7 +71,7 @@
 		<div class="container">
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
-					<h3><a href=""><img src="{{ asset('public/images/desktop/tb-1-1.png') }}" class="center-block"></a></h3>
+					<h3><img src="{{ asset('public/images/desktop/tb-1-1.png') }}" class="center-block" alt="Hệ thống điều trị sóng ngắn ngoài thân thể ZD - 2001A"></h3>
 				</div>
 				<div class="flex1col2">
 					<div class="tb-name">
@@ -112,7 +113,7 @@
 		<div class="container">
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
-					<h3><a href=""><img src="{{ asset('public/images/desktop/tb-2-1.png') }}" class="center-block"></a></h3>
+					<h3><img src="{{ asset('public/images/desktop/tb-2-1.png') }}" class="center-block" alt="Máy trị liệu đa chức năng tuyến tiền liệt ECO-100B"></h3>
 				</div>
 				<div class="flex1col2">
 					<div class="tb-name">
@@ -161,7 +162,7 @@
 		<div class="container">
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
-					<h3><a href=""><img src="{{ asset('public/images/desktop/tb-3-1.png') }}" class="center-block"></a></h3>
+					<h3><img src="{{ asset('public/images/desktop/tb-3-1.png') }}" class="center-block" alt="Thiết bị điều trị Wallman EASY-100A"></h3>
 				</div>
 				<div class="flex1col2">
 					<div class="tb-name">
@@ -202,8 +203,8 @@
 			</div>
 			<div class="row-footer">
 				<h3 class="text-center">
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow"><i></i> Tìm hiểu kĩ lưỡng quá trình điều trị</a>
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow">Hỏi chuyên gia phải điều trị như thế nào <i></i></a>
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow" title="Tìm hiểu kĩ lưỡng quá trình điều trị"><i></i> Tìm hiểu kĩ lưỡng quá trình điều trị</a>
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow" title="Hỏi chuyên gia phải điều trị như thế nào">Hỏi chuyên gia phải điều trị như thế nào <i></i></a>
 				</h3>
 			</div>
 		</div>
@@ -212,7 +213,7 @@
 		<div class="container">
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
-					<h3><a href=""><img src="{{ asset('public/images/desktop/tb-4-1.png') }}" class="center-block"></a></h3>
+					<h3><img src="{{ asset('public/images/desktop/tb-4-1.png') }}" class="center-block" alt="Hệ thống điều trị tuyến tiền liệt Prostate"></h3>
 				</div>
 				<div class="flex1col2">
 					<div class="tb-name">
@@ -251,8 +252,8 @@
 			</div>
 			<div class="row-footer">
 				<h3 class="text-center">
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow"><i></i> Tìm hiểu kĩ lưỡng quá trình điều trị</a>
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow">Hỏi chuyên gia phải điều trị như thế nào <i></i></a>
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow" title="Tìm hiểu kĩ lưỡng quá trình điều trị"><i></i> Tìm hiểu kĩ lưỡng quá trình điều trị</a>
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow" title="Hỏi chuyên gia phải điều trị như thế nào">Hỏi chuyên gia phải điều trị như thế nào <i></i></a>
 				</h3>
 			</div>
 		</div>
@@ -261,7 +262,7 @@
 		<div class="container">
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
-					<h3><a href=""><img src="{{ asset('public/images/desktop/tb-5-1.png') }}" class="center-block"></a></h3>
+					<h3><img src="{{ asset('public/images/desktop/tb-5-1.png') }}" class="center-block" alt="Thiết bị điều trị can thiệp khoang ZRL-II-A"></h3>
 				</div>
 				<div class="flex1col2">
 					<div class="tb-name">
@@ -299,8 +300,8 @@
 			</div>
 			<div class="row-footer">
 				<h3 class="text-center">
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow"><i></i> Tìm hiểu kĩ lưỡng quá trình điều trị</a>
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow">Hỏi chuyên gia phải điều trị như thế nào <i></i></a>
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow" title="Tìm hiểu kĩ lưỡng quá trình điều trị"><i></i> Tìm hiểu kĩ lưỡng quá trình điều trị</a>
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow" title="Hỏi chuyên gia phải điều trị như thế nào">Hỏi chuyên gia phải điều trị như thế nào <i></i></a>
 				</h3>
 			</div>
 		</div>

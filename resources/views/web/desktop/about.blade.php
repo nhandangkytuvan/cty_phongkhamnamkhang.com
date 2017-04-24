@@ -6,6 +6,7 @@
 	@include('seo.seo_home')
 @endsection('keyword')
 @section('css')
+	<link rel="canonical" href="{{ url('/') }}" />
 	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/hover/css/hover.css') }}">
 	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-about.css') }}">
 @endsection('css')
@@ -72,34 +73,34 @@
 				<div class="flex justify-content-between flex-wrap-wrap align-content-between">
 					<div class="flex1col1">
 						<div class="hvr-border-fade mau-xanh" style="margin-top: 4px;margin-left: 3px;" onclick="open_tuvan()">
-							<h3 class="text-center"><a href="">Tư vấn trực tuyến</a></h3>
+							<h3 class="text-center"><a href="" title="Tư vấn trực tuyến">Tư vấn trực tuyến</a></h3>
 						</div>
 					</div>
 					<div class="flex1col1">
 						<div class="hvr-border-fade" onclick="open_tuvan()">
-							<h3 class="text-center"><a href="">Đặt hẹn trực tuyến</a></h3>
+							<h3 class="text-center"><a href="" title="Đặt hẹn trực tuyến">Đặt hẹn trực tuyến</a></h3>
 						</div>
 					</div>
 					<div class="flex1col1">
 						<div class="hvr-border-fade">
-							<h3 class="text-center"><a href="">Đến khám</a></h3>
+							<h3 class="text-center"><a href="" title="Đến khám">Đến khám</a></h3>
 						</div>
 					</div>
 				</div>
 				<div class="flex justify-content-between flex-wrap-wrap align-content-between">
 					<div class="flex1col1">
 						<div class="hvr-border-fade" onclick="open_tuvan()">
-							<h3 class="text-center"><a href="">Điều trị đúng bệnh</a></h3>
+							<h3 class="text-center"><a href="" title="Điều trị đúng bệnh">Điều trị đúng bệnh</a></h3>
 						</div>
 					</div>
 					<div class="flex1col1">
 						<div class="hvr-border-fade" onclick="open_tuvan()">
-							<h3 class="text-center"><a href="">Chuẩn đoán</a></h3>
+							<h3 class="text-center"><a href="" title="Chuẩn đoán">Chuẩn đoán</a></h3>
 						</div>
 					</div>
 					<div class="flex1col1">
 						<div class="hvr-border-fade" onclick="open_tuvan()">
-							<h3 class="text-center"><a href="">Chuyên gia trực tiếp tham khám</a></h3>
+							<h3 class="text-center"><a href="" title="Chuyên gia trực tiếp tham khám">Chuyên gia trực tiếp tham khám</a></h3>
 						</div>
 					</div>
 				</div>

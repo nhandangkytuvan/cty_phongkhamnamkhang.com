@@ -6,6 +6,7 @@
 	@include('seo.seo_home')
 @endsection('keyword')
 @section('css')
+	<link rel="canonical" href="{{ url('/') }}" />
 	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-sidebar.css') }}">
 	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-address.css') }}">
 @endsection('css')
@@ -79,8 +80,8 @@
 			</h2>
 			<div class="address-bus">
 				<h4>
-					<img src="{{ asset('public/images/desktop/icon-10.jpg') }}" alt=""> 
-					Đi xe bus nào đến phòng khám? <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bấm vào tư vấn >></a>
+					<img src="{{ asset('public/images/desktop/icon-10.jpg') }}" alt="Đi xe bus nào đến phòng khám"> 
+					Đi xe bus nào đến phòng khám? <a title="Bấm vào tư vấn" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bấm vào tư vấn >></a>
 				</h4>
 				<h3>Tuyến xe</h3>
 				<div class="flex flex1">
@@ -135,9 +136,9 @@
 			</div>
 			<div class="address-bus">
 				<h4>
-					<img src="{{ asset('public/images/desktop/icon-11.jpg') }}" alt=""> 
+					<img src="{{ asset('public/images/desktop/icon-11.jpg') }}" alt="Làm thế nào để đi taxi hoặc tự lái xe đến phòng khám.Cung cấp chỗ đỗ xe miễn phí"> 
 					Làm thế nào để đi taxi hoặc tự lái xe đến phòng khám.Cung cấp chỗ đỗ xe miễn phí.? 
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bấm vào tư vấn >></a>
+					<a title="Bấm vào tư vấn" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bấm vào tư vấn >></a>
 				</h4>
 				<h3>Đi taxi hoặc tự lái xe</h3>
 				<p>Hãy trực tiếp đến 193C1 Bà Triệu- Quận Hai Bà Trưng- Hà Nội, nếu như không biết đường, có thể gọi đến điện thoại tư vấn 1800-6181 để hỏi, phòng khám có chỗ đỗ xe miễn phí, thuận tiện cho bạn đỗ xe.</p>

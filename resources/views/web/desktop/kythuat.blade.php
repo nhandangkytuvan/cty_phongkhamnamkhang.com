@@ -6,6 +6,7 @@
 	@include('seo.seo_term',['data'=>$data])
 @endsection('keyword')
 @section('css')
+	<link rel="canonical" href="{{ MyAPI::getUrlTermObj($data['term']) }}" />
 	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-pagination.css') }}">
 	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-sidebar.css') }}">
 	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-term.css') }}">

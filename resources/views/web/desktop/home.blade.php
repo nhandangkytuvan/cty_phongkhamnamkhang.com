@@ -6,6 +6,7 @@
 	@include('seo.seo_home')
 @endsection('keyword')
 @section('css')
+	<link rel="canonical" href="{{ url('/') }}" />
 	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/hover/css/hover.css') }}">
 	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-home.css') }}">
 @endsection('css')

@@ -10,7 +10,7 @@
 		</div>
 	</div>
 	<div>
-		<a href="{{ url('ve-chung-toi') }}">
+		<a href="{{ url('ve-chung-toi') }}" title="Phòng khám nam khang">
 			<img src="{{ asset('public/images/desktop/term-4.png') }}" class="center-block" alt="Phòng khám nam khang">
 		</a>
 	</div>
