@@ -6,11 +6,11 @@
 	color: #030303;
 	padding:15px 0px;
 }
-.home .headding h2{
+.home .headding div.h2{
 	font-size: 18px;
 	font-weight: normal;
 }
-.home .headding h3{
+.home .headding div.h3{
 	font-weight: normal;
 	font-size: 12px;
 }
@@ -31,7 +31,7 @@
 	padding:12px 5px;
 	min-height: 96px;
 }
-.home .row1 .flex1col1.order1 h3{
+.home .row1 .flex1col1.order1 h2{
 	font-size: 12px;
 	font-weight: normal;
 	line-height: 18px;
@@ -63,7 +63,7 @@
 }
 .home .row1 .flex1col1.order2 >div:last-child{
 }
-.home .row1 .flex1col1.order2 >div h4{
+.home .row1 .flex1col1.order2 >div h3{
 	font-weight: normal;
 	color: #373737;
 	font-size: 14px;
@@ -107,10 +107,10 @@
 	border-top: none;
 	border-right: none;
 }
-.home .row4 .flex1col1 h3{
-	color: #016fbf;
+.home .row4 .flex1col1 div.h3{
+	color: #016fbf;font-weight: bold;
 }
-.home .row4 .flex1col1 h4{
+.home .row4 .flex1col1 div.h4{
 	color: #030303;
 	font-size: 14px;
 	font-weight: normal;

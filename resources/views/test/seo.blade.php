@@ -185,6 +185,20 @@
             </td>
             <td>#</td>
         </tr>
+        <tr>
+            <td>19</td>
+            <td>
+                <a href="{{ asset('public/images/seo/h2mobile.png') }}">
+                    <img src="{{ asset('public/images/seo/h2mobile.png') }}" class="img-responsive" style="max-width:200px;">
+                </a>
+            </td>
+            <td>25/4</td>
+            <td>
+                <p>Sửa lại h ở mobile sao cho hợp lý gồm : trang chủ - trong bệnh - trang bài viết</p>
+                <p>Hợp lý là giống như desktop sửa thẻ</p>
+            </td>
+            <td>#</td>
+        </tr>
     </table>
 </div>
 @endsection('content')

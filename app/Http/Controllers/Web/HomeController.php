@@ -40,7 +40,7 @@ class HomeController extends Controller{
 		}
 	}
 	public function sitemap(Request $request){
-		$posts = Post::where('post_status',1)->get();
+		$posts = Post::get();
 		$terms = Term::get();
 		$data['posts'] = $posts;
 		$data['terms'] = $terms;
