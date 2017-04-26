@@ -299,11 +299,24 @@
 					</div>
 				</div>
 				<div class="flex flex2 justify-content-between">
-					<div class="flex2col1">
-						<div>
-							<img src="{{ asset('public/images/desktop/home-13.gif') }}" class="center-block" style="width: 100%;" alt="TRUNG TÂM PHỤC HỒI CHỨC NĂNG SINH LÝ">
+					<div class="flex2col1 flex flex-wrap-wrap justify-content-between">
+						<div class="news width-100">
+							<div class="width-100 text-center"><span class="text-center"><i></i>Tin tức phòng khám</span></div>
+							<div class="width-100">
+								<ul>
+									@php 
+										$term_test = MyAPI::getTermID(1);
+										$posts = $term_test->post()->limit(3)->get();
+									@endphp
+									@foreach($posts as $post)
+									<li>
+										<h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h5>
+									</li>
+									@endforeach
+								</ul>
+							</div>
 						</div>
-						<div class="flex flex3 flex-wrap-wrap justify-content-between align-content-between">
+						<div class="width-100 flex flex3 flex-wrap-wrap justify-content-between align-content-between">
 							<div class="flex3col1 flex align-items-center">
 								<div class="flex">
 									<div class="flex justify-content-center align-items-center">
@@ -383,7 +396,10 @@
 												<a href="{{ MyAPI::getUrlPostObj($posts[0]) }}" title="chi tiết">chi tiết</a>
 											</p>
 										</div>
-										@php unset($posts[0]) ; @endphp
+										@php
+											$post_first =  $posts[0];
+											unset($posts[0]) ; 
+										@endphp
 										@endif
 										<div class="width-100">
 											<ul>
@@ -415,19 +431,11 @@
 											</div>
 										</div>
 									</div>
-									<div class="flex5col2 flex flex-wrap-wrap align-content-between">
-										<div class="width-100 text-center"><span class="text-center"><i></i>Bài viết được quan tâm</span></div>
-										<div class="width-100">
-											<ul>
-												@php 
-													$posts = $term->post()->limit(8)->get();
-												@endphp
-												@foreach($posts as $post)
-												<li>
-													<h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h5>
-												</li>
-												@endforeach
-											</ul>
+									<div class="flex5col2 flex align-items-center justify-content-center">
+										<div>
+											@if(isset($post_first))
+											<img src="{{ asset('public/img/'.$post_first->post_avatar) }}" style="width: 232px;height: 193px;">
+											@endif
 										</div>
 									</div>
 								</div>
@@ -451,7 +459,10 @@
 												<a href="{{ MyAPI::getUrlPostObj($posts[0]) }}" title="chi tiết">chi tiết</a>
 											</p>
 										</div>
-										@php unset($posts[0]) ; @endphp
+										@php
+											$post_first =  $posts[0];
+											unset($posts[0]) ; 
+										@endphp
 										@endif
 										<div class="width-100">
 											<ul>
@@ -478,19 +489,11 @@
 											</div>
 										</div>
 									</div>
-									<div class="flex5col2 flex flex-wrap-wrap align-content-between">
-										<div class="width-100 text-center"><span class="text-center"><i></i>Bài viết được quan tâm</span></div>
-										<div class="width-100">
-											<ul>
-												@php 
-													$posts = $term->post()->limit(8)->get();
-												@endphp
-												@foreach($posts as $post)
-												<li>
-													<h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h5>
-												</li>
-												@endforeach
-											</ul>
+									<div class="flex5col2 flex align-items-center justify-content-center">
+										<div>
+											@if(isset($post_first))
+											<img src="{{ asset('public/img/'.$post_first->post_avatar) }}" style="width: 232px;height: 193px;">
+											@endif
 										</div>
 									</div>
 								</div>
@@ -514,7 +517,10 @@
 												<a href="{{ MyAPI::getUrlPostObj($posts[0]) }}" title="chi tiết">chi tiết</a>
 											</p>
 										</div>
-										@php unset($posts[0]) ; @endphp
+										@php
+											$post_first =  $posts[0];
+											unset($posts[0]) ; 
+										@endphp
 										@endif
 										<div class="width-100">
 											<ul>
@@ -538,19 +544,11 @@
 											</div>
 										</div>
 									</div>
-									<div class="flex5col2 flex flex-wrap-wrap align-content-between">
-										<div class="width-100 text-center"><span class="text-center"><i></i>Bài viết được quan tâm</span></div>
-										<div class="width-100">
-											<ul>
-												@php 
-													$posts = $term->post()->limit(8)->get();
-												@endphp
-												@foreach($posts as $post)
-												<li>
-													<h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h5>
-												</li>
-												@endforeach
-											</ul>
+									<div class="flex5col2 flex align-items-center justify-content-center">
+										<div>
+											@if(isset($post_first))
+											<img src="{{ asset('public/img/'.$post_first->post_avatar) }}" style="width: 232px;height: 193px;">
+											@endif
 										</div>
 									</div>
 								</div>
@@ -574,7 +572,10 @@
 												<a href="{{ MyAPI::getUrlPostObj($posts[0]) }}" title="chi tiết">chi tiết</a>
 											</p>
 										</div>
-										@php unset($posts[0]) ; @endphp
+										@php
+											$post_first =  $posts[0];
+											unset($posts[0]) ; 
+										@endphp
 										@endif
 										<div class="width-100">
 											<ul>
@@ -595,19 +596,11 @@
 											</div>
 										</div>
 									</div>
-									<div class="flex5col2 flex flex-wrap-wrap align-content-between">
-										<div class="width-100 text-center"><span class="text-center"><i></i>Bài viết được quan tâm</span></div>
-										<div class="width-100">
-											<ul>
-												@php 
-													$posts = $term->post()->limit(8)->get();
-												@endphp
-												@foreach($posts as $post)
-												<li>
-													<h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h5>
-												</li>
-												@endforeach
-											</ul>
+									<div class="flex5col2 flex align-items-center justify-content-center">
+										<div>
+											@if(isset($post_first))
+											<img src="{{ asset('public/img/'.$post_first->post_avatar) }}" style="width: 232px;height: 193px;">
+											@endif
 										</div>
 									</div>
 								</div>
@@ -633,18 +626,33 @@
 					</div>
 				</div>
 				<div class="flex flex2 justify-content-between">
-					<div class="flex2col1">
-						<div>
-							<a href=""><img src="{{ asset('public/images/desktop/home-18.gif') }}" class="center-block" style="width: 100%;"></a>
+					<div class="flex2col1 flex flex-wrap-wrap justify-content-between">
+						<div class="news width-100">
+							<div class="width-100 text-center"><span class="text-center"><i></i>Tin tức phòng khám</span></div>
+							<div class="width-100">
+								<ul>
+									@php 
+										$term_test = MyAPI::getTermID(1);
+										$posts = $term_test->post()->offset(3)->limit(3)->get();
+									@endphp
+									@foreach($posts as $post)
+									<li>
+										<h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h5>
+									</li>
+									@endforeach
+								</ul>
+							</div>
 						</div>
-						<div class="flex flex3 flex-wrap-wrap justify-content-between align-content-between">
+						<div class="width-100 flex flex3 flex-wrap-wrap justify-content-between align-content-between">
 							<div class="flex3col1 flex align-items-center">
 								<div class="flex">
 									<div class="flex justify-content-center align-items-center">
 										<i></i>
 									</div>
 									<div class="flex justify-content-center align-items-center">
-										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" title="Hỏi nguyên nhân gây bệnh">Hỏi nguyên nhân gây bệnh</a>
+										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" title="Hỏi nguyên nhân gây bệnh">
+										Hỏi nguyên nhân gây bệnh
+										</a>
 									</div>
 								</div>
 							</div>
@@ -739,7 +747,10 @@
 												<a href="{{ MyAPI::getUrlPostObj($posts[0]) }}" title="chi tiết">chi tiết</a>
 											</p>
 										</div>
-										@php unset($posts[0]) ; @endphp
+										@php
+											$post_first =  $posts[0];
+											unset($posts[0]) ; 
+										@endphp
 										@endif
 										<div class="width-100">
 											<ul>
@@ -771,19 +782,11 @@
 											</div>
 										</div>
 									</div>
-									<div class="flex5col2 flex flex-wrap-wrap align-content-between">
-										<div class="width-100 text-center"><span class="text-center"><i></i>Bài viết được quan tâm</span></div>
-										<div class="width-100">
-											<ul>
-												@php 
-													$posts = App\Post::whereIn('term_id',$term_childs)->limit(7)->get();
-												@endphp
-												@foreach($posts as $post)
-												<li>
-													<h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h5>
-												</li>
-												@endforeach
-											</ul>
+									<div class="flex5col2 flex align-items-center justify-content-center">
+										<div>
+											@if(isset($post_first))
+											<img src="{{ asset('public/img/'.$post_first->post_avatar) }}" style="width: 232px;height: 193px;">
+											@endif
 										</div>
 									</div>
 								</div>
@@ -808,7 +811,10 @@
 												<a href="{{ MyAPI::getUrlPostObj($posts[0]) }}" title="chi tiết">chi tiết</a>
 											</p>
 										</div>
-										@php unset($posts[0]) ; @endphp
+										@php
+											$post_first =  $posts[0];
+											unset($posts[0]) ; 
+										@endphp
 										@endif
 										<div class="width-100">
 											<ul>
@@ -840,19 +846,11 @@
 											</div>
 										</div>
 									</div>
-									<div class="flex5col2 flex flex-wrap-wrap align-content-between">
-										<div class="width-100 text-center"><span class="text-center"><i></i>Bài viết được quan tâm</span></div>
-										<div class="width-100">
-											<ul>
-												@php 
-													$posts = App\Post::whereIn('term_id',$term_childs)->limit(7)->get();
-												@endphp
-												@foreach($posts as $post)
-												<li>
-													<h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h5>
-												</li>
-												@endforeach
-											</ul>
+									<div class="flex5col2 flex align-items-center justify-content-center">
+										<div>
+											@if(isset($post_first))
+											<img src="{{ asset('public/img/'.$post_first->post_avatar) }}" style="width: 232px;height: 193px;">
+											@endif
 										</div>
 									</div>
 								</div>
@@ -877,7 +875,10 @@
 												<a href="{{ MyAPI::getUrlPostObj($posts[0]) }}" title="chi tiết">chi tiết</a>
 											</p>
 										</div>
-										@php unset($posts[0]) ; @endphp
+										@php
+											$post_first =  $posts[0];
+											unset($posts[0]) ; 
+										@endphp
 										@endif
 										<div class="width-100">
 											<ul>
@@ -901,26 +902,18 @@
 											</div>
 										</div>
 									</div>
-									<div class="flex5col2 flex flex-wrap-wrap align-content-between">
-										<div class="width-100 text-center"><span class="text-center"><i></i>Bài viết được quan tâm</span></div>
-										<div class="width-100">
-											<ul>
-												@php 
-													$posts = App\Post::whereIn('term_id',$term_childs)->limit(7)->get();
-												@endphp
-												@foreach($posts as $post)
-												<li>
-													<h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h5>
-												</li>
-												@endforeach
-											</ul>
+									<div class="flex5col2 flex align-items-center justify-content-center">
+										<div>
+											@if(isset($post_first))
+											<img src="{{ asset('public/img/'.$post_first->post_avatar) }}" style="width: 232px;height: 193px;">
+											@endif
 										</div>
 									</div>
 								</div>
 							</div>
 							<div>
 								<div class="flex flex5 justify-content-between">
-								<div class="flex5col1 flex flex-wrap-wrap align-content-between">
+									<div class="flex5col1 flex flex-wrap-wrap align-content-between">
 									@php 
 										$term = MyAPI::getTermID(17);
 										$term_childs = $term->children()->pluck('id')->toArray();
@@ -938,7 +931,10 @@
 											<a href="{{ MyAPI::getUrlPostObj($posts[0]) }}" title="chi tiết">chi tiết</a>
 										</p>
 									</div>
-									@php unset($posts[0]) ; @endphp
+									@php
+										$post_first =  $posts[0];
+										unset($posts[0]) ; 
+									@endphp
 									@endif
 									<div class="width-100">
 										<ul>
@@ -961,27 +957,19 @@
 											<h3 class="text-center"><a href="{{ MyAPI::getUrlTermID(21) }}" title="Viêm tinh hoàn">Viêm tinh hoàn</a></h3>
 										</div>
 									</div>
-								</div>
-								<div class="flex5col2 flex flex-wrap-wrap align-content-between">
-									<div class="width-100 text-center"><span class="text-center"><i></i>Bài viết được quan tâm</span></div>
-									<div class="width-100">
-										<ul>
-											@php 
-												$posts = App\Post::whereIn('term_id',$term_childs)->limit(7)->get();
-											@endphp
-											@foreach($posts as $post)
-											<li>
-												<h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h5>
-											</li>
-											@endforeach
-										</ul>
 									</div>
-								</div>
+									<div class="flex5col2 flex align-items-center justify-content-center">
+										<div>
+											@if(isset($post_first))
+											<img src="{{ asset('public/img/'.$post_first->post_avatar) }}" style="width: 232px;height: 193px;">
+											@endif
+										</div>
+									</div>
 								</div>
 							</div>
 							<div>
 								<div class="flex flex5 justify-content-between">
-								<div class="flex5col1 flex flex-wrap-wrap align-content-between">
+									<div class="flex5col1 flex flex-wrap-wrap align-content-between">
 									@php 
 										$term = MyAPI::getTermID(22);
 										$term_childs = $term->children()->pluck('id')->toArray();
@@ -999,7 +987,10 @@
 											<a href="{{ MyAPI::getUrlPostObj($posts[0]) }}" title="chi tiết">chi tiết</a>
 										</p>
 									</div>
-									@php unset($posts[0]) ; @endphp
+									@php
+										$post_first =  $posts[0];
+										unset($posts[0]) ; 
+									@endphp
 									@endif
 									<div class="width-100">
 										<ul>
@@ -1022,22 +1013,14 @@
 											<h3 class="text-center"><a href="{{ MyAPI::getUrlTermID(26) }}" title="Tinh trùng yếu">Tinh trùng yếu</a></h3>
 										</div>
 									</div>
-								</div>
-								<div class="flex5col2 flex flex-wrap-wrap align-content-between">
-									<div class="width-100 text-center"><span class="text-center"><i></i>Bài viết được quan tâm</span></div>
-									<div class="width-100">									
-										<ul>
-											@php 
-												$posts = App\Post::whereIn('term_id',$term_childs)->limit(7)->get();
-											@endphp
-											@foreach($posts as $post)
-											<li>
-												<h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h5>
-											</li>
-											@endforeach
-										</ul>
 									</div>
-								</div>
+									<div class="flex5col2 flex align-items-center justify-content-center">
+										<div>
+											@if(isset($post_first))
+											<img src="{{ asset('public/img/'.$post_first->post_avatar) }}" style="width: 232px;height: 193px;">
+											@endif
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>

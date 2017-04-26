@@ -202,3 +202,9 @@
     </table>
 </div>
 @endsection('content')
+<div>
+        <p class="pos-relative">
+            <img src="{{ asset('public/images/seo/h2mobile.png') }}" alt="">
+            <img class="pos-absolute" src="{{ asset('public/images/desktop/logo-header.png') }}" style="max-width: 30px; top:10px;left: 10px;" class="img-responsive">
+        </p>
+</div>
