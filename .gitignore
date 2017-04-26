@@ -7,3 +7,11 @@ Homestead.json
 Homestead.yaml
 /.psd
 public/img
+app/Http/Controllers/User/SettingController.php
+app/Http/Controllers/Web/TestController.php
+app/Media.php
+app/Post.php
+app/Term.php
+app/Visit.php
+app/Visit.php
+app/User.php
