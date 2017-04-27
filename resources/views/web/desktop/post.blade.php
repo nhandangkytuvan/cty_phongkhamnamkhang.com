@@ -7,7 +7,7 @@
 @endsection('keyword')
 @php $term = $data['post']->term;@endphp
 @section('css')
-<link rel="canonical" href="{{ MyAPI::getUrlTermObj($term) }}" />
+<link rel="canonical" href="{{ MyAPI::getUrlPostObj($data['post']) }}" />
 <link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-sidebar.css') }}">
 <link rel="stylesheet" href="{{ asset('public/font/post-detail-css.css') }}">
 <link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-post.css') }}">

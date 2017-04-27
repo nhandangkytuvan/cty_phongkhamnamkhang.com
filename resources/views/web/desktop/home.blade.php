@@ -306,7 +306,7 @@
 								<ul>
 									@php 
 										$term_test = MyAPI::getTermID(1);
-										$posts = $term_test->post()->limit(3)->get();
+										$posts = $term_test->post()->limit(6)->get();
 									@endphp
 									@foreach($posts as $post)
 									<li>
@@ -396,14 +396,11 @@
 												<a href="{{ MyAPI::getUrlPostObj($posts[0]) }}" title="chi tiết">chi tiết</a>
 											</p>
 										</div>
-										@php
-											$post_first =  $posts[0];
-											unset($posts[0]) ; 
-										@endphp
 										@endif
 										<div class="width-100">
 											<ul>
-												@foreach($posts as $post)
+												@foreach($posts as $key => $post)
+												@if($key==0) @continue @endif
 												<li><h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h5></li>
 												@endforeach
 											</ul>
@@ -433,8 +430,8 @@
 									</div>
 									<div class="flex5col2 flex align-items-center justify-content-center">
 										<div>
-											@if(isset($post_first))
-											<img src="{{ asset('public/img/'.$post_first->post_avatar) }}" style="width: 232px;height: 193px;">
+											@if(count($posts))
+											<img src="{{ asset('public/img/'.$posts[0]->post_avatar) }}" style="width: 232px;height: 193px;">
 											@endif
 										</div>
 									</div>
@@ -459,14 +456,11 @@
 												<a href="{{ MyAPI::getUrlPostObj($posts[0]) }}" title="chi tiết">chi tiết</a>
 											</p>
 										</div>
-										@php
-											$post_first =  $posts[0];
-											unset($posts[0]) ; 
-										@endphp
 										@endif
 										<div class="width-100">
 											<ul>
-												@foreach($posts as $post)
+												@foreach($posts as $key => $post)
+												@if($key==0) @continue @endif
 												<li><h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h5></li>
 												@endforeach
 											</ul>
@@ -491,8 +485,8 @@
 									</div>
 									<div class="flex5col2 flex align-items-center justify-content-center">
 										<div>
-											@if(isset($post_first))
-											<img src="{{ asset('public/img/'.$post_first->post_avatar) }}" style="width: 232px;height: 193px;">
+											@if(count($posts))
+											<img src="{{ asset('public/img/'.$posts[0]->post_avatar) }}" style="width: 232px;height: 193px;">
 											@endif
 										</div>
 									</div>
@@ -517,14 +511,11 @@
 												<a href="{{ MyAPI::getUrlPostObj($posts[0]) }}" title="chi tiết">chi tiết</a>
 											</p>
 										</div>
-										@php
-											$post_first =  $posts[0];
-											unset($posts[0]) ; 
-										@endphp
 										@endif
 										<div class="width-100">
 											<ul>
-												@foreach($posts as $post)
+												@foreach($posts as $key => $post)
+												@if($key==0) @continue @endif
 												<li><h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h5></li>
 												@endforeach
 											</ul>
@@ -546,8 +537,8 @@
 									</div>
 									<div class="flex5col2 flex align-items-center justify-content-center">
 										<div>
-											@if(isset($post_first))
-											<img src="{{ asset('public/img/'.$post_first->post_avatar) }}" style="width: 232px;height: 193px;">
+											@if(count($posts))
+											<img src="{{ asset('public/img/'.$posts[0]->post_avatar) }}" style="width: 232px;height: 193px;">
 											@endif
 										</div>
 									</div>
@@ -572,14 +563,11 @@
 												<a href="{{ MyAPI::getUrlPostObj($posts[0]) }}" title="chi tiết">chi tiết</a>
 											</p>
 										</div>
-										@php
-											$post_first =  $posts[0];
-											unset($posts[0]) ; 
-										@endphp
 										@endif
 										<div class="width-100">
 											<ul>
-												@foreach($posts as $post)
+												@foreach($posts as $key => $post)
+												@if($key==0) @continue @endif
 												<li><h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h5></li>
 												@endforeach
 											</ul>
@@ -598,8 +586,8 @@
 									</div>
 									<div class="flex5col2 flex align-items-center justify-content-center">
 										<div>
-											@if(isset($post_first))
-											<img src="{{ asset('public/img/'.$post_first->post_avatar) }}" style="width: 232px;height: 193px;">
+											@if(count($posts))
+											<img src="{{ asset('public/img/'.$posts[0]->post_avatar) }}" style="width: 232px;height: 193px;">
 											@endif
 										</div>
 									</div>
@@ -633,7 +621,7 @@
 								<ul>
 									@php 
 										$term_test = MyAPI::getTermID(1);
-										$posts = $term_test->post()->offset(3)->limit(3)->get();
+										$posts = $term_test->post()->offset(6)->limit(6)->get();
 									@endphp
 									@foreach($posts as $post)
 									<li>
@@ -747,14 +735,11 @@
 												<a href="{{ MyAPI::getUrlPostObj($posts[0]) }}" title="chi tiết">chi tiết</a>
 											</p>
 										</div>
-										@php
-											$post_first =  $posts[0];
-											unset($posts[0]) ; 
-										@endphp
 										@endif
 										<div class="width-100">
 											<ul>
-												@foreach($posts as $post)
+												@foreach($posts as $key => $post)
+												@if($key==0) @continue @endif
 												<li><h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h5></li>
 												@endforeach
 											</ul>
@@ -784,8 +769,8 @@
 									</div>
 									<div class="flex5col2 flex align-items-center justify-content-center">
 										<div>
-											@if(isset($post_first))
-											<img src="{{ asset('public/img/'.$post_first->post_avatar) }}" style="width: 232px;height: 193px;">
+											@if(count($posts))
+											<img src="{{ asset('public/img/'.$posts[0]->post_avatar) }}" style="width: 232px;height: 193px;">
 											@endif
 										</div>
 									</div>
@@ -811,14 +796,11 @@
 												<a href="{{ MyAPI::getUrlPostObj($posts[0]) }}" title="chi tiết">chi tiết</a>
 											</p>
 										</div>
-										@php
-											$post_first =  $posts[0];
-											unset($posts[0]) ; 
-										@endphp
 										@endif
 										<div class="width-100">
 											<ul>
-												@foreach($posts as $post)
+												@foreach($posts as $key => $post)
+												@if($key==0) @continue @endif
 												<li><h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h5></li>
 												@endforeach
 											</ul>
@@ -848,8 +830,8 @@
 									</div>
 									<div class="flex5col2 flex align-items-center justify-content-center">
 										<div>
-											@if(isset($post_first))
-											<img src="{{ asset('public/img/'.$post_first->post_avatar) }}" style="width: 232px;height: 193px;">
+											@if(count($posts))
+											<img src="{{ asset('public/img/'.$posts[0]->post_avatar) }}" style="width: 232px;height: 193px;">
 											@endif
 										</div>
 									</div>
@@ -875,14 +857,11 @@
 												<a href="{{ MyAPI::getUrlPostObj($posts[0]) }}" title="chi tiết">chi tiết</a>
 											</p>
 										</div>
-										@php
-											$post_first =  $posts[0];
-											unset($posts[0]) ; 
-										@endphp
 										@endif
 										<div class="width-100">
 											<ul>
-												@foreach($posts as $post)
+												@foreach($posts as $key => $post)
+												@if($key==0) @continue @endif
 												<li><h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h5></li>
 												@endforeach
 											</ul>
@@ -904,8 +883,8 @@
 									</div>
 									<div class="flex5col2 flex align-items-center justify-content-center">
 										<div>
-											@if(isset($post_first))
-											<img src="{{ asset('public/img/'.$post_first->post_avatar) }}" style="width: 232px;height: 193px;">
+											@if(count($posts))
+											<img src="{{ asset('public/img/'.$posts[0]->post_avatar) }}" style="width: 232px;height: 193px;">
 											@endif
 										</div>
 									</div>
@@ -931,14 +910,11 @@
 											<a href="{{ MyAPI::getUrlPostObj($posts[0]) }}" title="chi tiết">chi tiết</a>
 										</p>
 									</div>
-									@php
-										$post_first =  $posts[0];
-										unset($posts[0]) ; 
-									@endphp
 									@endif
 									<div class="width-100">
 										<ul>
-											@foreach($posts as $post)
+											@foreach($posts as $key => $post)
+											@if($key==0) @continue @endif
 											<li><h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h5></li>
 											@endforeach
 										</ul>
@@ -960,8 +936,8 @@
 									</div>
 									<div class="flex5col2 flex align-items-center justify-content-center">
 										<div>
-											@if(isset($post_first))
-											<img src="{{ asset('public/img/'.$post_first->post_avatar) }}" style="width: 232px;height: 193px;">
+											@if(count($posts))
+											<img src="{{ asset('public/img/'.$posts[0]->post_avatar) }}" style="width: 232px;height: 193px;">
 											@endif
 										</div>
 									</div>
@@ -987,14 +963,11 @@
 											<a href="{{ MyAPI::getUrlPostObj($posts[0]) }}" title="chi tiết">chi tiết</a>
 										</p>
 									</div>
-									@php
-										$post_first =  $posts[0];
-										unset($posts[0]) ; 
-									@endphp
 									@endif
 									<div class="width-100">
 										<ul>
-											@foreach($posts as $post)
+											@foreach($posts as $key => $post)
+											@if($key==0) @continue @endif
 											<li><h5><i></i><a href="{{ MyAPI::getUrlPostObj($post) }}" title="{{ $post->post_name }}">{{ $post->post_name }}</a></h5></li>
 											@endforeach
 										</ul>
@@ -1016,8 +989,8 @@
 									</div>
 									<div class="flex5col2 flex align-items-center justify-content-center">
 										<div>
-											@if(isset($post_first))
-											<img src="{{ asset('public/img/'.$post_first->post_avatar) }}" style="width: 232px;height: 193px;">
+											@if(count($posts))
+											<img src="{{ asset('public/img/'.$posts[0]->post_avatar) }}" style="width: 232px;height: 193px;">
 											@endif
 										</div>
 									</div>

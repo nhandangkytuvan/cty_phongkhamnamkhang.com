@@ -6,7 +6,7 @@
 	@include('seo.seo_home')
 @endsection('keyword')
 @section('css')
-	<link rel="canonical" href="{{ url('/') }}" />
+	<link rel="canonical" href="{{ url('dia-chi-phong-kham') }}" />
 	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-sidebar.css') }}">
 	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-address.css') }}">
 @endsection('css')
