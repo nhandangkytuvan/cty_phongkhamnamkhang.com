@@ -93,8 +93,13 @@
 						</div>
 					</div>
 					@php 
-						$posts = $data['term']->post()->paginate(7);
-						$post_first = $posts[0];
+						$post_first = $data['term']->post()->orderBy('id','desc')->first();
+						if($post_first){
+							$post_first_id = $post_first->id;
+						}else{
+							$post_first_id = 0;
+						}
+						$posts = $data['term']->post()->where('id','<>',$post_first_id)->orderBy('id','desc')->paginate(6);
 					@endphp
 					@if($post_first)
 					<div class="post-first">
@@ -135,7 +140,6 @@
 							</div>
 						</div>
 					</div>
-					@php unset($posts[0]); @endphp
 					@endif
 				</div>
 			</div>
