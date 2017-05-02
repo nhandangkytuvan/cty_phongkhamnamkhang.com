@@ -27,7 +27,7 @@
 									<i class="fa fa-home"></i>
 								</div>
 								<div class="flex justify-content-center align-items-center">
-									<a href="">Trang chủ</a> > 
+									<a href="{{ url('/') }}">Trang chủ</a> > 
 								</div>
 								<div class="flex justify-content-center align-items-center">
 									<a href="{{ MyAPI::getUrlTermObj($term) }}">{{ $term->term_name }}</a>
@@ -43,11 +43,11 @@
 									<span class="h5">Tìm kiếm nhiều hơn</span>
 								</div>
 								<div>
-									<form action="">
+									<form action="{{ url('search') }}">
 										<div class="flex justify-content-center align-items-center">
 											<div class="flex">
 												<div>
-													<input type="text" placeholder="Nhập từ khóa">
+													<input name="keyword" type="text" placeholder="Nhập từ khóa">
 												</div>
 												<div>
 													<button type="submit" class="text-center"><i class="fa fa-search"></i></button>

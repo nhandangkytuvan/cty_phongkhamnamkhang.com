@@ -44,7 +44,7 @@
 									<h5>Tìm kiếm nhiều hơn</h5>
 								</div>
 								<div>
-									<form action="">
+									<form action="{{ url('search') }}">
 										<div class="flex justify-content-center align-items-center">
 											<div class="flex">
 												<div>
