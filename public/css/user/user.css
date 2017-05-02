@@ -70,8 +70,3 @@ body{
 .form-control,.label,.input-group-addon,.btn{
     border-radius: 0;
 }
-/*position*/
-.pos-relative{position: relative;}
-.pos-absolute{position: absolute;}
-.pos-fixed{position: fixed;}
-.pos-static{position: static;}

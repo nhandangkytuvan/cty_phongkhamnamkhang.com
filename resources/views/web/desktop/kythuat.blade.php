@@ -93,8 +93,8 @@
 						</div>
 					</div>
 					@php 
-						$posts = $data['term']->post()->paginate(7);
-						$post_first = $posts[0];
+						$post_first = $data['term']->post()->orderBy('id','desc')->first();
+						$posts = $data['term']->post()->where('id','<>',$post_first->id)->orderBy('id','desc')->paginate(6);
 					@endphp
 					@if($post_first)
 					<div class="post-first">

@@ -8,8 +8,9 @@ use App\Term;
 use Session;
 class TestController extends Controller{
 	public function db_pluck(Request $request){
-		$terms = Term::pluck('term_name')->toArray();
-		var_dump(implode(',',$terms));
+		//$terms = Term::pluck('term_name')->toArray();
+		//var_dump(implode(',',$terms));
+        echo asset('/');
 	}
     public function setRandomName(Request $request){
         $benhs = ['viêm tuyến tiền liệt','u nang tuyến tiền liệt','tăng sinh tuyến tiền liệt','phì đại tuyến tiền liệt','rối loạn chức năng sinh dục','liệt dương','rối loạn cương dương','xuất tinh sớm','dài bao quy đầu','viêm nhiễm hệ thống sinh dục','viêm quy đầu','viêm bàng quang','viêm niệu đạo','viêm tinh hoàn','vô sinh nam','tinh trùng ít','xuất tinh ra máu','vô tinh','tinh trùng yếu','sùi mào gà','giang mai','bệnh lậu','mụn rộp sinh dục','yếu sinh lý'];
@@ -56,5 +57,9 @@ class TestController extends Controller{
     // 
     public function seo(Request $request){
         return view('test.seo');
+    }
+    //
+    public function demoUrl(Request $request){
+        echo base_url();
     }
 }

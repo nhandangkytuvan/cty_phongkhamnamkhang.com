@@ -306,7 +306,7 @@
 								<ul>
 									@php 
 										$term_test = MyAPI::getTermID(1);
-										$posts = $term_test->post()->limit(6)->get();
+										$posts = $term_test->post()->latest()->limit(5)->get();
 									@endphp
 									@foreach($posts as $post)
 									<li>
@@ -621,7 +621,7 @@
 								<ul>
 									@php 
 										$term_test = MyAPI::getTermID(1);
-										$posts = $term_test->post()->offset(6)->limit(6)->get();
+										$posts = $term_test->post()->latest()->offset(5)->limit(5)->get();
 									@endphp
 									@foreach($posts as $post)
 									<li>
