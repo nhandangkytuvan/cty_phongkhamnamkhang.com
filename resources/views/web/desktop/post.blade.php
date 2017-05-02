@@ -211,6 +211,10 @@
 					</div>
 				</div>
 			</div>
+			<div class="tool-facebook">
+				<div class="fb-like" data-href="" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+				<div class="fb-comments" data-href="{{ MyAPI::getUrlPostObj($data['post']) }}" data-numposts="5" data-width="100%"></div>
+			</div>
 			<script>
 				$(document).ready(function() {
 					setTimeout(function(){

@@ -18,6 +18,8 @@
     <meta property="og:site_name" content="Phòng Khám Nam Khang" />
 	<meta property="og:type" content="article" />
     <meta property="og:locale " content="vi_VN">
+    <meta property="fb:app_id" content="217371985432377">
+    <meta property="fb:admins" content="https://www.facebook.com/truong321989">
     <!-- link rss,sitemap -->
     <!-- link icon -->
     <link rel="shortcut icon" href="{{ asset('public/img/'.$setting->web_icon) }}" type="image/x-icon">
@@ -55,6 +57,14 @@
 	</script>
 </head>
 <body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.9&appId=217371985432377";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
     <header>
 		<div class="container">
 			<div class="flex flex1 justify-content-between">
