@@ -56,5 +56,5 @@
 </div> 
 <div>
     <p><img src="{{ asset('public/img/'.$setting->web_logo) }}" class="img-responsive center-block"></p>
-    <a href="{{ url('/') }}" class="btn-block btn btn-success">www.phongkhamnamkhang.net</a>
+    <a href="{{ url('/') }}" class="btn-block btn btn-success">phongkhamnamkhang.com</a>
 </div>

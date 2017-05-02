@@ -90,8 +90,8 @@
                 <script>
                     $(document).ready(function($) {
                         tinymce.init({
-                            menubar: false,
-                            statusbar: false,
+                            //menubar: false,
+                            //statusbar: false,
                             selector: '#post_detail',
                             font_formats: 'Arial=arial,helvetica,sans-serif;',
                             height:600,
@@ -104,7 +104,7 @@
                                 'paste textcolor colorpicker textpattern imagetools toc responsivefilemanager'
                             ],
                             toolbar1: 'undo redo insert styleselect bold italic alignleft aligncenter alignright alignjustify bullist numlist outdent indent',
-                            toolbar2: 'print preview media forecolor backcolor fontsizeselect link image code responsivefilemanager ',
+                            toolbar2: 'print preview media forecolor backcolor fontsizeselect link image code responsivefilemanager fullscreen',
                             image_advtab: true,
                             filemanager_crossdomain: true,
                             external_filemanager_path:"{{ asset('filemanager').'/' }}",
