@@ -101,7 +101,7 @@
 			</div>
 		</div>
 		<div class="posts">
-			@php $posts = $data['term']->post()->paginate(6); @endphp
+			@php $posts = $data['term']->post()->orderBy('id','desc')->paginate(6); @endphp
 			@foreach($posts as $post)
 			<div class="post">
 				<h2><a href="{{ MyAPI::getUrlPostObj($post) }}"><i class="fa fa-user-md"></i> {{ $post->post_name }}</a></h2>
@@ -439,7 +439,7 @@
 					<div class="text-center h3"><a href="#top"><i class="bg bg3"></i></a></div>
 				</div>
 				<div class="flex3col2 flex align-items-center justify-content-center">
-					<div class="text-center h4"><a href="#top">Lên đầu trang</a></div>
+					<div class="text-center h4"><a href="{{ url('/') }}">Quay lại</a></div>
 				</div>
 			</div>
 		</div>
