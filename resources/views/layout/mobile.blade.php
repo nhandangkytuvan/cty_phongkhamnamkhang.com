@@ -53,43 +53,37 @@
 <body>
 	<header>
 		<div class="container">
-			<div class="flex flex1 justify-content-between">
-				<div class="flex flex1col1">
+			<div class="dis-table width-100">
+				<div class="table-cell cell1">
 					<div class="flex2col1">
 						<div><a href="{{ url('/') }}"><img src="{{ asset('public/images/mobile/logo.png') }}" class="center-block"></a></div>
 					</div>
-					<div class="flex flex2col2">
-						<div class="box-center">
-							@if(Request::url()==url('/'))
-							<h1 class="text-uppercase">phòng khám chuyên khoa nam khang</h1>
-							@else
-							<div class="h3 text-uppercase">phòng khám chuyên khoa nam khang</div>
-							@endif
-							<div class="web-address text-uppercase">số 193C1 bà triệu - hai bà trưng - hà nội</div>
-						</div>
+				</div>
+				<div class="table-cell cell2">
+					@if(Request::url()==url('/'))
+					<h1 class="text-uppercase">phòng khám chuyên khoa nam khang</h1>
+					@else
+					<div class="h3 text-uppercase">phòng khám chuyên khoa nam khang</div>
+					@endif
+					<div class="web-address text-uppercase">số 193C1 bà triệu - hai bà trưng - hà nội</div>
+				</div>
+				<div class="table-cell cell3">
+					<div class="h4">
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+							<img src="{{ asset('public/images/mobile/icon-0.png') }}" class="center-block img-responsive">
+						</a>
 					</div>
 				</div>
-				<div class="flex flex1col2">
-					<div class="flex4col1">
-						<div class="h4">
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
-								<img src="{{ asset('public/images/mobile/icon-0.png') }}" class="center-block img-responsive">
-							</a>
-						</div>
+				<div class="table-cell cell4">
+					<div class="h6">
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+							Bác sĩ đang trực tuyến
+						</a>
 					</div>
-					<div class="flex flex4col2">
-						<div class="box-center">
-							<div class="h6">
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
-									Bác sĩ đang trực tuyến
-								</a>
-							</div>
-							<div class="h5">
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-uppercase">
-									Tư vấn ngay
-								</a>
-							</div>
-						</div>
+					<div class="h5">
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-uppercase">
+							Tư vấn ngay
+						</a>
 					</div>
 				</div>
 			</div>
