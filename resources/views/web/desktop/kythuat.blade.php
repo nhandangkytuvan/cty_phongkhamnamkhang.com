@@ -135,7 +135,6 @@
 							</div>
 						</div>
 					</div>
-					@php unset($posts[0]); @endphp
 					@endif
 				</div>
 			</div>
