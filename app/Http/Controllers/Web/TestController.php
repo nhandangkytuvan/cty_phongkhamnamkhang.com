@@ -36,14 +36,24 @@ class TestController extends Controller{
         //Session::forget('random_names');
         return 'oke';
     }
-    // reset visit_tuvan - visit_dathen
-    public static function resetVisit(Request $request){
-        $setting = Setting::first();
-        $setting->web_tuvan =  200;
-        $setting->web_dathen =  19;
-        $setting->save();
-        return '0oe';
-    } 
+    public function resetNumberTuvan(Request $request){
+        Session::put('web_visitday',[0,2,2]);
+        Session::put('web_dathen',[0,2]);
+        return 'oke';
+    }
+    public function setNumberTuvan(Request $request){
+        $web_dathen = Session::get('web_dathen');
+        $web_dathen = implode('',$web_dathen)+1;
+        if($web_dathen>99){
+            $web_dathen = 99;
+        }
+        $web_dathen = str_split($web_dathen);
+        if(count($web_dathen)==1){
+            array_unshift($web_dathen,'0');
+        }
+        Session::put('web_dathen',$web_dathen);
+        return 'oke';
+    }
     // 
     public function seo(Request $request){
         return view('test.seo');

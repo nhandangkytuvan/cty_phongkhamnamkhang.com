@@ -34,6 +34,7 @@
 	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/mobile/mobile-footer.css') }}">
 	@yield('css')
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery-1.12.3.min.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('public/js/global/jquery.form.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery.popupoverlay.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery-scrolltofixed-min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/slick/slick.js') }}"></script>
@@ -118,5 +119,6 @@
 	    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="btn-agree">Đồng ý</a>
 	</div>
 	<img src="{{ asset('public/images/mobile/shake.gif') }}" alt="" style="position: fixed; top: 15%;right: 0px;z-index: 999;width:55px;">
+	@include('popup.mypopup2')
 </body>
 </html>

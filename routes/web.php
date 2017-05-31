@@ -5,6 +5,9 @@ Route::get('/sitemap.xml', 'Web\HomeController@sitemap');
 Route::get('/ve-chung-toi', 'Web\HomeController@about');
 Route::get('/dia-chi-phong-kham', 'Web\HomeController@address');
 Route::any('/search{query?}', 'Web\HomeController@search');
+// Mail
+Route::post('sendmail','Web\MyMailController@sendmail');
+Route::post('sendphone','Web\MyMailController@sendphone');
 // Term
 Route::get('/{term_link?}', 'Web\TermController@show')->where(['term_link'=>'[-a-z0-9]+']);
 //Route::get('/{term_alias?}/{term_id?}', 'Web\TermController@showold')->where(['term_alias'=>'[-a-z0-9]+','term_id'=>'[0-9]+']);
@@ -49,5 +52,6 @@ Route::group(['middleware' => ['check-user']], function () {
 // DB
 Route::any('db_pluck','Web\TestController@db_pluck');
 Route::any('setRandomName','Web\TestController@setRandomName');
-Route::any('resetVisit','Web\TestController@resetVisit');
+Route::any('resetNumberTuvan','Web\TestController@resetNumberTuvan');
+Route::any('setNumberTuvan','Web\TestController@setNumberTuvan');
 Route::any('test/seo','Web\TestController@seo');
