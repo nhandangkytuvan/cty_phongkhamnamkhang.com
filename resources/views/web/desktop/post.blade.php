@@ -172,7 +172,7 @@
 						<div class="flex3col1">
 							<p>
 								@php 
-									$web_tuvan = $setting->web_tuvan;
+									$web_tuvan = 238;
 									$web_tuvan = str_split($web_tuvan);
 					                if(count($web_tuvan)==1){
 					                    array_unshift($web_tuvan,'0','0');
