@@ -95,15 +95,10 @@
                             image_advtab: true,
                             filemanager_crossdomain: true,
                             external_filemanager_path:"{{ asset('filemanager').'/' }}",
-                            external_plugins: { "filemanager" : "{{ asset('public/js/global/tinymce/js/tinymce/plugins/responsivefilemanager/plugin.min.js') }}"},
+                            external_plugins: { "filemanager" : "{{ asset('filemanager/plugin.min.js') }}"},
                             content_css: [
                                 '{{ asset("public/font/codepen.min.css") }}'
                             ],
-                            relative_urls: false,
-                            file_browser_callback: function(field_name, url, type, win) {
-                                // trigger file upload form
-                                if (type == 'image') $('#formUpload input').click();
-                            }
                         });
                     });
                 </script>
