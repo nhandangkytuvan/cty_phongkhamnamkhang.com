@@ -39,10 +39,10 @@
                                     <option {{ $data['term']->term_id == $term->id ? 'selected' : '' }} value="{{ $term->id }}">{{ $term->term_name }}</option>
                                     @foreach($data['terms'] as $key2=> $term2)
                                         @if($term2->term_id == $term->id)
-                                            <option {{ $data['term']->term_id == $term2->id ? 'selected' : '' }} value="{{ $term2->id }}">--{{ $term2->term_name }}</option>
+                                            <option {{ $data['term']->term_id == $term2->id ? 'selected' : '' }} value="{{ $term2->id }}">|---{{ $term2->term_name }}</option>
                                             @foreach($data['terms'] as $key3=> $term3)
                                                 @if($term3->term_id == $term2->id)
-                                                    <option {{ $data['term']->term_id == $term3->id ? 'selected' : '' }} value="{{ $term2->id }}">----{{ $term2->term_name }}</option>
+                                                    <option {{ $data['term']->term_id == $term3->id ? 'selected' : '' }} value="{{ $term2->id }}">|------{{ $term2->term_name }}</option>
                                                     @php unset($data['terms'][$key3]) @endphp
                                                 @endif
                                             @endforeach
