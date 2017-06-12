@@ -93,13 +93,13 @@
 						</div>
 					</div>
 					@php 
-						$post_first = $data['term']->post()->orderBy('id','desc')->first();
+						$post_first = $data['term']->post()->orderBy('id','desc')->where('post_status',1)->first();
 						if($post_first){
 							$post_first_id = $post_first->id;
 						}else{
 							$post_first_id = 0;
 						}
-						$posts = $data['term']->post()->where('id','<>',$post_first_id)->orderBy('id','desc')->paginate(6);
+						$posts = $data['term']->post()->where('id','<>',$post_first_id)->orderBy('id','desc')->where('post_status',1)->paginate(6);
 					@endphp
 					@if($post_first)
 					<div class="post-first">

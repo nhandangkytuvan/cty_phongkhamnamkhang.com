@@ -156,7 +156,7 @@
 		</div>
 		@endif
 		<div class="posts">
-			@php $posts = $data['term']->post()->orderBy('id','desc')->paginate(6); @endphp
+			@php $posts = $data['term']->post()->orderBy('id','desc')->where('post_status',1)->paginate(6); @endphp
 			@foreach($posts as $post)
 			<div class="post">
 				<h4><a href="{{ MyAPI::getUrlPostObj($post) }}"><i class="fa fa-user-md"></i> {{ $post->post_name }}</a></h4>
