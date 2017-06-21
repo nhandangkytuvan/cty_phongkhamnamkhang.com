@@ -21,6 +21,7 @@
     <!-- link rss,sitemap -->
     
     <!-- link icon -->
+    <link rel="alternate" href="<link rel=http://phongkhamnamkhang.com" hreflang="vi-vn" />
     <link rel="shortcut icon" href="{{ asset('public/img/'.$setting->web_icon) }}" type="image/x-icon">
     @yield('title')
     @yield('keyword')
