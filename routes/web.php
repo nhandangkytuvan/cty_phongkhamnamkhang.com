@@ -5,6 +5,8 @@ Route::get('/sitemap.xml', 'Web\HomeController@sitemap');
 Route::get('/ve-chung-toi', 'Web\HomeController@about');
 Route::get('/dia-chi-phong-kham', 'Web\HomeController@address');
 Route::any('/search{query?}', 'Web\HomeController@search');
+// Chuyen De
+Route::get('chuyen-de/vo-sinh','Web\ChuyenDeController@vosinh');
 // Mail
 Route::post('sendmail','Web\MyMailController@sendmail');
 Route::post('sendphone','Web\MyMailController@sendphone');

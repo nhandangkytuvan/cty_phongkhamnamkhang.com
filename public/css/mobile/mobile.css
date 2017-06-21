@@ -70,5 +70,10 @@ a{text-decoration: none;}
 .dis-table{display: table;}
 .table-cell{display: table-cell;vertical-align: middle;}
 .table-row{display: table-row;vertical-align: middle;}
+.table-reponsive{overflow-x: scroll;}
+/*margin*/
+.marlr-5{margin:0px -5px!important;}
+/*padding*/
+.padlr5{padding:0px 5px!important;}
 
 iframe{width: 100%!important}
