@@ -311,7 +311,7 @@
 								<ul>
 									@php 
 										$term_test = MyAPI::getTermID(1);
-										$posts = $term_test->post()->latest()->limit(5)->get();
+										$posts = $term_test->post()->latest()->limit(4)->get();
 									@endphp
 									@foreach($posts as $post)
 									<li>
