@@ -104,7 +104,7 @@
 					<div class="flex3col2 flex justify-content-center align-items-center">
 						<div>
 							<div class="text-uppercase">Đường dây nóng khẩn cấp</div>
-							<div class="text-center"><a href="tel:043-9656999" title="043-9656999">043 - 9656999</a></div>
+							<div class="text-center"><a href="tel:0243-9656999" title="0243-9656999">0243 - 9656999</a></div>
 							<div class="text-center"><a href="tel:1800 - 6181" title="1800 - 6181">1800 - 6181</a></div>
 						</div>
 					</div>
