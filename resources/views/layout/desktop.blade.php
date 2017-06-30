@@ -43,9 +43,9 @@
 	<script type="text/javascript" src="{{ asset('public/js/global/slick/slick.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/toastr8/dist/js/toastr8.min.js') }}"></script>
 	@yield('js')
+	<script type="text/javascript" src="{{ asset('public/js/desktop/dkdt.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/desktop/desktop.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/desktop/right.js') }}"></script>
-	<!-- <script type="text/javascript" src="{{ asset('public/js/desktop/swt.js') }}"></script> -->
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
