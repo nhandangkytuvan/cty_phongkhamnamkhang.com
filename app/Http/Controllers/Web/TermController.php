@@ -15,7 +15,7 @@ class TermController extends Controller{
             return redirect('/');
         }
         // -----------
-        event(new VisitTermEvent($term));
+        //event(new VisitTermEvent($term));
         // -----------
         $data['term'] = $term;
         if(BrowserDetect::isDesktop()){
@@ -56,7 +56,7 @@ class TermController extends Controller{
             return redirect('/');
         }
         // -----------
-        event(new VisitTermEvent($term));
+        //event(new VisitTermEvent($term));
         // -----------
         $data['term'] = $term;
         if(BrowserDetect::isDesktop()){

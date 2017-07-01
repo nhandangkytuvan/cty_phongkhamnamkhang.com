@@ -14,14 +14,14 @@ class PostController extends Controller{
         $post_id = end($array_link);
     	$setting = Setting::first();
         if(!Session::has('user')){
-            event(new VisitSumEvent($setting));
+            //event(new VisitSumEvent($setting));
         }
     	$post = Post::find($post_id);
         if(!$post){
             return redirect('/');
         }
         // --------------
-        event(new VisitPostEvent($post));
+        //event(new VisitPostEvent($post));
         // ------------
         $data['post'] = $post;
         if(BrowserDetect::isDesktop()){
@@ -32,13 +32,13 @@ class PostController extends Controller{
     }
     public function showold($post_alias,$post_id,Request $request){
         $setting = Setting::first();
-        event(new VisitSumEvent($setting));
+        //event(new VisitSumEvent($setting));
         $post = Post::find($post_id);
         if(!$post){
             return redirect('/');
         }
         // --------------
-        event(new VisitPostEvent($post));
+        //event(new VisitPostEvent($post));
         // ------------
         $data['post'] = $post;
         if(BrowserDetect::isDesktop()){
