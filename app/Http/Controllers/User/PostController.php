@@ -65,11 +65,11 @@ class PostController extends Controller{
         $terms = Term::get();
         $post = Post::find($post_id);
         if($request->isMethod('post')){
-            // if (Gate::forUser($user)->denies('edit-post', $post)) {
-            //     Session::flash('error','Bài viết không phải của bạn.');
-            //     return back();
-            // }
-            $this->validate($request,$this->rules,$this->messages);
+            if (Gate::forUser($user)->denies('edit-post', $post)) {
+                Session::flash('error','Bài viết không phải của bạn.');
+                return back();
+            }
+            $this->validate($request,Post::rulesEdit($post_id),$this->messages);
             $post->term_id = $request->input('term_id');
             $post->post_name = $request->input('post_name');
             $post->post_alias = str_slug($request->input('post_name'),'-');

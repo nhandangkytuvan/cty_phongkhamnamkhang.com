@@ -12,4 +12,12 @@ class Post extends Model{
     public function visit(){
     	return $this->hasOne('App\Visit','post_id','id');
     }
+    //get rules
+    public static function rulesEdit($id){
+        return [
+            'post_name' => 'required|unique:post,post_name,'.$id,
+            'post_description' => 'required',
+            'term_id' => 'required',
+        ];
+    }
 }

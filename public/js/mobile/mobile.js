@@ -16,7 +16,7 @@ $(document).ready(function() {
         //setTimeout(showchat2,20000);
     }
     // 
-    $('.home .row3 .flex1col1').click(function(event) {
+    $('.home .row3 .table-cell').click(function(event) {
         /* Act on the event */
         clearInterval(inter1);
         var index = $(this).index();
