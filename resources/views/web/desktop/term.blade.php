@@ -92,21 +92,12 @@
 							</div>
 						</div>
 					</div>
-					@php 
-						$post_first = $data['term']->post()->orderBy('id','desc')->where('post_status',1)->first();
-						if($post_first){
-							$post_first_id = $post_first->id;
-						}else{
-							$post_first_id = 0;
-						}
-						$posts = $data['term']->post()->where('id','<>',$post_first_id)->orderBy('id','desc')->where('post_status',1)->paginate(6);
-					@endphp
-					@if($post_first)
+					@if($data['post_top'])
 					<div class="post-first">
 						<h2 class="text-uppercase text-center">
-							<a href="{{ MyAPI::getUrlPostObj($post_first) }}" title="{{ $post_first->post_name }}">{{ $post_first->post_name }}</a>
+							<a href="{{ MyAPI::getUrlPostObj($data['post_top']) }}" title="{{ $data['post_top']->post_name }}">{{ $data['post_top']->post_name }}</a>
 						</h2>
-						<p>{{ MyAPI::getLimitWord($post_first->post_description,40) }} <a href="{{ MyAPI::getUrlPostObj($post_first) }}" title="chi tiết">Chi tiết</a></p>
+						<p>{{ MyAPI::getLimitWord($data['post_top']->post_description,40) }} <a href="{{ MyAPI::getUrlPostObj($data['post_top']) }}" title="chi tiết">Chi tiết</a></p>
 					</div>
 					<div class="flex flex2 flex-wrap-wrap justify-content-between align-content-between">
 						<div class="flex2col1 flex align-items-center justify-content-center">
@@ -144,7 +135,7 @@
 				</div>
 			</div>
 			<div class="posts">
-				@foreach($posts as $post)
+				@foreach($data['term_posts'] as $post)
 				<div class="post">
 					<div class="flex flex4 justify-content-between">
 						<div class="flex4col1 flex align-items-center">
@@ -176,7 +167,7 @@
 				@endforeach
 			</div>
 			<div class="my_pagination">
-				{{ $posts->links() }}
+				{{ $data['term_posts']->links() }}
 			</div>
 			<div>
 				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Nhắc nhở">
