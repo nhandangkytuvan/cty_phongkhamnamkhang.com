@@ -3,7 +3,7 @@
     <title>{{ $data['term']->term_name }} - {{ $setting->web_name }}</title>
 @endsection('title')
 @section('keyword')
-	@include('seo.seo_term',['data'=>$data])
+	@include('seo.seo_term')
 @endsection('keyword')
 @section('css')
 	<link rel="canonical" href="{{ url('/') }}" />
@@ -115,10 +115,9 @@
 		</div>
 		<div class="term-name">
 			<h3 class="text-center"><a href="">{{ $data['term']->term_name }} <i class="fa fa-chevron-circle-down"></i></a></h3>
-			@php $term_parent = $data['term']->parent;  @endphp
-			@if($term_parent)
+			@if($data['term_parent'])
 			<div class="dis-table width-100">
-				@php $term_childs = $term_parent->children; @endphp
+				@php $term_childs = $data['term_parent']->children; @endphp
 				@foreach($term_childs as $term_child)
 				<div class="table-cell">
 					<h5><a href="{{ MyAPI::getUrlTermObj($term_child) }}">{{ $term_child->term_name }}</a></h5>
@@ -156,8 +155,7 @@
 		</div>
 		@endif
 		<div class="posts">
-			@php $posts = $data['term']->post()->orderBy('id','desc')->where('post_status',1)->paginate(6); @endphp
-			@foreach($posts as $post)
+			@foreach($data['post_terms'] as $post)
 			<div class="post">
 				<h4><a href="{{ MyAPI::getUrlPostObj($post) }}"><i class="fa fa-user-md"></i> {{ $post->post_name }}</a></h4>
 				<p class="text-justify">
@@ -167,7 +165,7 @@
 			@endforeach
 		</div>
 		<div class="my_pagination">
-			{!! $posts->links() !!}
+			{!! $data['post_terms']->links() !!}
 		</div>
 		<div class="uudiem-thuonghieu">
 			<div class="flex2 dis-table table2">

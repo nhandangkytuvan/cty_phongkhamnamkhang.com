@@ -3,9 +3,8 @@
 	<title>{{ $data['post']->post_name }} - {{ $setting->web_name }}</title>
 @endsection('title')
 @section('keyword')
-	@include('seo.seo_post',['data'=>$data])
+	@include('seo.seo_post')
 @endsection('keyword')
-@php $term = $data['post']->term; @endphp
 @section('css')
 <link rel="canonical" href="{{ MyAPI::getUrlPostObj($data['post']) }}" />
 <link rel="stylesheet" href="{{ asset('public/font/post-detail-css.css') }}">
@@ -114,7 +113,7 @@
 		<div class="crub">
 			<div class="flex">
 				<div class="col1 flex justify-content-center align-items-center">
-					<div class="h5"><a href="{{ url('/') }}">Trang chủ <i class="fa fa-angle-right"></i> </a> <a href="{{ MyAPI::getUrlTermObj($term) }}">{{ $term->term_name }}</a></div>
+					<div class="h5"><a href="{{ url('/') }}">Trang chủ <i class="fa fa-angle-right"></i> </a> <a href="{{ MyAPI::getUrlTermObj($data['term']) }}">{{ $data['term']->term_name }}</a></div>
 				</div>
 			</div>
 		</div>
@@ -139,8 +138,7 @@
 			<div class="post">
 				<h4><i class="fa fa-plus-square"></i> Bài viết liên quan</h4>
 				<ul>
-					@php $posts = $term->post()->where('id','<>',$data['post']->id)->limit(6)->get(); @endphp
-					@foreach($posts as $post)
+					@foreach($data['post_lienquans'] as $post)
 					<li><a href="{{ MyAPI::getUrlPostObj($post) }}">{{ $post->post_name }}</a></li>
 					@endforeach
 				</ul>
@@ -488,7 +486,7 @@
 						<div class="text-center h3"><a href="#top"><i class="bg bg3"></i></a></div>
 					</div>
 					<div class="table-cell">
-						<div class="text-center h4"><a href="{{ MyAPI::getUrlTermObj($term) }}">Quay lại</a></div>
+						<div class="text-center h4"><a href="{{ MyAPI::getUrlTermObj($data['term']) }}">Quay lại</a></div>
 					</div>
 				</div>
 			</div>
