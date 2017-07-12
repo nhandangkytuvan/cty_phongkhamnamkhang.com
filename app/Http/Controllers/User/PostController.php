@@ -11,7 +11,7 @@ use Session;
 use DB;
 class PostController extends Controller{
     protected $rules = [
-        'post_name' => 'required',
+        'post_name' => 'required|unique:post',
         'post_description' => 'required',
         'term_id' => 'required',
     ];

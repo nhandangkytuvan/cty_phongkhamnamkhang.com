@@ -135,7 +135,7 @@
 				</div>
 			</div>
 			<div class="posts">
-				@foreach($data['term_posts'] as $post)
+				@foreach($data['post_terms'] as $post)
 				<div class="post">
 					<div class="flex flex4 justify-content-between">
 						<div class="flex4col1 flex align-items-center">
@@ -167,7 +167,7 @@
 				@endforeach
 			</div>
 			<div class="my_pagination">
-				{{ $data['term_posts']->links() }}
+				{{ $data['post_terms']->links() }}
 			</div>
 			<div>
 				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Nhắc nhở">
