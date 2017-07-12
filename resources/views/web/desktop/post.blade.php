@@ -5,7 +5,6 @@
 @section('keyword')
 	@include('seo.seo_post',['data'=>$data])
 @endsection('keyword')
-@php $term = $data['post']->term;@endphp
 @section('css')
 <link rel="canonical" href="{{ MyAPI::getUrlPostObj($data['post']) }}" />
 <link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-sidebar.css') }}">
@@ -30,7 +29,7 @@
 									<a href="{{ url('/') }}">Trang chủ</a> > 
 								</div>
 								<div class="flex justify-content-center align-items-center">
-									<a href="{{ MyAPI::getUrlTermObj($term) }}">{{ $term->term_name }}</a>
+									<a href="{{ MyAPI::getUrlTermObj($data['term']) }}">{{ $data['term']->term_name }}</a>
 								</div>
 							</div>
 						</div>
@@ -129,14 +128,10 @@
 				</div>
 			</div>
 			<div class="post-related">
-				@php  
-					$term = $data['post']->term;
-					$posts = $term->post()->where('id','<>',$data['post']->id)->limit(6)->get();
-				@endphp
 				<div class="flex justify-content-between flex2">
 					<div class="flex2col1">
 						<ul>
-							@foreach($posts as $key => $post)
+							@foreach($data['post_lienquans'] as $key => $post)
 							<li>
 								<h5>
 									<i class="fa fa-circle" aria-hidden="true"></i>
@@ -144,7 +139,7 @@
 								</h5>
 							</li>
 							@php 
-								unset($posts[$key]);
+								unset($data['post_lienquans'][$key]);
 								if($key==2) break;
 							@endphp
 							@endforeach
@@ -152,14 +147,14 @@
 					</div>
 					<div class="flex2col1">
 						<ul>
-							@foreach($posts as $key => $post)
+							@foreach($data['post_lienquans'] as $key => $post)
 							<li>
 								<h5>
 									<i class="fa fa-circle" aria-hidden="true"></i>
 									<a href="{{ MyAPI::getUrlPostObj($post) }}">{{ $post->post_name }}</a>
 								</h5>
 							</li>
-							@php unset($posts[$key]) @endphp
+							@php unset($data['post_lienquans'][$key]) @endphp
 							@endforeach
 						</ul>
 					</div>
